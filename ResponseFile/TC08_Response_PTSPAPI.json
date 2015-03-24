@@ -1,0 +1,145 @@
+{
+    "code": 200,
+    "data": {
+        "bookIds": "910,1605,2076,1627,4145",
+        "books": [
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 910,
+                "illustrators": null,
+                "isbn": "9780545707435",
+                "key": "$$*$$",
+                "level": "G",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "What is your favorite thing at school? Read to find all the ways school is fun!",
+                "tipCard": true,
+                "title": "3-2-1 School Is Fun! (Rookie Preschool)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "video",
+                        "id": 2,
+                        "name": "Video"
+                    }
+                ],
+                "id": 1605,
+                "illustrators": null,
+                "isbn": "9780545691185",
+                "key": "$$*$$",
+                "level": "E",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Quack! Quack! Here come ducklings! Count with me!",
+                "tipCard": true,
+                "title": "5 Busy Ducklings (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": null,
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 2076,
+                "illustrators": null,
+                "isbn": "9780545739023",
+                "key": "$$*$$",
+                "level": "B",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Look at the picture and name the letter to practice your A-B-Cs. Sing the A-B-C song as you point to each picture. This book is a fun way to learn the alphabet!",
+                "tipCard": false,
+                "title": "ABC (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 1627,
+                "illustrators": null,
+                "isbn": "9780545691895",
+                "key": "$$*$$",
+                "level": "B",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "A is for apple, B is for ball, C is for cow. See the pictures! Learn the letters! Sing the song! It’s time to practice your A-B-Cs!",
+                "tipCard": false,
+                "title": "abc (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Sharon",
+                        "id": 4055,
+                        "lastName": "Gordon"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 4145,
+                "illustrators": null,
+                "isbn": "9780545734912",
+                "key": "$$*$$",
+                "level": "H",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "What makes you sneeze? Could it be an allergy? Learn what allergies are and what you can do if you have them.",
+                "tipCard": false,
+                "title": "Allergies (Rookie Read-About™ Health)",
+                "vbid": "$$*$$"
+            }
+        ],
+        "iconCode": "&#x4d;",
+        "iconColor": "962da9",
+        "id": "1371",
+        "name": "My Collection_1",
+        "opened": true,
+        "openedTime": 1423822767000,
+        "shareTime": 1423839778000,
+        "type": "custom"
+    },
+    "errors": [],
+    "message": "OK",
+    "metaData": null
+}

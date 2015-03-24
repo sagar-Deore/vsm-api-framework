@@ -1,0 +1,111 @@
+{
+    "code": 200,
+    "data": {
+        "bookCount": 3,
+        "bookIds": "1605,1627,4715",
+        "books": [
+            {
+                "authors": [
+                    {
+                        "firstName": "Anne",
+                        "id": 825,
+                        "lastName": "Rooney"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 4715,
+                "illustrators": null,
+                "isbn": "9780545742566",
+                "key": "$$*$$",
+                "level": "R",
+                "levelType": "Guided Reading Level",
+                "shared": true,
+                "shareType": null,
+                "synopsis": "This book is a compilation of gross facts on the human body, food, animals, history, science, and world records. Facts run the gamut from the length of a tapeworm to a man who swallowed 200 earthworms.",
+                "tipCard": false,
+                "title": "1001 Horrible Facts",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "video",
+                        "id": 2,
+                        "name": "Video"
+                    }
+                ],
+                "id": 1605,
+                "illustrators": null,
+                "isbn": "9780545691185",
+                "key": "$$*$$",
+                "level": "E",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Photos and large numerals are used to teach counting 1–5 in a rhyme about a family of ducklings.",
+                "tipCard": true,
+                "title": "5 Busy Ducklings (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 1627,
+                "illustrators": null,
+                "isbn": "9780545691895",
+                "key": "$$*$$",
+                "level": "B",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "From an apple to a zebra, young readers work their way through the alphabet learning to associate letters and words with animals, toys, household items and more. Big photographs and bold lettering make for a colorful, approachable book.",
+                "tipCard": false,
+                "title": "abc (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            }
+        ],
+        "description": null,
+        "grade": null,
+        "iconCode": "&#x47;",
+        "iconColor": "ff003a",
+        "id": "1321",
+        "levelHigh": "R",
+        "levelLow": "B",
+        "name": "AUTO_TEST_QA_CC1",
+        "recommend": null,
+        "shared": true,
+        "shareType": "section",
+        "shareWith": [
+            {
+                "iconCode": null,
+                "iconColor": null,
+                "iconName": null,
+                "id": 208,
+                "name": "Auto Test_QA1"
+            }
+        ],
+        "type": "custom"
+    },
+    "errors": [],
+    "message": "OK",
+    "metaData": null
+}

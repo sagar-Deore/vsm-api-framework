@@ -1,0 +1,1691 @@
+Mar 24, 2015 1:11:25 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: start assignData()
+Mar 24, 2015 1:11:25 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: end assignData()
+Mar 24, 2015 1:11:26 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI
+Mar 24, 2015 1:11:26 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC01_GetTeacherSession
+INFO: Test Execution Started- TC01_GetTeacherSession
+Mar 24, 2015 1:11:26 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: start inputJson function
+Mar 24, 2015 1:11:26 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: end inputJson function
+Mar 24, 2015 1:11:28 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:11:28 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:11:28 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:11:28 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:11:28 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"sessionId": "t555e51e1-1c93-4097-b518-8ed8f6d25d39",
+"studentUse": false,
+"user": {
+"districtId": 1,
+"firstName": "kishan",
+"id": 127,
+"lastName": "Kr",
+"readingLevel": "Guided Reading Level",
+"role": "teacher",
+"schools": [
+{
+"id": 1,
+"name": "Jones School"
+}
+],
+"sisId": 0,
+"sourcceId": "0",
+"sourceType": null,
+"studentUse": false,
+"title": "Mr.",
+"userId": 127,
+"userName": "k@test.com"
+}
+},
+"errors": [],
+"message": "Login successful",
+"metaData": null
+}
+Mar 24, 2015 1:11:28 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 24, 2015 1:11:28 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                    "name": "Scholastic Test School" and Actual is-"name": "Jones School"
+Mar 24, 2015 1:11:28 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "sourcceId": 0, and Actual is-"sourcceId": "0",
+Mar 24, 2015 1:11:28 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "source": null, and Actual is-"sourceType": null,
+Mar 24, 2015 1:11:28 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 24, 2015 1:11:28 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:11:28 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC01_GetTeacherSession
+INFO: Test Execution End- TC01_GetTeacherSession
+Mar 24, 2015 1:11:28 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI
+Mar 24, 2015 1:11:28 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC02_VerifyAsTeacherClickOneBooksLink
+INFO: Test Execution Started- TC02_VerifyAsTeacherClickOneBooksLink
+Mar 24, 2015 1:11:29 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:11:29 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:11:29 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:11:29 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:11:29 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": [
+{
+"bookCount": 12,
+"grade": "Kindergarten",
+"iconCode": "&#x53;",
+"iconColor": "6e7380",
+"id": "218",
+"levelHigh": "N",
+"levelLow": "B",
+"name": "All Kinds of Pets",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 10,
+"grade": "Kindergarten",
+"iconCode": "&#x5a;",
+"iconColor": "0072CE",
+"id": "219",
+"levelHigh": "M",
+"levelLow": "C",
+"name": "Bugs, Bugs, Bugs",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 19,
+"grade": "Kindergarten",
+"iconCode": "&#xe621;",
+"iconColor": "1abc9c",
+"id": "223",
+"levelHigh": "M",
+"levelLow": "A",
+"name": "Friends at School",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 20,
+"grade": "Kindergarten",
+"iconCode": "&#xe60f;",
+"iconColor": "cedc00",
+"id": "275",
+"levelHigh": "E",
+"levelLow": "A",
+"name": "Guided Reading, Kindergarten",
+"recommend": "Instructional Reading",
+"shared": false,
+"shareType": null,
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 8,
+"grade": "Kindergarten",
+"iconCode": "&#xe608;",
+"iconColor": "df1995",
+"id": "222",
+"levelHigh": "M",
+"levelLow": "E",
+"name": "Helping Out",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 5,
+"grade": null,
+"iconCode": "&#x4d;",
+"iconColor": "962da9",
+"id": "1371",
+"levelHigh": "H",
+"levelLow": "B",
+"name": "My Collection_1",
+"recommend": null,
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "custom"
+},
+{
+"bookCount": 1,
+"grade": null,
+"iconCode": "&#x54;",
+"iconColor": "962da9",
+"id": "1372",
+"levelHigh": "E",
+"levelLow": "E",
+"name": "My Collection_2",
+"recommend": null,
+"shared": true,
+"shareType": "groups",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 77,
+"name": "Group_1"
+}
+],
+"type": "custom"
+},
+{
+"bookCount": 2,
+"grade": null,
+"iconCode": "&#x4e;",
+"iconColor": "ff0094",
+"id": "1373",
+"levelHigh": "G",
+"levelLow": "E",
+"name": "My Collection_3",
+"recommend": null,
+"shared": true,
+"shareType": "students",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 1108,
+"name": "KK_3"
+},
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 1109,
+"name": "KK_4"
+}
+],
+"type": "custom"
+},
+{
+"bookCount": 2,
+"grade": null,
+"iconCode": "&#x54;",
+"iconColor": "962da9",
+"id": "1374",
+"levelHigh": "G",
+"levelLow": "E",
+"name": "My Collection_4",
+"recommend": null,
+"shared": false,
+"shareType": null,
+"shareWith": null,
+"type": "custom"
+},
+{
+"bookCount": 11,
+"grade": "Kindergarten",
+"iconCode": "&#xe640;",
+"iconColor": "8031a7",
+"id": "211",
+"levelHigh": "M",
+"levelLow": "F",
+"name": "My Family & Me",
+"recommend": "Instructional Reading",
+"shared": true,
+"shareType": "groups",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 77,
+"name": "Group_1"
+}
+],
+"type": "collection"
+},
+{
+"bookCount": 14,
+"grade": "Kindergarten",
+"iconCode": "&#x4a;",
+"iconColor": "ec1c43",
+"id": "220",
+"levelHigh": "N",
+"levelLow": "E",
+"name": "Rhymes & Silly Stories",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 14,
+"grade": "Kindergarten",
+"iconCode": "&#xe60e;",
+"iconColor": "6e7380",
+"id": "225",
+"levelHigh": "M",
+"levelLow": "C",
+"name": "Science Everywhere",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 14,
+"grade": "Kindergarten",
+"iconCode": "&#xe63f;",
+"iconColor": "0072CE",
+"id": "210",
+"levelHigh": "P",
+"levelLow": "C",
+"name": "Staying Healthy",
+"recommend": "Instructional Reading",
+"shared": true,
+"shareType": "students",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 1106,
+"name": "KK_1"
+}
+],
+"type": "collection"
+},
+{
+"bookCount": 13,
+"grade": "Kindergarten",
+"iconCode": "&#xe641;",
+"iconColor": "1abc9c",
+"id": "221",
+"levelHigh": "M",
+"levelLow": "C",
+"name": "Things That Go",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 10,
+"grade": "Kindergarten",
+"iconCode": "&#x52;",
+"iconColor": "cedc00",
+"id": "217",
+"levelHigh": "P",
+"levelLow": "A",
+"name": "Under the Sea",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 8,
+"grade": "Kindergarten",
+"iconCode": "&#xe638;",
+"iconColor": "df1995",
+"id": "224",
+"levelHigh": "L",
+"levelLow": "C",
+"name": "What Changes With the Seasons?",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+}
+],
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:11:29 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:11:29 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC02_VerifyAsTeacherClickOneBooksLink
+INFO: Test Execution End- TC02_VerifyAsTeacherClickOneBooksLink
+Mar 24, 2015 1:11:29 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI
+Mar 24, 2015 1:11:29 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC03_VerifyAsTeacherClickOneBooksLinkAndClickOnTheCollecionAllkindsofPets
+INFO: Test Execution Started- TC03_VerifyAsTeacherClickOneBooksLinkAndClickOnTheCollecionAllkindsofPets
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"bookCount": 12,
+"bookIds": "1,2,3,4,5,6,7,8,9,10,11,12",
+"books": [
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 3,
+"illustrators": null,
+"isbn": "9780545707572",
+"key": "bee5d81080ce221720f7bf7aadc6c94a",
+"level": "G",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "In \"Cats,\" a girl uses a piece of string to lead a bunch of mischievous cats in play. In \"I've Lost My Hat,\" a boy looks everywhere for his lost hat, only to find his dog wearing it. In \"Sam's Pet,\" a dog gets a new pet cat who is not very friendly, until the dog is bullied by a bigger, meaner dog. In \"Cat in the Bag,\" as a girl packs a suitcase, counting the items she is packing, her cat keeps trying to climb in, too.",
+"tipCard": false,
+"title": "Cat in the Bag and Other Pet Stories (A Rookie Readerâ¢ Treasury)",
+"vbid": "9780545707572R"
+},
+{
+"authors": [
+{
+"firstName": "Cari",
+"id": 9,
+"lastName": "Meister"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 9,
+"illustrators": [
+{
+"firstName": "David J.",
+"id": 5,
+"lastName": "Brooks"
+}
+],
+"isbn": "9780545744775",
+"key": "6ed4e78fb5dcdbbf95c937f054806877",
+"level": "C",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "In this book, a delightful illustration on each page or spread shows how a little girl tries to catch her cat. Each picture includes only one word that describes what the cat is doing, and each pair of words are opposites, such as \"high\" and \"low\" and \"yes\" and \"no.\"",
+"tipCard": false,
+"title": "Catch that Cat (A Rookie Readerâ¢)",
+"vbid": "9780545744775R"
+},
+{
+"authors": [
+{
+"firstName": "Elizabeth",
+"id": 7,
+"lastName": "Carney"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 7,
+"illustrators": null,
+"isbn": "9780545739177",
+"key": "a02cc2302ba72726a4ecc412c285b668",
+"level": "N",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Which animal makes the better petâa dog or a cat? Discover which animal has the smoothest moves, the most breeds, super senses, the pickiest palate, and the scariest relatives. Find out which one is the smartest and is the master communicator. Also learn about each animal's closest relatives and from which animals each evolved.",
+"tipCard": true,
+"title": "Cats vs. Dogs (National Geographic Kids)",
+"vbid": "9780545739177R"
+},
+{
+"authors": [
+{
+"firstName": "Pam",
+"id": 4,
+"lastName": "Zollman"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 4,
+"illustrators": null,
+"isbn": "9780545724357",
+"key": "155a9ec86ad768dd980555c7686e8159",
+"level": "G",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Once a hen lays an egg, it only takes 21 days for the embryo to develop into a chicken. Using its egg beak to crack the shell, the chick can walk within a few minutes of hatching. It grows into an adult in 6 months time. Colorful photographs aid in explaining the wattle, the comb, and the base differences between a male and female chicken.",
+"tipCard": true,
+"title": "A Chick Grows Up (Scholastic News Nonfiction Readersâ¢)",
+"vbid": "9780545724357R"
+},
+{
+"authors": [
+{
+"firstName": "Teresa",
+"id": 5,
+"lastName": "Bateman"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 5,
+"illustrators": [
+{
+"firstName": "John",
+"id": 2,
+"lastName": "Kanzler"
+}
+],
+"isbn": "9780545733502",
+"key": "36cbe13e2e28d6a31e56c169a6cc344b",
+"level": "K",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Three puppies are rescued and taken to an animal shelter at Christmas time. Their dreams are realized when all three are chosen by a family to take home.",
+"tipCard": false,
+"title": "The Christmas Pups",
+"vbid": "9780545733502R"
+},
+{
+"authors": [
+{
+"firstName": "Tedd",
+"id": 12,
+"lastName": "Arnold"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 12,
+"illustrators": [
+{
+"firstName": "Tedd",
+"id": 7,
+"lastName": "Arnold"
+}
+],
+"isbn": "9780545775267",
+"key": "809fe10c44da322bbce8b6b97dabd74c",
+"level": "I",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "A boy named Buzz catches a fly to show in a pet show. Though others tell him that flies cannot be pets, as they are pests, he tells them that the fly is clever. After all, it knows his name: Buzz!",
+"tipCard": true,
+"title": "Fly Guy #1: Hi, Fly Guy!",
+"vbid": "9780545775267R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 10,
+"lastName": "2nd Gr White Bluffs Elem"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 10,
+"illustrators": null,
+"isbn": "9780545762069",
+"key": "3facfe1f34c79f78f51cf0f987040e73",
+"level": "M",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Houdini the hamster wasn't just a classroom pet. She was an escape artist, a spy, and a clown. She was family. Second grade students wrote and illustrated this book.",
+"tipCard": false,
+"title": "Houdini Was...",
+"vbid": "9780545762069R"
+},
+{
+"authors": [
+{
+"firstName": "Don L.",
+"id": 1,
+"lastName": "Curry"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1,
+"illustrators": [
+{
+"firstName": "Cynthia",
+"id": 1,
+"lastName": "Jabar"
+}
+],
+"isbn": "9780545327824",
+"key": "388b56c57ddec08a4f0eda68d8981b4c",
+"level": "B",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Simple repeating vocabulary and counting one to five are emphasized in this beginning reader.",
+"tipCard": false,
+"title": "Kittens",
+"vbid": "9780545327824R"
+},
+{
+"authors": [
+{
+"firstName": "Charnan",
+"id": 6,
+"lastName": "Simon"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 6,
+"illustrators": [
+{
+"firstName": "Benrei",
+"id": 3,
+"lastName": "Huang"
+}
+],
+"isbn": "9780545735155",
+"key": "107200efde2a86d19a90263ac329de04",
+"level": "E",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Alittle girl is gently woken up by her cat, starting the day on a friendly note. In addition to the story, the bookprovides activities that encourage early learning about colors, sounds, and patterns. It also offers tips for parents on how to get the most out of the activities.",
+"tipCard": true,
+"title": "Luna the Wake-Up Cat (Rookie Ready to Learn)",
+"vbid": "9780545735155R"
+},
+{
+"authors": [
+{
+"firstName": "Marjory",
+"id": 11,
+"lastName": "Gardner"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 11,
+"illustrators": [
+{
+"firstName": "Marjory",
+"id": 6,
+"lastName": "Gardner"
+}
+],
+"isbn": "9780545765794",
+"key": "177d25260e7e10b69952d7ae64bf80e7",
+"level": "C",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Muffin the cat is described as funny, fast, kind, smart, brave, and beautiful. Text uses the repeating sentence starter \"My cat Muffin is...\" on each page.",
+"tipCard": false,
+"title": "My Cat Muffin",
+"vbid": "9780545765794R"
+},
+{
+"authors": [
+{
+"firstName": "John A.",
+"id": 8,
+"lastName": "Nez"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 8,
+"illustrators": [
+{
+"firstName": "John A.",
+"id": 4,
+"lastName": "Nez"
+}
+],
+"isbn": "9780545740340",
+"key": "dda21c380f007ec1bc1c3742cdb04665",
+"level": "K",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Duffy is a young girl who doesnât like to read. But her dog does! Cookie also likes to write. Duffy takes Cookie to school for Petsâ Day, and Cookie soon becomes the âteacherâs pet.â The adventure heats up when Cookie enters a spelling bee and smells smoke coming from the school furnace room. Duffy soon learns the importance of reading as she and Cookie save the day!",
+"tipCard": true,
+"title": "One Smart Cookie",
+"vbid": "9780545740340R"
+},
+{
+"authors": [
+{
+"firstName": "Simone T.",
+"id": 2,
+"lastName": "Ribke"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 2,
+"illustrators": null,
+"isbn": "9780545707008",
+"key": "bf51011195428498b23124aa59213255",
+"level": "M",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "The practical application of subtraction is put to use when readers determine how many items must be ordered to keep the pet store stocked with animals and supplies. Posing simple math problems within the text, readers are told how many items existed at the start of the day and how many were sold. Readers must determine order quantities using simple subtraction.",
+"tipCard": true,
+"title": "Pet Store Subtraction (Rookie Read-Aboutâ¢ Math)",
+"vbid": "9780545707008R"
+}
+],
+"description": "Dogs, cats, birds, and other popular pets are the stars in this collection that includes a range of reading levels. The high-interest subject promotes independent reading while repetition builds vocabulary.",
+"grade": "Kindergarten",
+"iconCode": "&#x53;",
+"iconColor": "6e7380",
+"id": "218",
+"levelHigh": "N",
+"levelLow": "B",
+"name": "All Kinds of Pets",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Cat in the Bag and Other Pet Stories (A Rookie Reader™ Treasury)", and Actual is-"title": "Cat in the Bag and Other Pet Stories (A Rookie Readerâ¢ Treasury)",
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Catch that Cat (A Rookie Reader™)", and Actual is-"title": "Catch that Cat (A Rookie Readerâ¢)",
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "synopsis": "Which animal makes the better pet—a dog or a cat? Discover which animal has the smoothest moves, the most breeds, super senses, the pickiest palate, and the scariest relatives. Find out which one is the smartest and is the master communicator. Also learn about each animal's closest relatives and from which animals each evolved.", and Actual is-"synopsis": "Which animal makes the better petâa dog or a cat? Discover which animal has the smoothest moves, the most breeds, super senses, the pickiest palate, and the scariest relatives. Find out which one is the smartest and is the master communicator. Also learn about each animal's closest relatives and from which animals each evolved.",
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "A Chick Grows Up (Scholastic News Nonfiction Readers™)", and Actual is-"title": "A Chick Grows Up (Scholastic News Nonfiction Readersâ¢)",
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "synopsis": "Duffy is a young girl who doesn’t like to read. But her dog does! Cookie also likes to write. Duffy takes Cookie to school for Pets’ Day, and Cookie soon becomes the “teacher’s pet.” The adventure heats up when Cookie enters a spelling bee and smells smoke coming from the school furnace room. Duffy soon learns the importance of reading as she and Cookie save the day!", and Actual is-"synopsis": "Duffy is a young girl who doesnât like to read. But her dog does! Cookie also likes to write. Duffy takes Cookie to school for Petsâ Day, and Cookie soon becomes the âteacherâs pet.â The adventure heats up when Cookie enters a spelling bee and smells smoke coming from the school furnace room. Duffy soon learns the importance of reading as she and Cookie save the day!",
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Pet Store Subtraction (Rookie Read-About™ Math)", and Actual is-"title": "Pet Store Subtraction (Rookie Read-Aboutâ¢ Math)",
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC03_VerifyAsTeacherClickOneBooksLinkAndClickOnTheCollecionAllkindsofPets
+INFO: Test Execution End- TC03_VerifyAsTeacherClickOneBooksLinkAndClickOnTheCollecionAllkindsofPets
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC04_VerifyAsTeacherClickOneBooksLinkAndClickOnTheCollecion_MyCollection_1
+INFO: Test Execution Started- TC04_VerifyAsTeacherClickOneBooksLinkAndClickOnTheCollecion_MyCollection_1
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"bookCount": 5,
+"bookIds": "910,1605,2076,1627,4145",
+"books": [
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 910,
+"illustrators": null,
+"isbn": "9780545707435",
+"key": "cb7a0b07ab759f631d941ce3474efc54",
+"level": "G",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Names fun preschool activities using rhyme: stacking blocks, making music, marching, eating lunch, listening to a story, and finger painting. Includes teacher-led activities at the end.",
+"tipCard": true,
+"title": "3-2-1 School Is Fun! (Rookie Preschool)",
+"vbid": "9780545707435R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "video",
+"id": 2,
+"name": "Video"
+}
+],
+"id": 1605,
+"illustrators": null,
+"isbn": "9780545691185",
+"key": "61d30347e45a75ac0fbf8613052070b3",
+"level": "E",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Photos and large numerals are used to teach counting 1â5 in a rhyme about a family of ducklings.",
+"tipCard": true,
+"title": "5 Busy Ducklings (Rookie Toddlerâ¢)",
+"vbid": "9780545691185R"
+},
+{
+"authors": null,
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 2076,
+"illustrators": null,
+"isbn": "9780545739023",
+"key": "b85ddbcf4e37ddc06bd15f6973d56cf4",
+"level": "B",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Each letter of the alphabet is accompanied by a photograph of an object that begins with that letter. The book is perfect as an accompaniment to singing \"The Alphabet Song.\"",
+"tipCard": false,
+"title": "ABC (Rookie Toddlerâ¢)",
+"vbid": "9780545739023R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1627,
+"illustrators": null,
+"isbn": "9780545691895",
+"key": "572161c38ebf23006f02eb02007747a0",
+"level": "B",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "From an apple to a zebra, young readers work their way through the alphabet learning to associate letters and words with animals, toys, household items and more. Big photographs and bold lettering make for a colorful, approachable book.",
+"tipCard": false,
+"title": "abc (Rookie Toddlerâ¢)",
+"vbid": "9780545691895R"
+},
+{
+"authors": [
+{
+"firstName": "Sharon",
+"id": 4055,
+"lastName": "Gordon"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 4145,
+"illustrators": null,
+"isbn": "9780545734912",
+"key": "f389d4534bbcbd89c9919c4c3ee733c3",
+"level": "H",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "With clear photos, allergy symptoms are explained in simple text. Common allergic reactions are identified and ways to cope are explained.",
+"tipCard": false,
+"title": "Allergies (Rookie Read-Aboutâ¢ Health)",
+"vbid": "9780545734912R"
+}
+],
+"description": null,
+"grade": null,
+"iconCode": "&#x4d;",
+"iconColor": "962da9",
+"id": "1371",
+"levelHigh": "H",
+"levelLow": "B",
+"name": "My Collection_1",
+"recommend": null,
+"shared": true,
+"shareType": "section",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 248,
+"name": "Class_1"
+}
+],
+"type": "custom"
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "synopsis": "Photos and large numerals are used to teach counting 1–5 in a rhyme about a family of ducklings.", and Actual is-"synopsis": "Photos and large numerals are used to teach counting 1â5 in a rhyme about a family of ducklings.",
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "5 Busy Ducklings (Rookie Toddler™)", and Actual is-"title": "5 Busy Ducklings (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "ABC (Rookie Toddler™)", and Actual is-"title": "ABC (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "abc (Rookie Toddler™)", and Actual is-"title": "abc (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Allergies (Rookie Read-About™ Health)", and Actual is-"title": "Allergies (Rookie Read-Aboutâ¢ Health)",
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC04_VerifyAsTeacherClickOneBooksLinkAndClickOnTheCollecion_MyCollection_1
+INFO: Test Execution End- TC04_VerifyAsTeacherClickOneBooksLinkAndClickOnTheCollecion_MyCollection_1
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI
+Mar 24, 2015 1:11:30 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC05_TeacherLogout
+INFO: Test Execution Started- TC05_TeacherLogout
+Mar 24, 2015 1:11:31 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:11:31 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:11:31 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:11:31 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:11:31 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": null,
+"errors": [],
+"message": "Logout successful",
+"metaData": null
+}
+Mar 24, 2015 1:11:31 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:11:31 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC05_TeacherLogout
+INFO: Test Execution End- TC05_TeacherLogout
+Mar 24, 2015 1:11:31 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI
+Mar 24, 2015 1:11:31 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC06_GetStudentSession
+INFO: Test Execution Started- TC06_GetStudentSession
+Mar 24, 2015 1:11:31 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: start inputJson function
+Mar 24, 2015 1:11:31 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: end inputJson function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"sessionId": "sd3e86978-c4f2-48bf-95d1-743ed7e1609b",
+"user": {
+"districtId": 1,
+"iconCode": "%",
+"iconColor": "DF1995",
+"id": 1106,
+"login": null,
+"name": "KK_1",
+"role": "student",
+"sourceType": null,
+"tempPassword": false,
+"userName": "kk_1-kr2"
+}
+},
+"errors": [],
+"message": "Login successful",
+"metaData": {
+"sessionLimitLogout": "false"
+}
+}
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "tempPassword": false, and Actual is-"sourceType": null,
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "userName": "kk_1-kr2" and Actual is-"tempPassword": false,
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        } and Actual is-"userName": "kk_1-kr2"
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    }, and Actual is-}
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "errors": [], and Actual is-},
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "message": "Login successful", and Actual is-"errors": [],
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "metaData": { and Actual is-"message": "Login successful",
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "sessionLimitLogout": "false" and Actual is-"metaData": {
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    } and Actual is-"sessionLimitLogout": "false"
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC06_GetStudentSession
+INFO: Test Execution End- TC06_GetStudentSession
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC07_VerifyAsStudentClickOnTheCollectionNamed_HelpingOut
+INFO: Test Execution Started- TC07_VerifyAsStudentClickOnTheCollectionNamed_HelpingOut
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"bookIds": "535,696,697,698,699,543,701,496",
+"books": [
+{
+"authors": [
+{
+"firstName": "Kathryn",
+"id": 670,
+"lastName": "Heling"
+},
+{
+"firstName": "Deborah",
+"id": 671,
+"lastName": "Hembrook"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 701,
+"illustrators": [
+{
+"firstName": "Andy",
+"id": 181,
+"lastName": "Davies"
+}
+],
+"isbn": "9780545742931",
+"key": "2fc0e9d6c761301bbfe9029db9c6969b",
+"level": "I",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Who uses a hose and heavy pants to do their jobs? Who needs a spacesuit and jet pack? Use words and picture clues to help answer some riddles.",
+"tipCard": true,
+"title": "Clothesline Clues to Jobs People Do",
+"vbid": "9780545742931R"
+},
+{
+"authors": [
+{
+"firstName": "Jodie",
+"id": 497,
+"lastName": "Shepherd"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 535,
+"illustrators": null,
+"isbn": "9780545738477",
+"key": "9e976da7940c526057a5f1c0042aa3ef",
+"level": "J",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "It's important to know what to do in case of a fire. Learn how to prevent fires and what to do if you are ever in one.",
+"tipCard": true,
+"title": "A Day with Firefighters (Rookie Read-Aboutâ¢ Community)",
+"vbid": "9780545738477R"
+},
+{
+"authors": [
+{
+"firstName": "Jodie",
+"id": 497,
+"lastName": "Shepherd"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 696,
+"illustrators": null,
+"isbn": "9780545738514",
+"key": "6d78035b2bda5f6722f5a3cbd0dc1cee",
+"level": "J",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Police Officers are important community helpers. They help with traffic and keep neighborhoods safe. What are some other things police officers do?",
+"tipCard": false,
+"title": "A Day with Police Officers (Rookie Read-Aboutâ¢ Community)",
+"vbid": "9780545738514R"
+},
+{
+"authors": [
+{
+"firstName": "Bill",
+"id": 457,
+"lastName": "Martin Jr."
+},
+{
+"firstName": "Michael",
+"id": 458,
+"lastName": "Sampson"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 496,
+"illustrators": null,
+"isbn": "9780545743341",
+"key": "55a3c37e6d77dd1bab76a5f2a9241b0b",
+"level": "I",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Earth is full of beautiful deserts, oceans, plants, and flowers. What do you love about Earth?  What might children in other countries love about Earth?",
+"tipCard": true,
+"title": "I Love Our Earth",
+"vbid": "9780545743341R"
+},
+{
+"authors": [
+{
+"firstName": "Cari",
+"id": 9,
+"lastName": "Meister"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 699,
+"illustrators": [
+{
+"firstName": "Terry",
+"id": 179,
+"lastName": "Sirrell"
+}
+],
+"isbn": "9780545738958",
+"key": "7a0894efd8416ee23f28598269d234f0",
+"level": "E",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Can you imagine a world without trees? Some trees produce fruit or are home to birds, while others are used for wood to make things.  What would be missing from your life if all the trees disappeared?",
+"tipCard": true,
+"title": "I Love Trees (Rookie Ready to Learn)",
+"vbid": "9780545738958R"
+},
+{
+"authors": [
+{
+"firstName": "Eileen",
+"id": 504,
+"lastName": "Spinelli"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "video",
+"id": 2,
+"name": "Video"
+}
+],
+"id": 543,
+"illustrators": [
+{
+"firstName": "Anne",
+"id": 126,
+"lastName": "Kennedy"
+}
+],
+"isbn": "9780545740326",
+"key": "ddf9290b18e892ed72d7cb3bf66eef30",
+"level": "M",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Miss Fox tells her class she is going greenâbut that doesn't mean that she feels sick! It means that she is doing things to help Earth, and her students can do the same!",
+"tipCard": true,
+"title": "Miss Fox's Class Goes Green",
+"vbid": "9780545740326R"
+},
+{
+"authors": [
+{
+"firstName": "Peggy",
+"id": 498,
+"lastName": "Hock"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 697,
+"illustrators": null,
+"isbn": "9780545738583",
+"key": "21e804a2ccb95eb10e261835fd22b337",
+"level": "K",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "What do you do to help make the Earth a cleaner and better place? You could bike or walk rather than drive. You could do more gardening and less shopping. This book offers lots of suggestions.",
+"tipCard": true,
+"title": "Our Earth: Helping Out (Scholastic News Nonfiction Readersâ¢)",
+"vbid": "9780545738583R"
+},
+{
+"authors": [
+{
+"firstName": "Peggy",
+"id": 498,
+"lastName": "Hock"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 698,
+"illustrators": null,
+"isbn": "9780545738620",
+"key": "57b2ac5b3d884a3d0cf99de520d789d0",
+"level": "J",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Most of Earth's water is salt water. And that's not good for drinking or growing food. Freshwater is needed for those things. So itâs important to conserve it. This book will show you how.",
+"tipCard": true,
+"title": "Our Earth: Saving Water (Scholastic News Nonfiction Readersâ¢)",
+"vbid": "9780545738620R"
+}
+],
+"iconCode": "&#xe608;",
+"iconColor": "df1995",
+"id": "222",
+"name": "Helping Out",
+"opened": true,
+"openedTime": 1423822406000,
+"shareTime": null,
+"type": "collection"
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "A Day with Firefighters (Rookie Read-About™ Community)", and Actual is-"title": "A Day with Firefighters (Rookie Read-Aboutâ¢ Community)",
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "A Day with Police Officers (Rookie Read-About™ Community)", and Actual is-"title": "A Day with Police Officers (Rookie Read-Aboutâ¢ Community)",
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "synopsis": "Miss Fox tells her class she is going green—but that doesn't mean that she feels sick! It means that she is doing things to help Earth, and her students can do the same!", and Actual is-"synopsis": "Miss Fox tells her class she is going greenâbut that doesn't mean that she feels sick! It means that she is doing things to help Earth, and her students can do the same!",
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "synopsis": "Most of Earth's water is salt water. And that's not good for drinking or growing food. Freshwater is needed for those things. So it’s important to conserve it. This book will show you how.", and Actual is-"synopsis": "Most of Earth's water is salt water. And that's not good for drinking or growing food. Freshwater is needed for those things. So itâs important to conserve it. This book will show you how.",
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC07_VerifyAsStudentClickOnTheCollectionNamed_HelpingOut
+INFO: Test Execution End- TC07_VerifyAsStudentClickOnTheCollectionNamed_HelpingOut
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI
+Mar 24, 2015 1:11:32 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC08_VerifyAsStudentClickOnTheCollectionNamed_MyCollection_1
+INFO: Test Execution Started- TC08_VerifyAsStudentClickOnTheCollectionNamed_MyCollection_1
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"bookIds": "910,1605,2076,1627,4145",
+"books": [
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 910,
+"illustrators": null,
+"isbn": "9780545707435",
+"key": "10da66ecdd4e79dd4f328af533893216",
+"level": "G",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "What is your favorite thing at school? Read to find all the ways school is fun!",
+"tipCard": true,
+"title": "3-2-1 School Is Fun! (Rookie Preschool)",
+"vbid": "9780545707435R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "video",
+"id": 2,
+"name": "Video"
+}
+],
+"id": 1605,
+"illustrators": null,
+"isbn": "9780545691185",
+"key": "ddd329bba18dd3bef77756df7da3505c",
+"level": "E",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Quack! Quack! Here come ducklings! Count with me!",
+"tipCard": true,
+"title": "5 Busy Ducklings (Rookie Toddlerâ¢)",
+"vbid": "9780545691185R"
+},
+{
+"authors": null,
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 2076,
+"illustrators": null,
+"isbn": "9780545739023",
+"key": "7875c3653c53dd7c2855117ee1022d81",
+"level": "B",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Look at the picture and name the letter to practice your A-B-Cs. Sing the A-B-C song as you point to each picture. This book is a fun way to learn the alphabet!",
+"tipCard": false,
+"title": "ABC (Rookie Toddlerâ¢)",
+"vbid": "9780545739023R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1627,
+"illustrators": null,
+"isbn": "9780545691895",
+"key": "b09a4ccfe272cfa8c46f83e90da83f9e",
+"level": "B",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "A is for apple, B is for ball, C is for cow. See the pictures! Learn the letters! Sing the song! Itâs time to practice your A-B-Cs!",
+"tipCard": false,
+"title": "abc (Rookie Toddlerâ¢)",
+"vbid": "9780545691895R"
+},
+{
+"authors": [
+{
+"firstName": "Sharon",
+"id": 4055,
+"lastName": "Gordon"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 4145,
+"illustrators": null,
+"isbn": "9780545734912",
+"key": "e135fee2cda4e77df267d1c78b23eab1",
+"level": "H",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "What makes you sneeze? Could it be an allergy? Learn what allergies are and what you can do if you have them.",
+"tipCard": false,
+"title": "Allergies (Rookie Read-Aboutâ¢ Health)",
+"vbid": "9780545734912R"
+}
+],
+"iconCode": "&#x4d;",
+"iconColor": "962da9",
+"id": "1371",
+"name": "My Collection_1",
+"opened": true,
+"openedTime": 1423822861000,
+"shareTime": 1423839778000,
+"type": "custom"
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "5 Busy Ducklings (Rookie Toddler™)", and Actual is-"title": "5 Busy Ducklings (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "ABC (Rookie Toddler™)", and Actual is-"title": "ABC (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "synopsis": "A is for apple, B is for ball, C is for cow. See the pictures! Learn the letters! Sing the song! It’s time to practice your A-B-Cs!", and Actual is-"synopsis": "A is for apple, B is for ball, C is for cow. See the pictures! Learn the letters! Sing the song! Itâs time to practice your A-B-Cs!",
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "abc (Rookie Toddler™)", and Actual is-"title": "abc (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Allergies (Rookie Read-About™ Health)", and Actual is-"title": "Allergies (Rookie Read-Aboutâ¢ Health)",
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "openedTime": 1423822767000, and Actual is-"openedTime": 1423822861000,
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC08_VerifyAsStudentClickOnTheCollectionNamed_MyCollection_1
+INFO: Test Execution End- TC08_VerifyAsStudentClickOnTheCollectionNamed_MyCollection_1
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC09_StudentLogout
+INFO: Test Execution Started- TC09_StudentLogout
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": null,
+"errors": [],
+"message": "Logout successful",
+"metaData": null
+}
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedSPAPI TC09_StudentLogout
+INFO: Test Execution End- TC09_StudentLogout
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnDisplayReasult
+INFO: start fnDisplayReasult()
+Mar 24, 2015 1:11:33 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnDisplayReasult
+INFO: end fnDisplayReasult()

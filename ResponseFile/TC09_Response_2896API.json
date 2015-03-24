@@ -1,0 +1,24 @@
+{
+    "code": 200,
+    "data": {
+        "bookCount": 0,
+        "bookIds": null,
+        "books": null,
+        "description": null,
+        "grade": null,
+        "iconCode": "&#x43;",
+        "iconColor": "ffb203",
+        "id": "1324",
+        "levelHigh": null,
+        "levelLow": null,
+        "name": "AUTO_TEST_QA_CC4",
+        "recommend": null,
+        "shared": false,
+        "shareType": null,
+        "shareWith": null,
+        "type": "custom"
+    },
+    "errors": [],
+    "message": "OK",
+    "metaData": null
+}

@@ -1,0 +1,166 @@
+{
+"code": 200,
+"data": [
+{
+"authors": [
+{
+"firstName": "Melissa",
+"id": 399,
+"lastName": "Schiller"
+}
+],
+"completed": false,
+"completeTime": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 436,
+"illustrators": null,
+"isbn": "9780545691796",
+"key": "781f263cfb6096178db1ce7a7b47ca46",
+"lastRead": null,
+"level": "650L",
+"levelType": "Lexile",
+"openCount": null,
+"opened": false,
+"openTime": null,
+"shared": true,
+"shareType": "teacher",
+"synopsis": "Congratulations! Itâs your 100th day of school, and youâre halfway through the school year. This book shows how you can celebrate by making a necklace with 100 beads, releasing 100 balloons, and more!",
+"time": null,
+"title": "100th Day of School (Rookie Read-Aboutâ¢ Holidays)",
+"vbid": "9780545691796R"
+},
+{
+"authors": [
+{
+"firstName": "Helen",
+"id": 4601,
+"lastName": "Otway"
+}
+],
+"completed": false,
+"completeTime": null,
+"features": null,
+"id": 4718,
+"illustrators": null,
+"isbn": "9780545742597",
+"key": "0bdafba2325551044fe06de0d2aea64c",
+"lastRead": null,
+"level": "1030L",
+"levelType": "Lexile",
+"openCount": null,
+"opened": false,
+"openTime": null,
+"shared": true,
+"shareType": "teacher",
+"synopsis": "Did you know that a woodpecker's tongue can be as long as its body? Are you ready to read about this and 1,000 other astounding, amazing, and totally cool facts?",
+"time": null,
+"title": "1001 Unbelievable Facts",
+"vbid": "9780545742597R"
+},
+{
+"authors": [
+{
+"firstName": "Howard",
+"id": 537,
+"lastName": "Gutner"
+}
+],
+"completed": false,
+"completeTime": null,
+"features": null,
+"id": 575,
+"illustrators": null,
+"isbn": "9780545735780",
+"key": "c1fe7a60ff868633e412a2b2ab4a2f51",
+"lastRead": null,
+"level": "360L",
+"levelType": "Lexile",
+"openCount": null,
+"opened": false,
+"openTime": null,
+"shared": false,
+"shareType": "student",
+"synopsis": null,
+"time": null,
+"title": "Boom!",
+"vbid": "9780545735780R"
+},
+{
+"authors": [
+{
+"firstName": "Chloe",
+"id": 55,
+"lastName": "Ryder"
+},
+{
+"firstName": "Judith Bauer",
+"id": 351,
+"lastName": "Stamper"
+}
+],
+"completed": false,
+"completeTime": null,
+"features": null,
+"id": 387,
+"illustrators": null,
+"isbn": "9780545737685",
+"key": "a333ede5be226d9257d0769de573f0e9",
+"lastRead": null,
+"level": "760L",
+"levelType": "Lexile",
+"openCount": null,
+"opened": false,
+"openTime": null,
+"shared": false,
+"shareType": "student",
+"synopsis": null,
+"time": null,
+"title": "Earthquakes (Smart Words Reader)",
+"vbid": "9780545737685R"
+},
+{
+"authors": [
+{
+"firstName": "Mel",
+"id": 532,
+"lastName": "Friedman"
+}
+],
+"completed": false,
+"completeTime": null,
+"features": null,
+"id": 570,
+"illustrators": null,
+"isbn": "9780545734936",
+"key": "7da159ae6efcb0bf9b87d35e5cbed2f0",
+"lastRead": null,
+"level": "740L",
+"levelType": "Lexile",
+"openCount": null,
+"opened": false,
+"openTime": null,
+"shared": false,
+"shareType": "student",
+"synopsis": null,
+"time": null,
+"title": "Antarctica (A True Book)",
+"vbid": "9780545734936R"
+}
+],
+"errors": [],
+"message": "OK",
+"metaData": {
+"time": 0,
+"totalSize": 5,
+"offset": 0,
+"completed": 0,
+"opened": 0,
+"size": 5
+}
+}

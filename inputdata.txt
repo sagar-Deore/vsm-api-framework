@@ -1,0 +1,10 @@
+//Setup details for execution
+URL: https://dev.storiaschool.com/api/,
+
+//Login Credential
+TeacherUserName: k@test.com,
+TeacherPassword: pass@123,
+TeacherUserType: teacher,
+StudentUserName: kk_1-kr2,
+StudentPassword: pass,
+StudentUserType: student

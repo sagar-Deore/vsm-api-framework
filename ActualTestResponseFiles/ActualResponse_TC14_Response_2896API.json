@@ -1,0 +1,524 @@
+{
+"code": 200,
+"data": {
+"bookCount": 15,
+"bookIds": "1652,1725,519,1814,1815,1816,1860,1318,2063,1320,2152,2158,460,1324,2490",
+"books": [
+{
+"authors": [
+{
+"firstName": "Shannon",
+"id": 408,
+"lastName": "Penney"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 2158,
+"illustrators": [
+{
+"firstName": "Luanne",
+"id": 277,
+"lastName": "Marten"
+}
+],
+"isbn": "9780545740012",
+"key": "05bd92b3247843df0faa00471eec6641",
+"level": "D",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Two friends catch snowflakes on their tongues while playing in the yard. Early readers encounter the words one and over, and themes related to winter in a temperate climate.",
+"tipCard": false,
+"title": "Catching Snowflakes (A Season of Sight Words: Winter)",
+"vbid": "9780545740012R"
+},
+{
+"authors": [
+{
+"firstName": "Shannon",
+"id": 408,
+"lastName": "Penney"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 2152,
+"illustrators": [
+{
+"firstName": "Luanne",
+"id": 277,
+"lastName": "Marten"
+}
+],
+"isbn": "9780545739955",
+"key": "ae292fc45870ec649100b30b4d8198eb",
+"level": "D",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "A girl teaches her friend how to fly a kite. Early readers encounter the words know and fly, and themes related to warm-weather outdoor activities.",
+"tipCard": false,
+"title": "Flying Kites (A Season of Sight Words: Spring)",
+"vbid": "9780545739955R"
+},
+{
+"authors": [
+{
+"firstName": "Christopher",
+"id": 481,
+"lastName": "Hernandez"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 519,
+"illustrators": null,
+"isbn": "9780545733632",
+"key": "6b7f9607f74db9b6818df18ce66c48cf",
+"level": "G",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "When it rains, we get wet, have to walk carefully, and must wear appropriate clothing, but we also get to splash in puddles. The rain also makes flowers and plants grow and brings out colorful rainbows.  Following the rhyme are a few more simple facts about rain.",
+"tipCard": true,
+"title": "Learn About Weather: Rain",
+"vbid": "9780545733632R"
+},
+{
+"authors": [
+{
+"firstName": "Christopher",
+"id": 481,
+"lastName": "Hernandez"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1814,
+"illustrators": null,
+"isbn": "9780545733649",
+"key": "5941206bb90ea52c5c7931df2b465ece",
+"level": "G",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "When it snows, we can do fun things like build a snowman, make snow angels, or ride in a sleigh. Following the rhyme are a few simple facts about snow.",
+"tipCard": false,
+"title": "Learn About Weather: Snow",
+"vbid": "9780545733649R"
+},
+{
+"authors": [
+{
+"firstName": "Christopher",
+"id": 481,
+"lastName": "Hernandez"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1815,
+"illustrators": null,
+"isbn": "9780545733656",
+"key": "6eb2fc7710056ec65ced8901f2af0645",
+"level": "H",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "We know it is a new day when the sun wakes us up in the morning.  It isn't around all day, so we need to appreciate it while it is out, for it allows us to wear sunglasses, see our shadows, and see the blue sky.  Following the rhyme are a few simple facts about the sun.",
+"tipCard": false,
+"title": "Learn About Weather: Sun",
+"vbid": "9780545733656R"
+},
+{
+"authors": [
+{
+"firstName": "Christopher",
+"id": 481,
+"lastName": "Hernandez"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1816,
+"illustrators": null,
+"isbn": "9780545733663",
+"key": "9a8f18d7a117346a2ce79f8003e3ca26",
+"level": "H",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "The wind keeps our kites, balloons, and bubbles in the air.  It can also blow the leaves around and the hats off our heads. Simple facts about wind follow the rhyme.",
+"tipCard": true,
+"title": "Learn About Weather: Wind",
+"vbid": "9780545733663R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1725,
+"illustrators": null,
+"isbn": "9780545707565",
+"key": "a61b5caca8d8d5af3ce06a034eb02a0e",
+"level": "H",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This book is perfect when studying the fall season. It's repeating text will welcome children to participate. The text can be sung to the children's song \"And the Green Grass Grew All Around.\"",
+"tipCard": false,
+"title": "The Leaves Fall All Around (Rookie Preschool)",
+"vbid": "9780545707565R"
+},
+{
+"authors": [
+{
+"firstName": "Steve",
+"id": 296,
+"lastName": "Metzger"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1318,
+"illustrators": null,
+"isbn": "9780545737593",
+"key": "c53190c3fa406812f62591da34467724",
+"level": "M",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "A snowflake falling from the sky wants to be part of a snowman. At first, children overlook him as they build their snowman, but finally they see him and give him a special part. He is the twinkle in the snowman's eye.",
+"tipCard": true,
+"title": "The Little Snowflake",
+"vbid": "9780545737593R"
+},
+{
+"authors": [
+{
+"firstName": "Shannon",
+"id": 408,
+"lastName": "Penney"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1320,
+"illustrators": [
+{
+"firstName": "Luanne",
+"id": 277,
+"lastName": "Marten"
+}
+],
+"isbn": "9780545739894",
+"key": "0efb46d19f03167e24e070ec010d8bd8",
+"level": "D",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Children help their father with yard work and learn how fun it is to jump in a leaf pile. Early readers encounter the words all and the, and themes related to autumn in a temperate climate.",
+"tipCard": false,
+"title": "Lots of Leaves (A Season of Sight Words: Fall)",
+"vbid": "9780545739894R"
+},
+{
+"authors": [
+{
+"firstName": "Carol",
+"id": 1298,
+"lastName": "Greene"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1860,
+"illustrators": null,
+"isbn": "9780545734806",
+"key": "aefa4b65eac08f3121fa6585ce3c4411",
+"level": "E",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This book helps early learners develop the important social/emotional skills of becoming resilient and being patient. It does this while also teaching early reading skills, pattern recognition, measuring, and the left/right distinction.",
+"tipCard": false,
+"title": "Please, Wind? (Rookie Ready to Learn)",
+"vbid": "9780545734806R"
+},
+{
+"authors": [
+{
+"firstName": "Jackie",
+"id": 2418,
+"lastName": "Posner"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 2490,
+"illustrators": [
+{
+"firstName": "Laura",
+"id": 828,
+"lastName": "Ferrara"
+}
+],
+"isbn": "9780545765176",
+"key": "61614f6d90d29a11d2a980e476727495",
+"level": "E",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This book suggests things from A to Z to do on a rainy day. A boy and a girl do everything from eating apples to zipping zippers. Charming illustrations complement the text.",
+"tipCard": false,
+"title": "Rainy Day Alphabet Book",
+"vbid": "9780545765176R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1652,
+"illustrators": null,
+"isbn": "9780545694391",
+"key": "38bc59256d6c3df94a11f71d37abc6f0",
+"level": "E",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Building sandcastles in the summer and snowmen in the winter, celebrating the 4th of July and Halloweenâno matter the season, there is always something fun to do outside.  Children learn about the seasons through simple text and a series of pictures depicting outdoor activities throughout the year.",
+"tipCard": false,
+"title": "The Seasons (Rookie Toddlerâ¢)",
+"vbid": "9780545694391R"
+},
+{
+"authors": [
+{
+"firstName": "Carol",
+"id": 1298,
+"lastName": "Greene"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1324,
+"illustrators": [
+{
+"firstName": "Gene",
+"id": 384,
+"lastName": "Sharp"
+}
+],
+"isbn": "9780545764674",
+"key": "772f56b5e5e4c955fe6e3271e6d78dc9",
+"level": "F",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Simple words and sentence structures accompanied by colorful illustrations depict a young girl talking to the sun while she enjoys common, everyday activities that are better with sunshine.",
+"tipCard": false,
+"title": "Shine, Sun! (A Rookie Readerâ¢)",
+"vbid": "9780545764674R"
+},
+{
+"authors": [
+{
+"firstName": "Carol",
+"id": 1298,
+"lastName": "Greene"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 2063,
+"illustrators": [
+{
+"firstName": "Paul",
+"id": 620,
+"lastName": "Sharp"
+}
+],
+"isbn": "9780545738897",
+"key": "046161190a56a124630e6978f38b3575",
+"level": "D",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Joe wakes up to a blanket of snow and plays in it. This story for beginning readers only uses fifteen words, and most of them rhyme with \"snow.\"",
+"tipCard": false,
+"title": "Snow Joe (Rookie Ready to Learn)",
+"vbid": "9780545738897R"
+},
+{
+"authors": [
+{
+"firstName": "Lucille",
+"id": 423,
+"lastName": "Colandro"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 460,
+"illustrators": [
+{
+"firstName": "Jared D.",
+"id": 24,
+"lastName": "Lee"
+},
+{
+"firstName": "Jared",
+"id": 78,
+"lastName": "Lee"
+}
+],
+"isbn": "9780545743020",
+"key": "1fda6559ee7f7d89b97fb86315018180",
+"level": "K",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "In this book from the \"There Was An Old Lady Who Swallowed Some\" series, the old lady swallows some snow, some coal, a pipe, a hat, a stick, and a scarf. The old lady hiccups and all of the items come out to form a snowman.",
+"tipCard": true,
+"title": "There Was a Cold Lady Who Swallowed Some Snow!",
+"vbid": "9780545743020R"
+}
+],
+"description": "Fiction and nonfiction read-alouds help kids get comfortable with a range of weather-related vocabulary and concepts. Covers all the seasons.",
+"grade": "Pre K",
+"iconCode": "&#x47;",
+"iconColor": "df1995",
+"id": "23",
+"levelHigh": "M",
+"levelLow": "D",
+"name": "All Kinds of Weather",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}

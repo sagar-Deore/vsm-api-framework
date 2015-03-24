@@ -1,0 +1,188 @@
+{
+    "code": 200,
+    "data": {
+        "bookCount": 5,
+        "bookIds": "3870,1506,721,641,642",
+        "books": [
+            {
+                "authors": [
+                    {
+                        "firstName": "Mary",
+                        "id": 302,
+                        "lastName": "Schulte"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 3870,
+                "illustrators": null,
+                "isbn": "9780545705585",
+                "key": "$$*$$",
+                "level": "M",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Readers learn about the people who live in the Amazon basin, the animals who make their home in the river, the river's size, and how the Amazon got its name. Text features include maps, photos, a glossary, and an index.",
+                "tipCard": false,
+                "title": "The Amazon River (Rookie Read-About™ Geography)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "James",
+                        "id": 1468,
+                        "lastName": "Marlett"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 1506,
+                "illustrators": null,
+                "isbn": "9780545743488",
+                "key": "$$*$$",
+                "level": "S",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "The narrator and family have taken a trip to the biggest tropical rain forest in the world: the Amazon Jungle. Here they take boats down the Amazon River, go on guided tours into the rain forest, see countless varieties of animals and plants, and visit a village along the river.",
+                "tipCard": true,
+                "title": "The Amazon",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Chloe",
+                        "id": 55,
+                        "lastName": "Ryder"
+                    },
+                    {
+                        "firstName": "Caroline",
+                        "id": 693,
+                        "lastName": "Gilpin"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [                    
+                    {
+                        "code": "video",
+                        "id": 2,
+                        "name": "Video"
+                    },
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 721,
+                "illustrators": null,
+                "isbn": "9780545739412",
+                "key": "$$*$$",
+                "level": "M",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "The life and accomplishments of Amelia Earhart are placed in historical context. Photos, maps, and a glossary supplement this easy-to-read text.",
+                "tipCard": false,
+                "title": "Amelia Earhart (National Geographic Kids)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Nel",
+                        "id": 312,
+                        "lastName": "Yomtov"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "activities",
+                        "id": 1,
+                        "name": "Activities"
+                    }
+                ],
+                "id": 641,
+                "illustrators": null,
+                "isbn": "9780545733175",
+                "key": "$$*$$",
+                "level": "X",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Details of the history, culture, and daily life in ancient Egypt is accompanied by artwork, artifacts, maps, a timeline, and present-day photographs.",
+                "tipCard": true,
+                "title": "Ancient Egypt (The Ancient World)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Peter",
+                        "id": 23,
+                        "lastName": "Benoit"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "activities",
+                        "id": 1,
+                        "name": "Activities"
+                    }
+                ],
+                "id": 642,
+                "illustrators": null,
+                "isbn": "9780545733229",
+                "key": "$$*$$",
+                "level": "Y",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "This introduction to the ancient Roman civilization presents its history, culture, and daily life. It includes connections from this great civilization to our world today.",
+                "tipCard": true,
+                "title": "Ancient Rome (The Ancient World)",
+                "vbid": "$$*$$"
+            }
+        ],
+        "description": null,
+        "grade": null,
+        "iconCode": "&#x45;",
+        "iconColor": "962da9",
+        "id": "1322",
+        "levelHigh": "Y",
+        "levelLow": "M",
+        "name": "AUTO_TEST_QA_CC2",
+        "recommend": null,
+        "shared": true,
+        "shareType": "students",
+        "shareWith": [
+            {
+                "iconCode": null,
+                "iconColor": null,
+                "iconName": null,
+                "id": 948,
+                "name": "Arindam"
+            },
+            {
+                "iconCode": null,
+                "iconColor": null,
+                "iconName": null,
+                "id": 949,
+                "name": "Om"
+            }
+        ],
+        "type": "custom"
+    },
+    "errors": [],
+    "message": "OK",
+    "metaData": null
+}

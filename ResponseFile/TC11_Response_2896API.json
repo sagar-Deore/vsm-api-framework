@@ -1,0 +1,391 @@
+{
+    "code": 200,
+    "data": {
+        "bookCount": 13,
+        "bookIds": "909,910,879,884,885,886,887,888,889,890,891,920,921",
+        "books": [
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 910,
+                "illustrators": null,
+                "isbn": "9780545707435",
+                "key": "$$*$$",
+                "level": "G",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Names fun preschool activities using rhyme: stacking blocks, making music, marching, eating lunch, listening to a story, and finger painting. Includes teacher-led activities at the end.",
+                "tipCard": true,
+                "title": "3-2-1 School Is Fun! (Rookie Preschool)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Iza",
+                        "id": 858,
+                        "lastName": "Trapani"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 884,
+                "illustrators": [
+                    {
+                        "firstName": "Iza",
+                        "id": 249,
+                        "lastName": "Trapani"
+                    }
+                ],
+                "isbn": "9780545737074",
+                "key": "$$*$$",
+                "level": "L",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "The black sheep of the familiar nursery rhyme has wool for the master, dame, and little boy down the lane. But her farm animal friends think she is selfish when she doesn't fulfill all their requests. In the end they realize she is truly generous.",
+                "tipCard": true,
+                "title": "Baa Baa Black Sheep",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Iza",
+                        "id": 858,
+                        "lastName": "Trapani"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 885,
+                "illustrators": [
+                    {
+                        "firstName": "Iza",
+                        "id": 249,
+                        "lastName": "Trapani"
+                    }
+                ],
+                "isbn": "9780545737081",
+                "key": "$$*$$",
+                "level": "J",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "In this retelling of a folksong, Froggie, a lovesick frog, searches for a bride. One after the other, Mousie, Turtle, Birdie, and Chipmunk reject his marriage proposals. After a solitary night at home reading the books \"The Lonely Frog\" and \"How to Find True Love,\" Froggie goes out the next day and sits on a bench by the creek. When he looks up from reading \"The Frog Journal,\" Froggie sees \"a vision by the creek\" and his heart goes \"thump, thump\"! His true love asks him to marry her, which Froggie does, of course. Froggie's former love interests stand up as bridesmaids, and Froggie and his bride have a fine wedding. The last page of the book includes the music and the lyrics for this version of the folksong. The illustrations are clever and humorous.",
+                "tipCard": true,
+                "title": "Froggie Went A-Courtin'",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Iza",
+                        "id": 858,
+                        "lastName": "Trapani"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 886,
+                "illustrators": [
+                    {
+                        "firstName": "Iza",
+                        "id": 249,
+                        "lastName": "Trapani"
+                    }
+                ],
+                "isbn": "9780545737098",
+                "key": "$$*$$",
+                "level": "J",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "A short and stout teapot shows us all the things it would like to do by sharing dreams of visiting China, outer space, being a pirate, and more.  This is an illustrated story of the classic song.",
+                "tipCard": true,
+                "title": "I'm a Little Teapot",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Iza",
+                        "id": 858,
+                        "lastName": "Trapani"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 887,
+                "illustrators": null,
+                "isbn": "9780545737104",
+                "key": "$$*$$",
+                "level": "I",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "The itsy bitsy spider tries to climb to the top of a wall, water spout, pail, rocking chair, and tree but keeps getting knocked down.  However, she won't give up and in the end makes it to the top of the tree, spins her web, and rests in the sun.",
+                "tipCard": true,
+                "title": "The Itsy Bitsy Spider",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Iza",
+                        "id": 858,
+                        "lastName": "Trapani"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 888,
+                "illustrators": [
+                    {
+                        "firstName": "Iza",
+                        "id": 249,
+                        "lastName": "Trapani"
+                    }
+                ],
+                "isbn": "9780545737128",
+                "key": "$$*$$",
+                "level": "L",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "In a twist on the familiar poem and song, Mary's lamb wanders through the barnyard, causing a commotion.It lets out the horse, bumps into a goose, startles a cat, tangles with a goat, and falls into a pigpen. Mary cleansup the little lamb.",
+                "tipCard": true,
+                "title": "Mary Had A Little Lamb",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Judith Jensen",
+                        "id": 853,
+                        "lastName": "Hyde"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 879,
+                "illustrators": [
+                    {
+                        "firstName": "Jason",
+                        "id": 244,
+                        "lastName": "Abbott"
+                    }
+                ],
+                "isbn": "9780545707947",
+                "key": "$$*$$",
+                "level": "J",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "A boy is bored on a rainy day. His father shows him how to fill drinking glasses with water to make a musical instrument. They have fun playing the glass harp, and the boy no longer minds the rain.",
+                "tipCard": true,
+                "title": "Rainy-Day Music (A Rookie Reader™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Iza",
+                        "id": 858,
+                        "lastName": "Trapani"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 889,
+                "illustrators": null,
+                "isbn": "9780545737135",
+                "key": "$$*$$",
+                "level": "L",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "The familiar song of \"Row, Row, Row Your Boat\" is expanded by several verses to describe the journey of a bear family to a picnic spot.",
+                "tipCard": true,
+                "title": "Row, Row, Row Your Boat",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": null,
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 920,
+                "illustrators": null,
+                "isbn": "9780545739061",
+                "key": "$$*$$",
+                "level": "E",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "The fun photos of cuddly teddy bears in this book will encourage children to follow directions and become physically active. Children will love turning around, touching the ground, jumping up high, touching the sky, bending down low, and touching their toes!",
+                "tipCard": true,
+                "title": "Teddy Bear, Teddy Bear, Turn Around (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Lucille",
+                        "id": 423,
+                        "lastName": "Colandro"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 891,
+                "illustrators": [
+                    {
+                        "firstName": "Jared D.",
+                        "id": 24,
+                        "lastName": "Lee"
+                    }
+                ],
+                "isbn": "9780545738057",
+                "key": "$$*$$",
+                "level": "K",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Getting ready for the new school year, the old lady swallows some books, a pen, a pencil case, a ruler, a folder, some chalk, and a bag. When a big yellow school bus turns the corner, she starts to cheer--and out pops her brand-new backpack!",
+                "tipCard": true,
+                "title": "There Was an Old Lady Who Swallowed Some Books!",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Iza",
+                        "id": 858,
+                        "lastName": "Trapani"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 890,
+                "illustrators": null,
+                "isbn": "9780545737142",
+                "key": "$$*$$",
+                "level": "L",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "A star grants a little girl's wish to fly and takes her on a magic journey through the night sky. Set to the children's song by the same name, the book contains additional verses spoken by both the girl and the mischievous star. The watercolor artwork sets a quiet tone.",
+                "tipCard": true,
+                "title": "Twinkle, Twinkle, Little Star",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 909,
+                "illustrators": null,
+                "isbn": "9780545694346",
+                "key": "$$*$$",
+                "level": "B",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "This book engages children by introducing five rhyming pairs of words and then offering them a chance to review by pointing out the rhyming pairs. Children will finish by thinking of words that rhyme with objects around the house or classroom.",
+                "tipCard": true,
+                "title": "What Rhymes? (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": null,
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 921,
+                "illustrators": null,
+                "isbn": "9780545739078",
+                "key": "$$*$$",
+                "level": "F",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "This book illustrates a variation on the popular children’s song “The Wheels on the Bus” with photographs to help stimulate the imaginations of the children singing along. It includes tips on creating new verses for this song.",
+                "tipCard": true,
+                "title": "The Wheels on the Truck Go 'Round and 'Round (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            }
+        ],
+        "description": "Classic nursery rhymes, beloved children’s songs, and cumulative stories teach basic vocabulary-building concepts like rhyme and rhythm",
+        "grade": "Pre K",
+        "iconCode": "&#x4a;",
+        "iconColor": "1abc9c",
+        "id": "25",
+        "levelHigh": "L",
+        "levelLow": "B",
+        "name": "Rhymes & Songs",
+        "recommend": "Instructional Reading",
+        "shared": false,
+        "shareType": null,
+        "shareWith": null,
+        "type": "collection"
+    },
+    "errors": [],
+    "message": "OK",
+    "metaData": null
+}

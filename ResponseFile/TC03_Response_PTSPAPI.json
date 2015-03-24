@@ -1,0 +1,395 @@
+{
+    "code": 200,
+    "data": {
+        "bookCount": 12,
+        "bookIds": "1,2,3,4,5,6,7,8,9,10,11,12",
+        "books": [
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 3,
+                "illustrators": null,
+                "isbn": "9780545707572",
+                "key": "$$*$$",
+                "level": "G",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "In \"Cats,\" a girl uses a piece of string to lead a bunch of mischievous cats in play. In \"I've Lost My Hat,\" a boy looks everywhere for his lost hat, only to find his dog wearing it. In \"Sam's Pet,\" a dog gets a new pet cat who is not very friendly, until the dog is bullied by a bigger, meaner dog. In \"Cat in the Bag,\" as a girl packs a suitcase, counting the items she is packing, her cat keeps trying to climb in, too.",
+                "tipCard": false,
+                "title": "Cat in the Bag and Other Pet Stories (A Rookie Reader™ Treasury)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Cari",
+                        "id": 9,
+                        "lastName": "Meister"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 9,
+                "illustrators": [
+                    {
+                        "firstName": "David J.",
+                        "id": 5,
+                        "lastName": "Brooks"
+                    }
+                ],
+                "isbn": "9780545744775",
+                "key": "$$*$$",
+                "level": "C",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "In this book, a delightful illustration on each page or spread shows how a little girl tries to catch her cat. Each picture includes only one word that describes what the cat is doing, and each pair of words are opposites, such as \"high\" and \"low\" and \"yes\" and \"no.\"",
+                "tipCard": false,
+                "title": "Catch that Cat (A Rookie Reader™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Elizabeth",
+                        "id": 7,
+                        "lastName": "Carney"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 7,
+                "illustrators": null,
+                "isbn": "9780545739177",
+                "key": "$$*$$",
+                "level": "N",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Which animal makes the better pet—a dog or a cat? Discover which animal has the smoothest moves, the most breeds, super senses, the pickiest palate, and the scariest relatives. Find out which one is the smartest and is the master communicator. Also learn about each animal's closest relatives and from which animals each evolved.",
+                "tipCard": true,
+                "title": "Cats vs. Dogs (National Geographic Kids)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Pam",
+                        "id": 4,
+                        "lastName": "Zollman"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 4,
+                "illustrators": null,
+                "isbn": "9780545724357",
+                "key": "$$*$$",
+                "level": "G",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Once a hen lays an egg, it only takes 21 days for the embryo to develop into a chicken. Using its egg beak to crack the shell, the chick can walk within a few minutes of hatching. It grows into an adult in 6 months time. Colorful photographs aid in explaining the wattle, the comb, and the base differences between a male and female chicken.",
+                "tipCard": true,
+                "title": "A Chick Grows Up (Scholastic News Nonfiction Readers™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Teresa",
+                        "id": 5,
+                        "lastName": "Bateman"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "activities",
+                        "id": 1,
+                        "name": "Activities"
+                    },
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 5,
+                "illustrators": [
+                    {
+                        "firstName": "John",
+                        "id": 2,
+                        "lastName": "Kanzler"
+                    }
+                ],
+                "isbn": "9780545733502",
+                "key": "$$*$$",
+                "level": "K",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Three puppies are rescued and taken to an animal shelter at Christmas time. Their dreams are realized when all three are chosen by a family to take home.",
+                "tipCard": false,
+                "title": "The Christmas Pups",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Tedd",
+                        "id": 12,
+                        "lastName": "Arnold"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "activities",
+                        "id": 1,
+                        "name": "Activities"
+                    },
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 12,
+                "illustrators": [
+                    {
+                        "firstName": "Tedd",
+                        "id": 7,
+                        "lastName": "Arnold"
+                    }
+                ],
+                "isbn": "9780545775267",
+                "key": "$$*$$",
+                "level": "I",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "A boy named Buzz catches a fly to show in a pet show. Though others tell him that flies cannot be pets, as they are pests, he tells them that the fly is clever. After all, it knows his name: Buzz!",
+                "tipCard": true,
+                "title": "Fly Guy #1: Hi, Fly Guy!",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 10,
+                        "lastName": "2nd Gr White Bluffs Elem"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 10,
+                "illustrators": null,
+                "isbn": "9780545762069",
+                "key": "$$*$$",
+                "level": "M",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Houdini the hamster wasn't just a classroom pet. She was an escape artist, a spy, and a clown. She was family. Second grade students wrote and illustrated this book.",
+                "tipCard": false,
+                "title": "Houdini Was...",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Don L.",
+                        "id": 1,
+                        "lastName": "Curry"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 1,
+                "illustrators": [
+                    {
+                        "firstName": "Cynthia",
+                        "id": 1,
+                        "lastName": "Jabar"
+                    }
+                ],
+                "isbn": "9780545327824",
+                "key": "$$*$$",
+                "level": "B",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Simple repeating vocabulary and counting one to five are emphasized in this beginning reader.",
+                "tipCard": false,
+                "title": "Kittens",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Charnan",
+                        "id": 6,
+                        "lastName": "Simon"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 6,
+                "illustrators": [
+                    {
+                        "firstName": "Benrei",
+                        "id": 3,
+                        "lastName": "Huang"
+                    }
+                ],
+                "isbn": "9780545735155",
+                "key": "$$*$$",
+                "level": "E",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Alittle girl is gently woken up by her cat, starting the day on a friendly note. In addition to the story, the bookprovides activities that encourage early learning about colors, sounds, and patterns. It also offers tips for parents on how to get the most out of the activities.",
+                "tipCard": true,
+                "title": "Luna the Wake-Up Cat (Rookie Ready to Learn)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Marjory",
+                        "id": 11,
+                        "lastName": "Gardner"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 11,
+                "illustrators": [
+                    {
+                        "firstName": "Marjory",
+                        "id": 6,
+                        "lastName": "Gardner"
+                    }
+                ],
+                "isbn": "9780545765794",
+                "key": "$$*$$",
+                "level": "C",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Muffin the cat is described as funny, fast, kind, smart, brave, and beautiful. Text uses the repeating sentence starter \"My cat Muffin is...\" on each page.",
+                "tipCard": false,
+                "title": "My Cat Muffin",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "John A.",
+                        "id": 8,
+                        "lastName": "Nez"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 8,
+                "illustrators": [
+                    {
+                        "firstName": "John A.",
+                        "id": 4,
+                        "lastName": "Nez"
+                    }
+                ],
+                "isbn": "9780545740340",
+                "key": "$$*$$",
+                "level": "K",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Duffy is a young girl who doesn’t like to read. But her dog does! Cookie also likes to write. Duffy takes Cookie to school for Pets’ Day, and Cookie soon becomes the “teacher’s pet.” The adventure heats up when Cookie enters a spelling bee and smells smoke coming from the school furnace room. Duffy soon learns the importance of reading as she and Cookie save the day!",
+                "tipCard": true,
+                "title": "One Smart Cookie",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Simone T.",
+                        "id": 2,
+                        "lastName": "Ribke"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 2,
+                "illustrators": null,
+                "isbn": "9780545707008",
+                "key": "$$*$$",
+                "level": "M",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "The practical application of subtraction is put to use when readers determine how many items must be ordered to keep the pet store stocked with animals and supplies. Posing simple math problems within the text, readers are told how many items existed at the start of the day and how many were sold. Readers must determine order quantities using simple subtraction.",
+                "tipCard": true,
+                "title": "Pet Store Subtraction (Rookie Read-About™ Math)",
+                "vbid": "$$*$$"
+            }
+        ],
+        "description": "Dogs, cats, birds, and other popular pets are the stars in this collection that includes a range of reading levels. The high-interest subject promotes independent reading while repetition builds vocabulary.",
+        "grade": "Kindergarten",
+        "iconCode": "&#x53;",
+        "iconColor": "6e7380",
+        "id": "218",
+        "levelHigh": "N",
+        "levelLow": "B",
+        "name": "All Kinds of Pets",
+        "recommend": "Independent Reading",
+        "shared": true,
+        "shareType": "section",
+        "shareWith": null,
+        "type": "collection"
+    },
+    "errors": [],
+    "message": "OK",
+    "metaData": null
+}

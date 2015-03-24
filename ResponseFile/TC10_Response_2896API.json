@@ -1,0 +1,225 @@
+{
+    "code": 200,
+    "data": {
+        "bookCount": 7,
+        "bookIds": "750,1570,4681,4347,4041,2167,1204",
+        "books": [
+            {
+                "authors": [
+                    {
+                        "firstName": "Ann E.",
+                        "id": 1530,
+                        "lastName": "Burg"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 1570,
+                "illustrators": null,
+                "isbn": "9780545774864",
+                "key": "$$*$$",
+                "level": "Y",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "This is the story of Matt Pin, a Vietnamese boy who was airlifted from Saigon when he was ten years old, at the end of the Vietnam War. He gets adopted by a nice American family and tries to adjust to his new home, but has to grapple with prejudice and most of all, the memories he cannot face about his last days in Vietnam.",
+                "tipCard": true,
+                "title": "All the Broken Pieces",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Meg",
+                        "id": 277,
+                        "lastName": "Cabot"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "activities",
+                        "id": 1,
+                        "name": "Activities"
+                    }
+                ],
+                "id": 750,
+                "illustrators": null,
+                "isbn": "9780545774642",
+                "key": "$$*$$",
+                "level": "Q",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Allie Finkle is a nine-year-old with a problem: her family is moving out of their nice home and moving into an old Victorian house that is probably haunted. In addition, she’ll have to transfer to a new school and make all new friends. In order to run her life better, Allie decides she needs to create a list of rules.",
+                "tipCard": true,
+                "title": "Allie Finkle's Rules for Girls Book 1: Moving Day",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Lucia",
+                        "id": 24,
+                        "lastName": "Raatma"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 4681,
+                "illustrators": null,
+                "isbn": "9780545742221",
+                "key": "$$*$$",
+                "level": "W",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "This book explains the history of the amendments to the Constitution and gives examples of how the Bill of Rights is still relevant today. The author includes links to primary sources such as the papers of James Madison and the Magna Carta.",
+                "tipCard": true,
+                "title": "The Bill of Rights (Cornerstones of Freedom. Third Series)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Christine A.",
+                        "id": 58,
+                        "lastName": "Caputo"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 4347,
+                "illustrators": null,
+                "isbn": "9780545737692",
+                "key": "$$*$$",
+                "level": "Q",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Students find out how their muscles and bones work together to help them move. Using photographs and diagrams, this book teaches \"smart words\" as it describes the skeletal and muscular systems.",
+                "tipCard": false,
+                "title": "Bones & Muscles (Smart Words Reader)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Michael",
+                        "id": 955,
+                        "lastName": "Burgan"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "activities",
+                        "id": 1,
+                        "name": "Activities"
+                    }
+                ],
+                "id": 4041,
+                "illustrators": null,
+                "isbn": "9780545733236",
+                "key": "$$*$$",
+                "level": "W",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "How does our system of government work and why are checks and balances important? Explore how the legislative, executive, and judicial branches work together to make our nation the strong country that it is.",
+                "tipCard": true,
+                "title": "The Branches of U.S. Government (Cornerstones of Freedom. Third Series)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Gina",
+                        "id": 455,
+                        "lastName": "Shaw"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 2167,
+                "illustrators": [
+                    {
+                        "firstName": "Steve",
+                        "id": 94,
+                        "lastName": "Mack"
+                    }
+                ],
+                "isbn": "9780545740104",
+                "key": "$$*$$",
+                "level": "C",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Bee, Ant, Grasshopper, Ladybug, and Fly go by every day. They check the store for what is on sale. This sight story explores past tense verbs, including buzzed, hopped, walked, and crawled.",
+                "tipCard": false,
+                "title": "Busy Bugs (Sight Words Stories)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Brian",
+                        "id": 917,
+                        "lastName": "Sargent"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 1204,
+                "illustrators": null,
+                "isbn": "9780545705875",
+                "key": "$$*$$",
+                "level": "H",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "It’s 7:00 a.m. and the birthday party starts at 12:00 noon. Before the party, a girl will need to get dressed, attend soccer practice, bake a cake, bike to a swim lesson, and wrap the present. The duration of each activity is highlighted as readers learn the concept of time as they follow her through her morning. Actions taking seconds, minutes and hours are featured.",
+                "tipCard": false,
+                "title": "A Busy Day (Rookie Read-About™ Math)",
+                "vbid": "$$*$$"
+            }
+        ],
+        "description": null,
+        "grade": null,
+        "iconCode": "&#x49;",
+        "iconColor": "00a284",
+        "id": "1325",
+        "levelHigh": "Y",
+        "levelLow": "C",
+        "name": "AUTO_TEST_QA_CC5",
+        "recommend": null,
+        "shared": true,
+        "shareType": "groups",
+        "shareWith": [
+            {
+                "iconCode": null,
+                "iconColor": null,
+                "iconName": null,
+                "id": 67,
+                "name": "Dev"
+            }
+        ],
+        "type": "custom"
+    },
+    "errors": [],
+    "message": "OK",
+    "metaData": null
+}

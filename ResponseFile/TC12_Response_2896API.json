@@ -1,0 +1,625 @@
+{
+    "code": 200,
+    "data": {
+        "bookCount": 22,
+        "bookIds": "311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332",
+        "books": [
+            {
+                "authors": [
+                    {
+                        "firstName": "Samantha",
+                        "id": 298,
+                        "lastName": "Berger"
+                    },
+                    {
+                        "firstName": "Pamela",
+                        "id": 299,
+                        "lastName": "Chanko"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 330,
+                "illustrators": null,
+                "isbn": "9780545747271",
+                "key": "$$*$$",
+                "level": "C",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "There are all kinds of sizes in the world, just look around. Photos and text provide examples of size comparisons from a dollhouse and a real house to a child's hand and an adult's hand.  The back of the book includes a short paragraph about each subject that is compared.",
+                "tipCard": true,
+                "title": "Big and Little",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 313,
+                "illustrators": null,
+                "isbn": "9780545694278",
+                "key": "$$*$$",
+                "level": "A",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "With clear photos, the concepts of big and little are reinforced using modes of transportation. The book ends with a fun activity to do in the classroom.",
+                "tipCard": true,
+                "title": "Big and Little: Things That Go (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": null,
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 328,
+                "illustrators": [
+                    {
+                        "firstName": "Kunal",
+                        "id": 35,
+                        "lastName": "Kundu"
+                    }
+                ],
+                "isbn": "9780545744539",
+                "key": "$$*$$",
+                "level": "F",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "In this whimsical book, an elephant and a mouse demonstrate opposites. The animals' body language and facial expressions help readers understand the meanings of the words.",
+                "tipCard": true,
+                "title": "Big and Small",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 312,
+                "illustrators": null,
+                "isbn": "9780545691208",
+                "key": "$$*$$",
+                "level": "F",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "With clear photos and rhyming text, students are asked to identify objects by color and then follow up with a physical response. Labeled photos can also be used to identify objects.",
+                "tipCard": false,
+                "title": "Can You Find Colors? (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 300,
+                        "lastName": "5Gr CoastEpiscopalDaySch"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 331,
+                "illustrators": null,
+                "isbn": "9780545760805",
+                "key": "$$*$$",
+                "level": "R",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Colors are all around us. Find out why there might be bugs in your strawberry milkshake, why pennies turn green over time, and why Japanese women used to paint their faces white. Fifth graders wrote and illustrated the facts about color in this book.",
+                "tipCard": false,
+                "title": "Color For Thought",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 311,
+                "illustrators": null,
+                "isbn": "9780545691192",
+                "key": "$$*$$",
+                "level": "E",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "This interactive book shows readers how shapes can be found in everyday objects and asks them to clap for the circles, squares, and triangles they see. Use the activity at the end of the book to reinforce shape recognition.",
+                "tipCard": true,
+                "title": "Do You See Shapes? (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Steve",
+                        "id": 296,
+                        "lastName": "Metzger"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 327,
+                "illustrators": [
+                    {
+                        "firstName": "Laura J.",
+                        "id": 34,
+                        "lastName": "Bryant"
+                    }
+                ],
+                "isbn": "9780545743211",
+                "key": "$$*$$",
+                "level": "F",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "With this rhyming story, children can count down from five to one as, one-by-one, five fun-loving little penguins have mishaps, prompting the mother penguin to call the doctor. The doctor tells the mother to stop the penguins from doing each activity. When there are no little penguins having any fun, the mother calls the doctor again. The doctor then says, \"Let those penguins have some fun!\" The five little penguins along with their mother are free to go outside and have some fun.",
+                "tipCard": true,
+                "title": "Five Little Penguins Slipping On The Ice",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Dawn",
+                        "id": 292,
+                        "lastName": "Anderson"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 320,
+                "illustrators": [
+                    {
+                        "firstName": "Kelley",
+                        "id": 31,
+                        "lastName": "Cunningham"
+                    }
+                ],
+                "isbn": "9780545708005",
+                "key": "$$*$$",
+                "level": "G",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "A boy wonders why his sister likes to paint so much. Finally he gives it a try and paints a sky, sun, and tree in traditional colors.When he paints a purple lion, his sister objects, but he realizes that, as the artist, he can paint it however he likes.",
+                "tipCard": true,
+                "title": "I Am the Artist! (A Rookie Reader™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Adria",
+                        "id": 301,
+                        "lastName": "Klein"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 332,
+                "illustrators": [
+                    {
+                        "firstName": ":firstName",
+                        "id": 3259,
+                        "lastName": "PHOTOS"
+                    }
+                ],
+                "isbn": "9780545765657",
+                "key": "$$*$$",
+                "level": "A",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "With beautiful photos of wild animals in nature, students practice finding the colors red, brown, yellow, gray, green, and black.",
+                "tipCard": true,
+                "title": "I Can See",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 318,
+                "illustrators": null,
+                "isbn": "9780545707527",
+                "key": "$$*$$",
+                "level": "H",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "The geometric shapes circle, square, and triangle are presented in rhyming text, with colorful illustrations in a preschool setting.",
+                "tipCard": true,
+                "title": "It's Circle Time! Shapes (Rookie Preschool)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": null,
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 324,
+                "illustrators": null,
+                "isbn": "9780545739627",
+                "key": "$$*$$",
+                "level": "G",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Opposites, such as big/little, soft/hard, black/white, hot/cold, and outside/inside, are presented. Readers see examples of each opposite and then find new examples in colorful photographs of everyday activities.",
+                "tipCard": true,
+                "title": "Opposites! (National Geographic Kids)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Catherine",
+                        "id": 294,
+                        "lastName": "Matthias"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 322,
+                "illustrators": [
+                    {
+                        "firstName": "Eileen Mueller",
+                        "id": 32,
+                        "lastName": "Neill"
+                    }
+                ],
+                "isbn": "9780545738873",
+                "key": "$$*$$",
+                "level": "E",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "This book offers opportunities to talk with children about the important social/emotional skill of natural curiosity. Children will also learn about opposites, counting, and patterns. This book uses detailed images and the repetition of simple phrases to help children learn implicitly.",
+                "tipCard": true,
+                "title": "Out the Door (Rookie Ready to Learn)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": null,
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 325,
+                "illustrators": null,
+                "isbn": "9780545739641",
+                "key": "$$*$$",
+                "level": "F",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Patterns in the real world, such as stripes, polka dots, plaid, and spots, are presented. Readers find patterns on animals and insects and then identify what comes next in series of animals and objects.",
+                "tipCard": true,
+                "title": "Patterns! (National Geographic Kids)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 314,
+                "illustrators": null,
+                "isbn": "9780545694308",
+                "key": "$$*$$",
+                "level": "B",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Reinforce young children’s color recognition by pointing out the color squares and the fruit or fruits that share that color. Then test their color recognition by having them match the color squares and fruits at the back of the book.",
+                "tipCard": true,
+                "title": "Red Apple, Green Pear: A Book of Colors (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 316,
+                "illustrators": null,
+                "isbn": "9780545694377",
+                "key": "$$*$$",
+                "level": "C",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Purple eggplant, yellow corn, green broccoli, orange carrots, brown potatoes, and white cauliflower teach children their colors through association with vegetables. Big pictures and vivid colors make veggies appear exciting and inviting and offer an opportunity to introduce the importance they play in a balanced diet.",
+                "tipCard": true,
+                "title": "Red Pepper, Yellow Squash: A Book of Colors (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": null,
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 323,
+                "illustrators": null,
+                "isbn": "9780545739054",
+                "key": "$$*$$",
+                "level": "C",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Color recognition is practiced using the colors red, yellow, green, white, orange, blue, and purple and different vehicles.",
+                "tipCard": true,
+                "title": "Red Truck, Yellow Bus: A Book of Colors (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 319,
+                "illustrators": null,
+                "isbn": "9780545707640",
+                "key": "$$*$$",
+                "level": "G",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Balloon animals for each color of the rainbow play in the rain. When the rain stops, a rainbow appears. Text includes discussion questions.",
+                "tipCard": true,
+                "title": "Red, Blue, and Yellow Too! (Rookie Preschool)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Chloe",
+                        "id": 55,
+                        "lastName": "Ryder"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 329,
+                "illustrators": null,
+                "isbn": "9780545744706",
+                "key": "$$*$$",
+                "level": "H",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Pictures with simple labels encourage children to categorize objects such as crayons, fish, and socks by attributes such as shape and color.",
+                "tipCard": true,
+                "title": "Same and Different (National Geographic Kids)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 315,
+                "illustrators": null,
+                "isbn": "9780545694315",
+                "key": "$$*$$",
+                "level": "A",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "This book engages children by showing five common shapes and then common everyday objects that have that shape. You can follow up reading the book by having children look in their home or classroom for more examples of that shape.",
+                "tipCard": true,
+                "title": "Shapes (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [                    
+                    {
+                        "code": "activities",
+                        "id": 1,
+                        "name": "Activities"
+                    },
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 317,
+                "illustrators": null,
+                "isbn": "9780545694384",
+                "key": "$$*$$",
+                "level": "B",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Children learn to identify shapes through association with familiar objects. The reader is first shown a shape and then shown the shape as found on a truck, bike, backhoe, stop sign, and garbage truck.  A circle, square, triangle, rectangle, and octagon are highlighted.",
+                "tipCard": true,
+                "title": "Shapes That Go (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 293,
+                        "lastName": "National Geographic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 321,
+                "illustrators": null,
+                "isbn": "9780545735827",
+                "key": "$$*$$",
+                "level": "F",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Readers learn the shapes of square, circle, star, triangle, and rectangle; identify everyday objects  of those shapes; and identify those shapes in photographs of the real world.",
+                "tipCard": true,
+                "title": "Shapes! (National Geographic Kids)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Barbara Barbieri",
+                        "id": 295,
+                        "lastName": "McGrath"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 326,
+                "illustrators": [
+                    {
+                        "firstName": "Tim",
+                        "id": 33,
+                        "lastName": "Nihoff"
+                    }
+                ],
+                "isbn": "9780545742771",
+                "key": "$$*$$",
+                "level": "J",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "This book ingeniously uses colored teddy bears and rhyming text to help children learn about patterns. While progressing from 2-color to 6-color patterns, students also review colors and are introduced to simple addition, subtraction, multiplication, counting by twos, and odd and even numbers. Finally, students are encouraged to create their own patterns.",
+                "tipCard": true,
+                "title": "Teddy Bear Patterns",
+                "vbid": "$$*$$"
+            }
+        ],
+        "description": "Reinforce key early learning concepts with this set that includes something for every young learner.",
+        "grade": "Pre K",
+        "iconCode": "&#xe607;",
+        "iconColor": "ec1c43",
+        "id": "29",
+        "levelHigh": "R",
+        "levelLow": "A",
+        "name": "Colors, Shapes, & Patterns",
+        "recommend": "Instructional Reading",
+        "shared": true,
+        "shareType": "groups",
+        "shareWith": [
+            {
+                "iconCode": null,
+                "iconColor": null,
+                "iconName": null,
+                "id": 66,
+                "name": "QA"
+            }
+        ],
+        "type": "collection"
+    },
+    "errors": [],
+    "message": "OK",
+    "metaData": null
+}

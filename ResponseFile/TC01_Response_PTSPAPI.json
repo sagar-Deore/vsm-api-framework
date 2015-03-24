@@ -1,0 +1,31 @@
+{
+    "code": 200,
+    "data": {
+        "sessionId": "$$*$$",
+        "studentUse": false,
+        "user": {
+            "districtId": 1,
+            "firstName": "kishan",
+            "id": 127,
+            "lastName": "Kr",
+            "readingLevel": "Guided Reading Level",
+            "role": "teacher",
+            "schools": [
+                {
+                    "id": 1,
+                    "name": "Scholastic Test School"
+                }
+            ],
+            "sisId": 0,
+            "sourcceId": 0,
+            "source": null,
+            "studentUse": false,
+            "title": "Mr.",
+            "userId": 127,
+            "userName": "k@test.com"
+        }
+    },
+    "errors": [],
+    "message": "Login successful",
+    "metaData": null
+}

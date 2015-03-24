@@ -1,0 +1,279 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "bookCount": 15,
+            "grade": "Pre K",
+            "iconCode": "&#x47;",
+            "iconColor": "df1995",
+            "id": "23",
+            "levelHigh": "M",
+            "levelLow": "D",
+            "name": "All Kinds of Weather",
+            "recommend": "Independent Reading",
+            "shared": true,
+            "shareType": "section",
+            "shareWith": null,
+            "type": "collection"
+        },
+        {
+            "bookCount": 20,
+            "grade": "Pre K",
+            "iconCode": "&#x41;",
+            "iconColor": "8031a7",
+            "id": "22",
+            "levelHigh": "P",
+            "levelLow": "A",
+            "name": "Animals Everywhere",
+            "recommend": "Independent Reading",
+            "shared": true,
+            "shareType": "section",
+            "shareWith": null,
+            "type": "collection"
+        },
+        {
+            "bookCount": 3,
+            "grade": null,
+            "iconCode": "&#x47;",
+            "iconColor": "ff003a",
+            "id": "1321",
+            "levelHigh": "R",
+            "levelLow": "B",
+            "name": "AUTO_TEST_QA_CC1",
+            "recommend": null,
+            "shared": true,
+            "shareType": "section",
+            "shareWith": null,
+            "type": "custom"
+        },
+        {
+            "bookCount": 5,
+            "grade": null,
+            "iconCode": "&#x45;",
+            "iconColor": "962da9",
+            "id": "1322",
+            "levelHigh": "Y",
+            "levelLow": "M",
+            "name": "AUTO_TEST_QA_CC2",
+            "recommend": null,
+            "shared": true,
+            "shareType": "students",
+            "shareWith": [
+                {
+                    "iconCode": null,
+                    "iconColor": null,
+                    "iconName": null,
+                    "id": 948,
+                    "name": "Arindam"
+                },
+                {
+                    "iconCode": null,
+                    "iconColor": null,
+                    "iconName": null,
+                    "id": 949,
+                    "name": "Om"
+                }
+            ],
+            "type": "custom"
+        },
+        {
+            "bookCount": 3,
+            "grade": null,
+            "iconCode": "&#x44;",
+            "iconColor": "962da9",
+            "id": "1323",
+            "levelHigh": "S",
+            "levelLow": "J",
+            "name": "AUTO_TEST_QA_CC3",
+            "recommend": null,
+            "shared": false,
+            "shareType": null,
+            "shareWith": null,
+            "type": "custom"
+        },
+        {
+            "bookCount": 0,
+            "grade": null,
+            "iconCode": "&#x43;",
+            "iconColor": "ffb203",
+            "id": "1324",
+            "levelHigh": null,
+            "levelLow": null,
+            "name": "AUTO_TEST_QA_CC4",
+            "recommend": null,
+            "shared": false,
+            "shareType": null,
+            "shareWith": null,
+            "type": "custom"
+        },
+        {
+            "bookCount": 7,
+            "grade": null,
+            "iconCode": "&#x49;",
+            "iconColor": "00a284",
+            "id": "1325",
+            "levelHigh": "Y",
+            "levelLow": "C",
+            "name": "AUTO_TEST_QA_CC5",
+            "recommend": null,
+            "shared": true,
+            "shareType": "groups",
+            "shareWith": [
+                {
+                    "iconCode": null,
+                    "iconColor": null,
+                    "iconName": null,
+                    "id": 67,
+                    "name": "Dev"
+                }
+            ],
+            "type": "custom"
+        },
+        {
+            "bookCount": 22,
+            "grade": "Pre K",
+            "iconCode": "&#xe607;",
+            "iconColor": "ec1c43",
+            "id": "29",
+            "levelHigh": "R",
+            "levelLow": "A",
+            "name": "Colors, Shapes, & Patterns",
+            "recommend": "Instructional Reading",
+            "shared": true,
+            "shareType": "groups",
+            "shareWith": [
+                {
+                    "iconCode": null,
+                    "iconColor": null,
+                    "iconName": null,
+                    "id": 66,
+                    "name": "QA"
+                }
+            ],
+            "type": "collection"
+        },
+        {
+            "bookCount": 15,
+            "grade": "Pre K",
+            "iconCode": "&#xe640;",
+            "iconColor": "6e7380",
+            "id": "24",
+            "levelHigh": "J",
+            "levelLow": "D",
+            "name": "Family Stories",
+            "recommend": "Independent Reading",
+            "shared": true,
+            "shareType": "section",
+            "shareWith": null,
+            "type": "collection"
+        },
+        {
+            "bookCount": 10,
+            "grade": "Pre K",
+            "iconCode": "&#xe620;",
+            "iconColor": "0072CE",
+            "id": "216",
+            "levelHigh": "L",
+            "levelLow": "C",
+            "name": "On the Farm",
+            "recommend": "Independent Reading",
+            "shared": true,
+            "shareType": "section",
+            "shareWith": null,
+            "type": "collection"
+        },
+        {
+            "bookCount": 13,
+            "grade": "Pre K",
+            "iconCode": "&#x4a;",
+            "iconColor": "1abc9c",
+            "id": "25",
+            "levelHigh": "L",
+            "levelLow": "B",
+            "name": "Rhymes & Songs",
+            "recommend": "Instructional Reading",
+            "shared": false,
+            "shareType": null,
+            "shareWith": null,
+            "type": "collection"
+        },
+        {
+            "bookCount": 15,
+            "grade": "Pre K",
+            "iconCode": "&#x32;",
+            "iconColor": "cedc00",
+            "id": "21",
+            "levelHigh": "N",
+            "levelLow": "E",
+            "name": "So Silly!",
+            "recommend": "Independent Reading",
+            "shared": true,
+            "shareType": "section",
+            "shareWith": null,
+            "type": "collection"
+        },
+        {
+            "bookCount": 15,
+            "grade": "Pre K",
+            "iconCode": "&#xe636;",
+            "iconColor": "df1995",
+            "id": "27",
+            "levelHigh": "N",
+            "levelLow": "D",
+            "name": "Tell Me a Story",
+            "recommend": "Independent Reading",
+            "shared": true,
+            "shareType": "section",
+            "shareWith": null,
+            "type": "collection"
+        },
+        {
+            "bookCount": 16,
+            "grade": "Pre K",
+            "iconCode": "&#xe62a;",
+            "iconColor": "8031a7",
+            "id": "28",
+            "levelHigh": "P",
+            "levelLow": "C",
+            "name": "We Can Count",
+            "recommend": "Independent Reading",
+            "shared": true,
+            "shareType": "students",
+            "shareWith": [
+                {
+                    "iconCode": null,
+                    "iconColor": null,
+                    "iconName": null,
+                    "id": 946,
+                    "name": "Ashish"
+                },
+                {
+                    "iconCode": null,
+                    "iconColor": null,
+                    "iconName": null,
+                    "id": 947,
+                    "name": "Sagar"
+                }
+            ],
+            "type": "collection"
+        },
+        {
+            "bookCount": 19,
+            "grade": "Pre K",
+            "iconCode": "&#xe637;",
+            "iconColor": "ec1c43",
+            "id": "26",
+            "levelHigh": "L",
+            "levelLow": "B",
+            "name": "We Play Together",
+            "recommend": "Independent Reading",
+            "shared": true,
+            "shareType": "section",
+            "shareWith": null,
+            "type": "collection"
+        }
+    ],
+    "errors": [],
+    "message": "OK",
+    "metaData": null
+}

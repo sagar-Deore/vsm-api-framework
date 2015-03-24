@@ -1,0 +1,1037 @@
+{
+"code": 200,
+"data": [
+{
+"authors": [
+{
+"firstName": "Helen",
+"id": 4601,
+"lastName": "Otway"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 4718,
+"illustrators": null,
+"isbn": "9780545742597",
+"level": "1030L",
+"shared": false,
+"tipCard": false,
+"title": "1001 Unbelievable Facts",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Melissa",
+"id": 399,
+"lastName": "Schiller"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 436,
+"illustrators": null,
+"isbn": "9780545691796",
+"level": "650L",
+"shared": false,
+"tipCard": true,
+"title": "100th Day of School (Rookie Read-Aboutâ¢ Holidays)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Mike",
+"id": 269,
+"lastName": "Thaler"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1555,
+"illustrators": null,
+"isbn": "9780545739337",
+"level": "450L",
+"shared": false,
+"tipCard": false,
+"title": "The 100th Day of School from the Black Lagoon (Black Lagoon Adventures #21)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Jules",
+"id": 634,
+"lastName": "Verne"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 971,
+"illustrators": null,
+"isbn": "9780545781459",
+"level": "HL580L",
+"shared": false,
+"tipCard": false,
+"title": "20,000 Leagues Under the Sea (abridged)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Jules",
+"id": 634,
+"lastName": "Verne"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 666,
+"illustrators": null,
+"isbn": "9780545760263",
+"level": "1030L",
+"shared": false,
+"tipCard": true,
+"title": "20,000 Leagues Under the Sea (Scholastic Classics)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Edgar Allan",
+"id": 207,
+"lastName": "Poe"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 4795,
+"illustrators": null,
+"isbn": "9780545743389",
+"level": "500L",
+"shared": false,
+"tipCard": false,
+"title": "3 Thrillers from Poe (abridged)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "video",
+"id": 2,
+"name": "Video"
+}
+],
+"id": 1605,
+"illustrators": null,
+"isbn": "9780545691185",
+"level": "450L",
+"shared": false,
+"tipCard": true,
+"title": "5 Busy Ducklings (Rookie Toddlerâ¢)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 199,
+"illustrators": null,
+"isbn": "9780545763837",
+"level": "830L",
+"shared": false,
+"tipCard": true,
+"title": "Abigail Adams",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Peter",
+"id": 23,
+"lastName": "Benoit"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 27,
+"illustrators": null,
+"isbn": "9780545742030",
+"level": "870L",
+"shared": false,
+"tipCard": true,
+"title": "Abraham Lincoln (Cornerstones of Freedom. Third Series)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Carrie",
+"id": 690,
+"lastName": "Gilpin"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 718,
+"illustrators": null,
+"isbn": "9780545735896",
+"level": "680L",
+"shared": false,
+"tipCard": false,
+"title": "Abraham Lincoln (National Geographic Kids)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "David",
+"id": 544,
+"lastName": "Biedrzycki"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1430,
+"illustrators": null,
+"isbn": "9780545736763",
+"level": "AD560L",
+"shared": false,
+"tipCard": true,
+"title": "Ace Lacewing, Bug Detective",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Lisa M.",
+"id": 403,
+"lastName": "Herrington"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 942,
+"illustrators": null,
+"isbn": "9780545692052",
+"level": "550L",
+"shared": false,
+"tipCard": true,
+"title": "Acorn to Oak Tree (Rookie Read-Aboutâ¢ Science)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Jerry",
+"id": 44,
+"lastName": "Pallotta"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 2213,
+"illustrators": null,
+"isbn": "9780545742955",
+"level": "550L",
+"shared": false,
+"tipCard": false,
+"title": "Adding Fractions (Jerry Pallotta's Math=Fun!)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Jerry",
+"id": 44,
+"lastName": "Pallotta"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1968,
+"illustrators": null,
+"isbn": "9780545737500",
+"level": "600L",
+"shared": false,
+"tipCard": false,
+"title": "Addition Book (Jerry Pallotta's Math=Fun!)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Mark",
+"id": 202,
+"lastName": "Twain"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 5489,
+"illustrators": null,
+"isbn": "9780545781749",
+"level": "440L",
+"shared": false,
+"tipCard": false,
+"title": "The Adventures of Huckleberry Finn (abridged)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Mark",
+"id": 202,
+"lastName": "Twain"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 5068,
+"illustrators": null,
+"isbn": "9780545760270",
+"level": "990L",
+"shared": false,
+"tipCard": false,
+"title": "The Adventures of Huckleberry Finn (Scholastic Classics)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Mark",
+"id": 202,
+"lastName": "Twain"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 5490,
+"illustrators": null,
+"isbn": "9780545781756",
+"level": "450L",
+"shared": false,
+"tipCard": false,
+"title": "The Adventures of Tom Sawyer (abridged)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Mark",
+"id": 202,
+"lastName": "Twain"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+}
+],
+"id": 5069,
+"illustrators": null,
+"isbn": "9780545760287",
+"level": "950L",
+"shared": false,
+"tipCard": false,
+"title": "The Adventures of Tom Sawyer (Scholastic Classics)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Mark",
+"id": 202,
+"lastName": "Twain"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 225,
+"illustrators": null,
+"isbn": "9780545759960",
+"level": "730L",
+"shared": false,
+"tipCard": true,
+"title": "The Adventures of Tom Sawyer",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Ruth",
+"id": 52,
+"lastName": "Bjorklund"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 347,
+"illustrators": null,
+"isbn": "9780545742047",
+"level": "1020L",
+"shared": false,
+"tipCard": false,
+"title": "Afghanistan (Enchantment of the World. Second Series)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Mel",
+"id": 532,
+"lastName": "Friedman"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 4797,
+"illustrators": null,
+"isbn": "9780545743402",
+"level": "780L",
+"shared": false,
+"tipCard": false,
+"title": "Africa (A True Book)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Rebecca",
+"id": 1849,
+"lastName": "Hirsch"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1890,
+"illustrators": null,
+"isbn": "9780545735674",
+"level": "500L",
+"shared": false,
+"tipCard": false,
+"title": "Africa (Rookie Read-Aboutâ¢ Geography)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Chloe",
+"id": 55,
+"lastName": "Ryder"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1906,
+"illustrators": null,
+"isbn": "9780545735841",
+"level": "970L",
+"shared": false,
+"tipCard": true,
+"title": "African Animal Alphabet (National Geographic Kids)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Ann O.",
+"id": 1109,
+"lastName": "Squire"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "video",
+"id": 2,
+"name": "Video"
+}
+],
+"id": 1355,
+"illustrators": null,
+"isbn": "9780545743419",
+"level": "940L",
+"shared": false,
+"tipCard": false,
+"title": "African Animals (A True Book)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Neil",
+"id": 13,
+"lastName": "Morris"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 13,
+"illustrators": null,
+"isbn": "9780545740807",
+"level": "810L",
+"shared": false,
+"tipCard": false,
+"title": "African Myths (Myths from Many Lands)",
+"vbid": null
+},
+{
+"authors": null,
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 226,
+"illustrators": null,
+"isbn": "9780545759977",
+"level": "450L",
+"shared": false,
+"tipCard": true,
+"title": "African Proverbs and Riddles",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Ann",
+"id": 760,
+"lastName": "Weil"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 5480,
+"illustrators": null,
+"isbn": "9780545781589",
+"level": "HL640L",
+"shared": false,
+"tipCard": false,
+"title": "Air Disasters (Disasters)",
+"vbid": null
+},
+{
+"authors": null,
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1393,
+"illustrators": null,
+"isbn": "9780545759205",
+"level": "950L",
+"shared": false,
+"tipCard": true,
+"title": "Aladdin and the Wonderful Lamp",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 167,
+"illustrators": null,
+"isbn": "9780545759885",
+"level": "780L",
+"shared": false,
+"tipCard": true,
+"title": "The Alamo",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 200,
+"illustrators": null,
+"isbn": "9780545763851",
+"level": "830L",
+"shared": false,
+"tipCard": true,
+"title": "Albert Einstein",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 1262,
+"lastName": "Saddleback Publishing"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 5500,
+"illustrators": null,
+"isbn": "9780545781855",
+"level": "480L",
+"shared": false,
+"tipCard": false,
+"title": "Albert Einstein (Graphic Biographies)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Laurence",
+"id": 1550,
+"lastName": "Santrey"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1590,
+"illustrators": null,
+"isbn": "9780545743426",
+"level": "840L",
+"shared": false,
+"tipCard": true,
+"title": "Albert Einstein: Creative Genius",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 1262,
+"lastName": "Saddleback Publishing"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 5466,
+"illustrators": null,
+"isbn": "9780545781442",
+"level": "530L",
+"shared": false,
+"tipCard": false,
+"title": "Alexander Graham Bell (Graphic Biographies)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Alexandra",
+"id": 719,
+"lastName": "Wright"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 745,
+"illustrators": null,
+"isbn": "9780545736688",
+"level": "690L",
+"shared": false,
+"tipCard": true,
+"title": "Alice in Pastaland",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Nancy",
+"id": 381,
+"lastName": "Tafuri"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 417,
+"illustrators": null,
+"isbn": "9780545780896",
+"level": "AD570L",
+"shared": false,
+"tipCard": true,
+"title": "All Kinds of Kisses",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Shelley",
+"id": 848,
+"lastName": "Pearsall"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 874,
+"illustrators": null,
+"isbn": "9780545780841",
+"level": "950L",
+"shared": false,
+"tipCard": true,
+"title": "All of the Above",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Ann E.",
+"id": 1530,
+"lastName": "Burg"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1570,
+"illustrators": null,
+"isbn": "9780545774864",
+"level": "HL680L",
+"shared": false,
+"tipCard": true,
+"title": "All the Broken Pieces",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Meg",
+"id": 277,
+"lastName": "Cabot"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+}
+],
+"id": 750,
+"illustrators": null,
+"isbn": "9780545774642",
+"level": "850L",
+"shared": false,
+"tipCard": true,
+"title": "Allie Finkle's Rules for Girls Book 1: Moving Day",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Meg",
+"id": 277,
+"lastName": "Cabot"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+}
+],
+"id": 751,
+"illustrators": null,
+"isbn": "9780545774680",
+"level": "860L",
+"shared": false,
+"tipCard": false,
+"title": "Allie Finkle's Rules for Girls Book 2: The New Girl",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Meg",
+"id": 277,
+"lastName": "Cabot"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 305,
+"illustrators": null,
+"isbn": "9780545774727",
+"level": "840L",
+"shared": false,
+"tipCard": false,
+"title": "Allie Finkle's Rules for Girls Book 3: Best Friends and Drama Queens",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Trudi Strain",
+"id": 811,
+"lastName": "Trueit"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 836,
+"illustrators": null,
+"isbn": "9780545743457",
+"level": "850L",
+"shared": false,
+"tipCard": false,
+"title": "Alligators and Crocodiles (A True Book)",
+"vbid": null
+},
+{
+"authors": null,
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 213,
+"illustrators": null,
+"isbn": "9780545764186",
+"level": "880L",
+"shared": false,
+"tipCard": true,
+"title": "The Alps",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Jerry",
+"id": 4688,
+"lastName": "Tello"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 4803,
+"illustrators": null,
+"isbn": "9780545743464",
+"level": "510L",
+"shared": false,
+"tipCard": false,
+"title": "Amalia and the Grasshopper",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Laura",
+"id": 59,
+"lastName": "Marsh"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1831,
+"illustrators": null,
+"isbn": "9780545733885",
+"level": "NC810L",
+"shared": false,
+"tipCard": false,
+"title": "Amazing Animal Journeys (National Geographic Kids)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Mary",
+"id": 302,
+"lastName": "Schulte"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 3870,
+"illustrators": null,
+"isbn": "9780545705585",
+"level": "410L",
+"shared": false,
+"tipCard": false,
+"title": "The Amazon River (Rookie Read-Aboutâ¢ Geography)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 214,
+"illustrators": null,
+"isbn": "9780545764193",
+"level": "870L",
+"shared": false,
+"tipCard": true,
+"title": "The Amazon River",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "James",
+"id": 1468,
+"lastName": "Marlett"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1506,
+"illustrators": null,
+"isbn": "9780545743488",
+"level": "680L",
+"shared": false,
+"tipCard": true,
+"title": "The Amazon",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 1262,
+"lastName": "Saddleback Publishing"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 5446,
+"illustrators": null,
+"isbn": "9780545781244",
+"level": "570L",
+"shared": false,
+"tipCard": false,
+"title": "Amelia Earhart (Graphic Biographies)",
+"vbid": null
+}
+],
+"errors": [],
+"message": "OK",
+"metaData": {
+"totalSize": 1438,
+"offset": 0,
+"size": 48
+}
+}

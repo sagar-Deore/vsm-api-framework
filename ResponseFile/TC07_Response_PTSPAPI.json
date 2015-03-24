@@ -1,0 +1,281 @@
+{
+    "code": 200,
+    "data": {
+        "bookIds": "535,696,697,698,699,543,701,496",
+        "books": [
+            {
+                "authors": [
+                    {
+                        "firstName": "Kathryn",
+                        "id": 670,
+                        "lastName": "Heling"
+                    },
+                    {
+                        "firstName": "Deborah",
+                        "id": 671,
+                        "lastName": "Hembrook"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 701,
+                "illustrators": [
+                    {
+                        "firstName": "Andy",
+                        "id": 181,
+                        "lastName": "Davies"
+                    }
+                ],
+                "isbn": "9780545742931",
+                "key": "$$*$$",
+                "level": "I",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Who uses a hose and heavy pants to do their jobs? Who needs a spacesuit and jet pack? Use words and picture clues to help answer some riddles.",
+                "tipCard": true,
+                "title": "Clothesline Clues to Jobs People Do",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Jodie",
+                        "id": 497,
+                        "lastName": "Shepherd"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 535,
+                "illustrators": null,
+                "isbn": "9780545738477",
+                "key": "$$*$$",
+                "level": "J",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "It's important to know what to do in case of a fire. Learn how to prevent fires and what to do if you are ever in one.",
+                "tipCard": true,
+                "title": "A Day with Firefighters (Rookie Read-About™ Community)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Jodie",
+                        "id": 497,
+                        "lastName": "Shepherd"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 696,
+                "illustrators": null,
+                "isbn": "9780545738514",
+                "key": "$$*$$",
+                "level": "J",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Police Officers are important community helpers. They help with traffic and keep neighborhoods safe. What are some other things police officers do?",
+                "tipCard": false,
+                "title": "A Day with Police Officers (Rookie Read-About™ Community)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Bill",
+                        "id": 457,
+                        "lastName": "Martin Jr."
+                    },
+                    {
+                        "firstName": "Michael",
+                        "id": 458,
+                        "lastName": "Sampson"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 496,
+                "illustrators": null,
+                "isbn": "9780545743341",
+                "key": "$$*$$",
+                "level": "I",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Earth is full of beautiful deserts, oceans, plants, and flowers. What do you love about Earth?  What might children in other countries love about Earth?",
+                "tipCard": true,
+                "title": "I Love Our Earth",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Cari",
+                        "id": 9,
+                        "lastName": "Meister"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 699,
+                "illustrators": [
+                    {
+                        "firstName": "Terry",
+                        "id": 179,
+                        "lastName": "Sirrell"
+                    }
+                ],
+                "isbn": "9780545738958",
+                "key": "$$*$$",
+                "level": "E",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Can you imagine a world without trees? Some trees produce fruit or are home to birds, while others are used for wood to make things.  What would be missing from your life if all the trees disappeared?",
+                "tipCard": true,
+                "title": "I Love Trees (Rookie Ready to Learn)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Eileen",
+                        "id": 504,
+                        "lastName": "Spinelli"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "video",
+                        "id": 2,
+                        "name": "Video"
+                    }
+                ],
+                "id": 543,
+                "illustrators": [
+                    {
+                        "firstName": "Anne",
+                        "id": 126,
+                        "lastName": "Kennedy"
+                    }
+                ],
+                "isbn": "9780545740326",
+                "key": "$$*$$",
+                "level": "M",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Miss Fox tells her class she is going green—but that doesn't mean that she feels sick! It means that she is doing things to help Earth, and her students can do the same!",
+                "tipCard": true,
+                "title": "Miss Fox's Class Goes Green",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Peggy",
+                        "id": 498,
+                        "lastName": "Hock"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 697,
+                "illustrators": null,
+                "isbn": "9780545738583",
+                "key": "$$*$$",
+                "level": "K",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "What do you do to help make the Earth a cleaner and better place? You could bike or walk rather than drive. You could do more gardening and less shopping. This book offers lots of suggestions.",
+                "tipCard": true,
+                "title": "Our Earth: Helping Out (Scholastic News Nonfiction Readers™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Peggy",
+                        "id": 498,
+                        "lastName": "Hock"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 698,
+                "illustrators": null,
+                "isbn": "9780545738620",
+                "key": "$$*$$",
+                "level": "J",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Most of Earth's water is salt water. And that's not good for drinking or growing food. Freshwater is needed for those things. So it’s important to conserve it. This book will show you how.",
+                "tipCard": true,
+                "title": "Our Earth: Saving Water (Scholastic News Nonfiction Readers™)",
+                "vbid": "$$*$$"
+            }
+        ],
+        "iconCode": "&#xe608;",
+        "iconColor": "df1995",
+        "id": "222",
+        "name": "Helping Out",
+        "opened": true,
+        "openedTime": 1423822406000,
+        "shareTime": null,
+        "type": "collection"
+    },
+    "errors": [],
+    "message": "OK",
+    "metaData": null
+}

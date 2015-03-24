@@ -1,0 +1,31 @@
+{
+"code": 200,
+"data": {
+"sessionId": "te7445287-d6a4-471e-90be-59b570004404",
+"studentUse": false,
+"user": {
+"districtId": 1,
+"firstName": "QA",
+"id": 118,
+"lastName": "Auto Test",
+"readingLevel": "Guided Reading Level",
+"role": "teacher",
+"schools": [
+{
+"id": 1,
+"name": "Jones School"
+}
+],
+"sisId": 0,
+"sourcceId": "0",
+"sourceType": null,
+"studentUse": false,
+"title": "Mr.",
+"userId": 118,
+"userName": "qa@test.com"
+}
+},
+"errors": [],
+"message": "Login successful",
+"metaData": null
+}

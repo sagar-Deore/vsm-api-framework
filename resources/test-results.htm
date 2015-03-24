@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>OUP diffs</title>
+	<style media="screen" type="text/css">
+		//#img { height:200px;width:240px;	vertical-align: text-top; }
+		img { height:50%;width:50%;	vertical-align: text-top; align:middle; }
+		.Fail { background-color: red; }
+		.Pass { background-color: darkgreen; }
+		body { font-family: 'Open Sans', sans-serif; }
+		
+	</style>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+</head>
+<body bgcolor=lightgrey>
+
+<h3 align="center">API Test Case Execution Report</h3>
+<h5 align="center">{{DateAndTimeHere}}</h5>
+<table border="1" align="center">
+	<tr>
+		<th>Test Suite Name</th>
+		<th>Total No. Of Test Cases</th>
+		<th>Total Pass Test Count</th>
+		<th>Total Fail Test Count</th>	
+		<th>Overall Result</th>			
+	</tr>
+	<tr>
+		<td>{{TestSuiteNameHere}}</td>
+		<td>{{TotalNoOfTestCases}}</td>
+		<td>{{TotalPassTestCount}}</td>
+		<td>{{TotalFailTestCount}}</td>	
+		{{OverallResult}}
+	</tr>
+</table>
+<p></p>
+<table border="1" align="center">
+	<tr>
+		<th>Test Case Name</th>
+		<th>Result</th>		
+	</tr>
+	{{TestResultListHere}}
+</table>
+<p></p>
+<h5 align="left">{{LogLink}}</h5>
+</body>
+</html>

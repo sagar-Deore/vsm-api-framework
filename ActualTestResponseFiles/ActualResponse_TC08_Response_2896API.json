@@ -1,0 +1,103 @@
+{
+"code": 200,
+"data": {
+"bookCount": 3,
+"bookIds": "1891,1389,596",
+"books": [
+{
+"authors": [
+{
+"firstName": "Rebecca",
+"id": 1849,
+"lastName": "Hirsch"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1891,
+"illustrators": null,
+"isbn": "9780545735681",
+"key": "8405ea7e944ea1412712a0e0c4de6f2c",
+"level": "J",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Learn about where Antarctica is located, what people live there, the animals found there, the weather and its landforms, and why scientists study it.",
+"tipCard": false,
+"title": "Antarctica (Rookie Read-Aboutâ¢ Geography)",
+"vbid": "9780545735681R"
+},
+{
+"authors": [
+{
+"firstName": "Henry Wadsworth",
+"id": 1359,
+"lastName": "Longfellow"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1389,
+"illustrators": null,
+"isbn": "9780545759168",
+"key": "a387c3aa70d8a50ff1b0bf5c0500ccc0",
+"level": "Q",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Henry Wadsworth Longfellowâs famous poem compares the singing of a song with shooting an arrow into the air. But the arrow and the song have vastly different targets.",
+"tipCard": true,
+"title": "The Arrow and the Song",
+"vbid": "9780545759168R"
+},
+{
+"authors": [
+{
+"firstName": "Allan",
+"id": 559,
+"lastName": "Zullo"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 596,
+"illustrators": null,
+"isbn": "9780545742818",
+"key": "471b055bc46cd6e285bf0f0eacc832f7",
+"level": "S",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "The misbehavior of these animals ranges from breaking and entering to shoplifting to vandalism. Some of the stories may seem unbelievable, but they're all true.",
+"tipCard": true,
+"title": "Bad Pets",
+"vbid": "9780545742818R"
+}
+],
+"description": null,
+"grade": null,
+"iconCode": "&#x44;",
+"iconColor": "962da9",
+"id": "1323",
+"levelHigh": "S",
+"levelLow": "J",
+"name": "AUTO_TEST_QA_CC3",
+"recommend": null,
+"shared": false,
+"shareType": null,
+"shareWith": null,
+"type": "custom"
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}

@@ -1,0 +1,22 @@
+{
+    "code": 200,
+    "data": {
+        "sessionId": "$$*$$",
+        "user": {
+            "districtId": 1,
+            "iconCode": "%",
+            "iconColor": "DF1995",
+            "id": 1106,
+            "login": null,
+            "name": "KK_1",
+            "role": "student",
+            "tempPassword": false,
+            "userName": "kk_1-kr2"
+        }
+    },
+    "errors": [],
+    "message": "Login successful",
+    "metaData": {
+        "sessionLimitLogout": "false"
+    }
+}

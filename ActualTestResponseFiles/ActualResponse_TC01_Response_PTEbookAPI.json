@@ -1,0 +1,31 @@
+{
+"code": 200,
+"data": {
+"sessionId": "tedc09afd-7467-47d8-8564-4f9eb99e53be",
+"studentUse": false,
+"user": {
+"districtId": 1,
+"firstName": "kishan",
+"id": 128,
+"lastName": "Kr",
+"readingLevel": "Lexile",
+"role": "teacher",
+"schools": [
+{
+"id": 1,
+"name": "Jones School"
+}
+],
+"sisId": 0,
+"sourcceId": "0",
+"sourceType": null,
+"studentUse": false,
+"title": "Mr.",
+"userId": 128,
+"userName": "k@test1.com"
+}
+},
+"errors": [],
+"message": "Login successful",
+"metaData": null
+}

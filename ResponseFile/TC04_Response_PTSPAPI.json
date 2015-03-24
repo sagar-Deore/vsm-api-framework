@@ -1,0 +1,159 @@
+{
+    "code": 200,
+    "data": {
+        "bookCount": 5,
+        "bookIds": "910,1605,2076,1627,4145",
+        "books": [
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 910,
+                "illustrators": null,
+                "isbn": "9780545707435",
+                "key": "$$*$$",
+                "level": "G",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Names fun preschool activities using rhyme: stacking blocks, making music, marching, eating lunch, listening to a story, and finger painting. Includes teacher-led activities at the end.",
+                "tipCard": true,
+                "title": "3-2-1 School Is Fun! (Rookie Preschool)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "video",
+                        "id": 2,
+                        "name": "Video"
+                    }
+                ],
+                "id": 1605,
+                "illustrators": null,
+                "isbn": "9780545691185",
+                "key": "$$*$$",
+                "level": "E",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Photos and large numerals are used to teach counting 1–5 in a rhyme about a family of ducklings.",
+                "tipCard": true,
+                "title": "5 Busy Ducklings (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": null,
+                "closeRead": false,
+                "commoncores": null,
+                "features": [
+                    {
+                        "code": "read-to-me",
+                        "id": 3,
+                        "name": "Read-to-Me"
+                    }
+                ],
+                "id": 2076,
+                "illustrators": null,
+                "isbn": "9780545739023",
+                "key": "$$*$$",
+                "level": "B",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "Each letter of the alphabet is accompanied by a photograph of an object that begins with that letter. The book is perfect as an accompaniment to singing \"The Alphabet Song.\"",
+                "tipCard": false,
+                "title": "ABC (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "",
+                        "id": 3,
+                        "lastName": "Scholastic"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 1627,
+                "illustrators": null,
+                "isbn": "9780545691895",
+                "key": "$$*$$",
+                "level": "B",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "From an apple to a zebra, young readers work their way through the alphabet learning to associate letters and words with animals, toys, household items and more. Big photographs and bold lettering make for a colorful, approachable book.",
+                "tipCard": false,
+                "title": "abc (Rookie Toddler™)",
+                "vbid": "$$*$$"
+            },
+            {
+                "authors": [
+                    {
+                        "firstName": "Sharon",
+                        "id": 4055,
+                        "lastName": "Gordon"
+                    }
+                ],
+                "closeRead": false,
+                "commoncores": null,
+                "features": null,
+                "id": 4145,
+                "illustrators": null,
+                "isbn": "9780545734912",
+                "key": "$$*$$",
+                "level": "H",
+                "levelType": "Guided Reading Level",
+                "shared": false,
+                "shareType": null,
+                "synopsis": "With clear photos, allergy symptoms are explained in simple text. Common allergic reactions are identified and ways to cope are explained.",
+                "tipCard": false,
+                "title": "Allergies (Rookie Read-About™ Health)",
+                "vbid": "$$*$$"
+            }
+        ],
+        "description": null,
+        "grade": null,
+        "iconCode": "&#x4d;",
+        "iconColor": "962da9",
+        "id": "1371",
+        "levelHigh": "H",
+        "levelLow": "B",
+        "name": "My Collection_1",
+        "recommend": null,
+        "shared": true,
+        "shareType": "section",
+        "shareWith": [
+            {
+                "iconCode": null,
+                "iconColor": null,
+                "iconName": null,
+                "id": 248,
+                "name": "Class_1"
+            }
+        ],
+        "type": "custom"
+    },
+    "errors": [],
+    "message": "OK",
+    "metaData": null
+}

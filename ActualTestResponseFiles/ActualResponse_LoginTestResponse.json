@@ -1,0 +1,31 @@
+{
+"code": 200,
+"data": {
+"sessionId": "te4ede519-7d7e-4074-85f7-6ef02e030e12",
+"studentUse": false,
+"user": {
+"districtId": 1,
+"firstName": "kishan",
+"id": 128,
+"lastName": "Kr",
+"readingLevel": "Lexile",
+"role": "teacher",
+"schools": [
+{
+"id": 1,
+"name": "Scholastic Test School"
+}
+],
+"sisId": 0,
+"sourcceId": 0,
+"source": null,
+"studentUse": false,
+"title": "Mr.",
+"userId": 128,
+"userName": "k@test1.com"
+}
+},
+"errors": [],
+"message": "Login successful",
+"metaData": null
+}

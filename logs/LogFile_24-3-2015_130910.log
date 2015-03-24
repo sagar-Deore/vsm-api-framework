@@ -1,0 +1,4146 @@
+Mar 24, 2015 1:09:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: start assignData()
+Mar 24, 2015 1:09:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: end assignData()
+Mar 24, 2015 1:09:11 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Mar 24, 2015 1:09:11 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC01_VerifyLogin
+INFO: Test Execution Started- TC01_VerifyLogin
+Mar 24, 2015 1:09:11 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: start inputJson function
+Mar 24, 2015 1:09:11 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: end inputJson function
+Mar 24, 2015 1:09:14 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:09:14 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:09:14 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:09:14 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:09:14 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"sessionId": "te7445287-d6a4-471e-90be-59b570004404",
+"studentUse": false,
+"user": {
+"districtId": 1,
+"firstName": "QA",
+"id": 118,
+"lastName": "Auto Test",
+"readingLevel": "Guided Reading Level",
+"role": "teacher",
+"schools": [
+{
+"id": 1,
+"name": "Jones School"
+}
+],
+"sisId": 0,
+"sourcceId": "0",
+"sourceType": null,
+"studentUse": false,
+"title": "Mr.",
+"userId": 118,
+"userName": "qa@test.com"
+}
+},
+"errors": [],
+"message": "Login successful",
+"metaData": null
+}
+Mar 24, 2015 1:09:14 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 24, 2015 1:09:14 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "source": null, and Actual is-"sourceType": null,
+Mar 24, 2015 1:09:14 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 24, 2015 1:09:14 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:09:14 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC01_VerifyLogin
+INFO: Test Execution End- TC01_VerifyLogin
+Mar 24, 2015 1:09:14 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Mar 24, 2015 1:09:14 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC02_VerifyCollectionWhenClickOnEbooksforAutoTestclasswithPreKCollections
+INFO: Test Execution Started- TC02_VerifyCollectionWhenClickOnEbooksforAutoTestclasswithPreKCollections
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": [
+{
+"bookCount": 15,
+"grade": "Pre K",
+"iconCode": "&#x47;",
+"iconColor": "df1995",
+"id": "23",
+"levelHigh": "M",
+"levelLow": "D",
+"name": "All Kinds of Weather",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 20,
+"grade": "Pre K",
+"iconCode": "&#x41;",
+"iconColor": "8031a7",
+"id": "22",
+"levelHigh": "P",
+"levelLow": "A",
+"name": "Animals Everywhere",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 3,
+"grade": null,
+"iconCode": "&#x47;",
+"iconColor": "ff003a",
+"id": "1321",
+"levelHigh": "R",
+"levelLow": "B",
+"name": "AUTO_TEST_QA_CC1",
+"recommend": null,
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "custom"
+},
+{
+"bookCount": 5,
+"grade": null,
+"iconCode": "&#x45;",
+"iconColor": "962da9",
+"id": "1322",
+"levelHigh": "Y",
+"levelLow": "M",
+"name": "AUTO_TEST_QA_CC2",
+"recommend": null,
+"shared": true,
+"shareType": "students",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 948,
+"name": "Arindam"
+},
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 949,
+"name": "Om"
+}
+],
+"type": "custom"
+},
+{
+"bookCount": 3,
+"grade": null,
+"iconCode": "&#x44;",
+"iconColor": "962da9",
+"id": "1323",
+"levelHigh": "S",
+"levelLow": "J",
+"name": "AUTO_TEST_QA_CC3",
+"recommend": null,
+"shared": false,
+"shareType": null,
+"shareWith": null,
+"type": "custom"
+},
+{
+"bookCount": 0,
+"grade": null,
+"iconCode": "&#x43;",
+"iconColor": "ffb203",
+"id": "1324",
+"levelHigh": null,
+"levelLow": null,
+"name": "AUTO_TEST_QA_CC4",
+"recommend": null,
+"shared": false,
+"shareType": null,
+"shareWith": null,
+"type": "custom"
+},
+{
+"bookCount": 7,
+"grade": null,
+"iconCode": "&#x49;",
+"iconColor": "00a284",
+"id": "1325",
+"levelHigh": "Y",
+"levelLow": "C",
+"name": "AUTO_TEST_QA_CC5",
+"recommend": null,
+"shared": true,
+"shareType": "groups",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 67,
+"name": "Dev"
+}
+],
+"type": "custom"
+},
+{
+"bookCount": 22,
+"grade": "Pre K",
+"iconCode": "&#xe607;",
+"iconColor": "ec1c43",
+"id": "29",
+"levelHigh": "R",
+"levelLow": "A",
+"name": "Colors, Shapes, & Patterns",
+"recommend": "Instructional Reading",
+"shared": true,
+"shareType": "groups",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 66,
+"name": "QA"
+}
+],
+"type": "collection"
+},
+{
+"bookCount": 15,
+"grade": "Pre K",
+"iconCode": "&#xe640;",
+"iconColor": "6e7380",
+"id": "24",
+"levelHigh": "J",
+"levelLow": "D",
+"name": "Family Stories",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 10,
+"grade": "Pre K",
+"iconCode": "&#xe620;",
+"iconColor": "0072CE",
+"id": "216",
+"levelHigh": "L",
+"levelLow": "C",
+"name": "On the Farm",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 13,
+"grade": "Pre K",
+"iconCode": "&#x4a;",
+"iconColor": "1abc9c",
+"id": "25",
+"levelHigh": "L",
+"levelLow": "B",
+"name": "Rhymes & Songs",
+"recommend": "Instructional Reading",
+"shared": false,
+"shareType": null,
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 15,
+"grade": "Pre K",
+"iconCode": "&#x32;",
+"iconColor": "cedc00",
+"id": "21",
+"levelHigh": "N",
+"levelLow": "E",
+"name": "So Silly!",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 15,
+"grade": "Pre K",
+"iconCode": "&#xe636;",
+"iconColor": "df1995",
+"id": "27",
+"levelHigh": "N",
+"levelLow": "D",
+"name": "Tell Me a Story",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 16,
+"grade": "Pre K",
+"iconCode": "&#xe62a;",
+"iconColor": "8031a7",
+"id": "28",
+"levelHigh": "P",
+"levelLow": "C",
+"name": "We Can Count",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "students",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 946,
+"name": "Ashish"
+},
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 947,
+"name": "Sagar"
+}
+],
+"type": "collection"
+},
+{
+"bookCount": 19,
+"grade": "Pre K",
+"iconCode": "&#xe637;",
+"iconColor": "ec1c43",
+"id": "26",
+"levelHigh": "L",
+"levelLow": "B",
+"name": "We Play Together",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+}
+],
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC02_VerifyCollectionWhenClickOnEbooksforAutoTestclasswithPreKCollections
+INFO: Test Execution End- TC02_VerifyCollectionWhenClickOnEbooksforAutoTestclasswithPreKCollections
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC03_VerifyCollectionWhenClickOnAll
+INFO: Test Execution Started- TC03_VerifyCollectionWhenClickOnAll
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": [
+{
+"bookCount": 15,
+"grade": "Pre K",
+"iconCode": "&#x47;",
+"iconColor": "df1995",
+"id": "23",
+"levelHigh": "M",
+"levelLow": "D",
+"name": "All Kinds of Weather",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 20,
+"grade": "Pre K",
+"iconCode": "&#x41;",
+"iconColor": "8031a7",
+"id": "22",
+"levelHigh": "P",
+"levelLow": "A",
+"name": "Animals Everywhere",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 3,
+"grade": null,
+"iconCode": "&#x47;",
+"iconColor": "ff003a",
+"id": "1321",
+"levelHigh": "R",
+"levelLow": "B",
+"name": "AUTO_TEST_QA_CC1",
+"recommend": null,
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "custom"
+},
+{
+"bookCount": 5,
+"grade": null,
+"iconCode": "&#x45;",
+"iconColor": "962da9",
+"id": "1322",
+"levelHigh": "Y",
+"levelLow": "M",
+"name": "AUTO_TEST_QA_CC2",
+"recommend": null,
+"shared": true,
+"shareType": "students",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 948,
+"name": "Arindam"
+},
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 949,
+"name": "Om"
+}
+],
+"type": "custom"
+},
+{
+"bookCount": 3,
+"grade": null,
+"iconCode": "&#x44;",
+"iconColor": "962da9",
+"id": "1323",
+"levelHigh": "S",
+"levelLow": "J",
+"name": "AUTO_TEST_QA_CC3",
+"recommend": null,
+"shared": false,
+"shareType": null,
+"shareWith": null,
+"type": "custom"
+},
+{
+"bookCount": 0,
+"grade": null,
+"iconCode": "&#x43;",
+"iconColor": "ffb203",
+"id": "1324",
+"levelHigh": null,
+"levelLow": null,
+"name": "AUTO_TEST_QA_CC4",
+"recommend": null,
+"shared": false,
+"shareType": null,
+"shareWith": null,
+"type": "custom"
+},
+{
+"bookCount": 7,
+"grade": null,
+"iconCode": "&#x49;",
+"iconColor": "00a284",
+"id": "1325",
+"levelHigh": "Y",
+"levelLow": "C",
+"name": "AUTO_TEST_QA_CC5",
+"recommend": null,
+"shared": true,
+"shareType": "groups",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 67,
+"name": "Dev"
+}
+],
+"type": "custom"
+},
+{
+"bookCount": 22,
+"grade": "Pre K",
+"iconCode": "&#xe607;",
+"iconColor": "ec1c43",
+"id": "29",
+"levelHigh": "R",
+"levelLow": "A",
+"name": "Colors, Shapes, & Patterns",
+"recommend": "Instructional Reading",
+"shared": true,
+"shareType": "groups",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 66,
+"name": "QA"
+}
+],
+"type": "collection"
+},
+{
+"bookCount": 15,
+"grade": "Pre K",
+"iconCode": "&#xe640;",
+"iconColor": "6e7380",
+"id": "24",
+"levelHigh": "J",
+"levelLow": "D",
+"name": "Family Stories",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 10,
+"grade": "Pre K",
+"iconCode": "&#xe620;",
+"iconColor": "0072CE",
+"id": "216",
+"levelHigh": "L",
+"levelLow": "C",
+"name": "On the Farm",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 13,
+"grade": "Pre K",
+"iconCode": "&#x4a;",
+"iconColor": "1abc9c",
+"id": "25",
+"levelHigh": "L",
+"levelLow": "B",
+"name": "Rhymes & Songs",
+"recommend": "Instructional Reading",
+"shared": false,
+"shareType": null,
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 15,
+"grade": "Pre K",
+"iconCode": "&#x32;",
+"iconColor": "cedc00",
+"id": "21",
+"levelHigh": "N",
+"levelLow": "E",
+"name": "So Silly!",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 15,
+"grade": "Pre K",
+"iconCode": "&#xe636;",
+"iconColor": "df1995",
+"id": "27",
+"levelHigh": "N",
+"levelLow": "D",
+"name": "Tell Me a Story",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 16,
+"grade": "Pre K",
+"iconCode": "&#xe62a;",
+"iconColor": "8031a7",
+"id": "28",
+"levelHigh": "P",
+"levelLow": "C",
+"name": "We Can Count",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "students",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 946,
+"name": "Ashish"
+},
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 947,
+"name": "Sagar"
+}
+],
+"type": "collection"
+},
+{
+"bookCount": 19,
+"grade": "Pre K",
+"iconCode": "&#xe637;",
+"iconColor": "ec1c43",
+"id": "26",
+"levelHigh": "L",
+"levelLow": "B",
+"name": "We Play Together",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+}
+],
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC03_VerifyCollectionWhenClickOnAll
+INFO: Test Execution End- TC03_VerifyCollectionWhenClickOnAll
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Mar 24, 2015 1:09:15 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC04_VerifyCollectionWhenClickOnShared
+INFO: Test Execution Started- TC04_VerifyCollectionWhenClickOnShared
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": [
+{
+"bookCount": 15,
+"grade": "Pre K",
+"iconCode": "&#x47;",
+"iconColor": "df1995",
+"id": "23",
+"levelHigh": "M",
+"levelLow": "D",
+"name": "All Kinds of Weather",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 20,
+"grade": "Pre K",
+"iconCode": "&#x41;",
+"iconColor": "8031a7",
+"id": "22",
+"levelHigh": "P",
+"levelLow": "A",
+"name": "Animals Everywhere",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 3,
+"grade": null,
+"iconCode": "&#x47;",
+"iconColor": "ff003a",
+"id": "1321",
+"levelHigh": "R",
+"levelLow": "B",
+"name": "AUTO_TEST_QA_CC1",
+"recommend": null,
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "custom"
+},
+{
+"bookCount": 5,
+"grade": null,
+"iconCode": "&#x45;",
+"iconColor": "962da9",
+"id": "1322",
+"levelHigh": "Y",
+"levelLow": "M",
+"name": "AUTO_TEST_QA_CC2",
+"recommend": null,
+"shared": true,
+"shareType": "students",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 948,
+"name": "Arindam"
+},
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 949,
+"name": "Om"
+}
+],
+"type": "custom"
+},
+{
+"bookCount": 7,
+"grade": null,
+"iconCode": "&#x49;",
+"iconColor": "00a284",
+"id": "1325",
+"levelHigh": "Y",
+"levelLow": "C",
+"name": "AUTO_TEST_QA_CC5",
+"recommend": null,
+"shared": true,
+"shareType": "groups",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 67,
+"name": "Dev"
+}
+],
+"type": "custom"
+},
+{
+"bookCount": 22,
+"grade": "Pre K",
+"iconCode": "&#xe607;",
+"iconColor": "ec1c43",
+"id": "29",
+"levelHigh": "R",
+"levelLow": "A",
+"name": "Colors, Shapes, & Patterns",
+"recommend": "Instructional Reading",
+"shared": true,
+"shareType": "groups",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 66,
+"name": "QA"
+}
+],
+"type": "collection"
+},
+{
+"bookCount": 15,
+"grade": "Pre K",
+"iconCode": "&#xe640;",
+"iconColor": "6e7380",
+"id": "24",
+"levelHigh": "J",
+"levelLow": "D",
+"name": "Family Stories",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 10,
+"grade": "Pre K",
+"iconCode": "&#xe620;",
+"iconColor": "0072CE",
+"id": "216",
+"levelHigh": "L",
+"levelLow": "C",
+"name": "On the Farm",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 15,
+"grade": "Pre K",
+"iconCode": "&#x32;",
+"iconColor": "cedc00",
+"id": "21",
+"levelHigh": "N",
+"levelLow": "E",
+"name": "So Silly!",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 15,
+"grade": "Pre K",
+"iconCode": "&#xe636;",
+"iconColor": "df1995",
+"id": "27",
+"levelHigh": "N",
+"levelLow": "D",
+"name": "Tell Me a Story",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+{
+"bookCount": 16,
+"grade": "Pre K",
+"iconCode": "&#xe62a;",
+"iconColor": "8031a7",
+"id": "28",
+"levelHigh": "P",
+"levelLow": "C",
+"name": "We Can Count",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "students",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 946,
+"name": "Ashish"
+},
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 947,
+"name": "Sagar"
+}
+],
+"type": "collection"
+},
+{
+"bookCount": 19,
+"grade": "Pre K",
+"iconCode": "&#xe637;",
+"iconColor": "ec1c43",
+"id": "26",
+"levelHigh": "L",
+"levelLow": "B",
+"name": "We Play Together",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+}
+],
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC04_VerifyCollectionWhenClickOnShared
+INFO: Test Execution End- TC04_VerifyCollectionWhenClickOnShared
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC05_VerifyCollectionWhenClickOnMyCollections
+INFO: Test Execution Started- TC05_VerifyCollectionWhenClickOnMyCollections
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": [
+{
+"bookCount": 3,
+"grade": null,
+"iconCode": "&#x47;",
+"iconColor": "ff003a",
+"id": "1321",
+"levelHigh": "R",
+"levelLow": "B",
+"name": "AUTO_TEST_QA_CC1",
+"recommend": null,
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "custom"
+},
+{
+"bookCount": 5,
+"grade": null,
+"iconCode": "&#x45;",
+"iconColor": "962da9",
+"id": "1322",
+"levelHigh": "Y",
+"levelLow": "M",
+"name": "AUTO_TEST_QA_CC2",
+"recommend": null,
+"shared": true,
+"shareType": "students",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 948,
+"name": "Arindam"
+},
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 949,
+"name": "Om"
+}
+],
+"type": "custom"
+},
+{
+"bookCount": 3,
+"grade": null,
+"iconCode": "&#x44;",
+"iconColor": "962da9",
+"id": "1323",
+"levelHigh": "S",
+"levelLow": "J",
+"name": "AUTO_TEST_QA_CC3",
+"recommend": null,
+"shared": false,
+"shareType": null,
+"shareWith": null,
+"type": "custom"
+},
+{
+"bookCount": 0,
+"grade": null,
+"iconCode": "&#x43;",
+"iconColor": "ffb203",
+"id": "1324",
+"levelHigh": null,
+"levelLow": null,
+"name": "AUTO_TEST_QA_CC4",
+"recommend": null,
+"shared": false,
+"shareType": null,
+"shareWith": null,
+"type": "custom"
+},
+{
+"bookCount": 7,
+"grade": null,
+"iconCode": "&#x49;",
+"iconColor": "00a284",
+"id": "1325",
+"levelHigh": "Y",
+"levelLow": "C",
+"name": "AUTO_TEST_QA_CC5",
+"recommend": null,
+"shared": true,
+"shareType": "groups",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 67,
+"name": "Dev"
+}
+],
+"type": "custom"
+}
+],
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC05_VerifyCollectionWhenClickOnMyCollections
+INFO: Test Execution End- TC05_VerifyCollectionWhenClickOnMyCollections
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Mar 24, 2015 1:09:16 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC06_VerifyCollectionWhenClickOncustomcollectionCC1sharedwithentireclass
+INFO: Test Execution Started- TC06_VerifyCollectionWhenClickOncustomcollectionCC1sharedwithentireclass
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"bookCount": 3,
+"bookIds": "1605,1627,4715",
+"books": [
+{
+"authors": [
+{
+"firstName": "Anne",
+"id": 825,
+"lastName": "Rooney"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 4715,
+"illustrators": null,
+"isbn": "9780545742566",
+"key": "e3e45089a25cba505da239bb8bfcfc40",
+"level": "R",
+"levelType": "Guided Reading Level",
+"shared": true,
+"shareType": null,
+"synopsis": "This book is a compilation of gross facts on the human body, food, animals, history, science, and world records. Facts run the gamut from the length of a tapeworm to a man who swallowed 200 earthworms.",
+"tipCard": false,
+"title": "1001 Horrible Facts",
+"vbid": "9780545742566R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "video",
+"id": 2,
+"name": "Video"
+}
+],
+"id": 1605,
+"illustrators": null,
+"isbn": "9780545691185",
+"key": "0e55ea9d7d0bb36aad4c244c212bf330",
+"level": "E",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Photos and large numerals are used to teach counting 1â5 in a rhyme about a family of ducklings.",
+"tipCard": true,
+"title": "5 Busy Ducklings (Rookie Toddlerâ¢)",
+"vbid": "9780545691185R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1627,
+"illustrators": null,
+"isbn": "9780545691895",
+"key": "5be309947710be08ba141ee00c752e97",
+"level": "B",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "From an apple to a zebra, young readers work their way through the alphabet learning to associate letters and words with animals, toys, household items and more. Big photographs and bold lettering make for a colorful, approachable book.",
+"tipCard": false,
+"title": "abc (Rookie Toddlerâ¢)",
+"vbid": "9780545691895R"
+}
+],
+"description": null,
+"grade": null,
+"iconCode": "&#x47;",
+"iconColor": "ff003a",
+"id": "1321",
+"levelHigh": "R",
+"levelLow": "B",
+"name": "AUTO_TEST_QA_CC1",
+"recommend": null,
+"shared": true,
+"shareType": "section",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 208,
+"name": "Auto Test_QA1"
+}
+],
+"type": "custom"
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "synopsis": "Photos and large numerals are used to teach counting 1–5 in a rhyme about a family of ducklings.", and Actual is-"synopsis": "Photos and large numerals are used to teach counting 1â5 in a rhyme about a family of ducklings.",
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "5 Busy Ducklings (Rookie Toddler™)", and Actual is-"title": "5 Busy Ducklings (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "abc (Rookie Toddler™)", and Actual is-"title": "abc (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC06_VerifyCollectionWhenClickOncustomcollectionCC1sharedwithentireclass
+INFO: Test Execution End- TC06_VerifyCollectionWhenClickOncustomcollectionCC1sharedwithentireclass
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC07_VerifyCollectionWhenClickoncustomcollectionCC2sharedwithindividual
+INFO: Test Execution Started- TC07_VerifyCollectionWhenClickoncustomcollectionCC2sharedwithindividual
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"bookCount": 5,
+"bookIds": "3870,1506,721,641,642",
+"books": [
+{
+"authors": [
+{
+"firstName": "Mary",
+"id": 302,
+"lastName": "Schulte"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 3870,
+"illustrators": null,
+"isbn": "9780545705585",
+"key": "ac10434a63accde957cd531d5941e2d2",
+"level": "M",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Readers learn about the people who live in the Amazon basin, the animals who make their home in the river, the river's size, and how the Amazon got its name. Text features include maps, photos, a glossary, and an index.",
+"tipCard": false,
+"title": "The Amazon River (Rookie Read-Aboutâ¢ Geography)",
+"vbid": "9780545705585R"
+},
+{
+"authors": [
+{
+"firstName": "James",
+"id": 1468,
+"lastName": "Marlett"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1506,
+"illustrators": null,
+"isbn": "9780545743488",
+"key": "52bf5364283be9278225927382b5c24d",
+"level": "S",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "The narrator and family have taken a trip to the biggest tropical rain forest in the world: the Amazon Jungle. Here they take boats down the Amazon River, go on guided tours into the rain forest, see countless varieties of animals and plants, and visit a village along the river.",
+"tipCard": true,
+"title": "The Amazon",
+"vbid": "9780545743488R"
+},
+{
+"authors": [
+{
+"firstName": "Chloe",
+"id": 55,
+"lastName": "Ryder"
+},
+{
+"firstName": "Caroline",
+"id": 693,
+"lastName": "Gilpin"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "video",
+"id": 2,
+"name": "Video"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 721,
+"illustrators": null,
+"isbn": "9780545739412",
+"key": "42c888ecb37fa85ad9fbd3388879f001",
+"level": "M",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "The life and accomplishments of Amelia Earhart are placed in historical context. Photos, maps, and a glossary supplement this easy-to-read text.",
+"tipCard": false,
+"title": "Amelia Earhart (National Geographic Kids)",
+"vbid": "9780545739412R"
+},
+{
+"authors": [
+{
+"firstName": "Nel",
+"id": 312,
+"lastName": "Yomtov"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+}
+],
+"id": 641,
+"illustrators": null,
+"isbn": "9780545733175",
+"key": "ebdc179b490b95dcfc5476652c8eb767",
+"level": "X",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Details of the history, culture, and daily life in ancient Egypt is accompanied by artwork, artifacts, maps, a timeline, and present-day photographs.",
+"tipCard": true,
+"title": "Ancient Egypt (The Ancient World)",
+"vbid": "9780545733175R"
+},
+{
+"authors": [
+{
+"firstName": "Peter",
+"id": 23,
+"lastName": "Benoit"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+}
+],
+"id": 642,
+"illustrators": null,
+"isbn": "9780545733229",
+"key": "adb2aaffb9e3fcead3d1daac7bc6dcbc",
+"level": "Y",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This introduction to the ancient Roman civilization presents its history, culture, and daily life. It includes connections from this great civilization to our world today.",
+"tipCard": true,
+"title": "Ancient Rome (The Ancient World)",
+"vbid": "9780545733229R"
+}
+],
+"description": null,
+"grade": null,
+"iconCode": "&#x45;",
+"iconColor": "962da9",
+"id": "1322",
+"levelHigh": "Y",
+"levelLow": "M",
+"name": "AUTO_TEST_QA_CC2",
+"recommend": null,
+"shared": true,
+"shareType": "students",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 948,
+"name": "Arindam"
+},
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 949,
+"name": "Om"
+}
+],
+"type": "custom"
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "The Amazon River (Rookie Read-About™ Geography)", and Actual is-"title": "The Amazon River (Rookie Read-Aboutâ¢ Geography)",
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC07_VerifyCollectionWhenClickoncustomcollectionCC2sharedwithindividual
+INFO: Test Execution End- TC07_VerifyCollectionWhenClickoncustomcollectionCC2sharedwithindividual
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Mar 24, 2015 1:09:17 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC08_VerifyCollectionWhenClickonCC3notsharedwithanyonebuthavingbooks
+INFO: Test Execution Started- TC08_VerifyCollectionWhenClickonCC3notsharedwithanyonebuthavingbooks
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"bookCount": 3,
+"bookIds": "1891,1389,596",
+"books": [
+{
+"authors": [
+{
+"firstName": "Rebecca",
+"id": 1849,
+"lastName": "Hirsch"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1891,
+"illustrators": null,
+"isbn": "9780545735681",
+"key": "8405ea7e944ea1412712a0e0c4de6f2c",
+"level": "J",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Learn about where Antarctica is located, what people live there, the animals found there, the weather and its landforms, and why scientists study it.",
+"tipCard": false,
+"title": "Antarctica (Rookie Read-Aboutâ¢ Geography)",
+"vbid": "9780545735681R"
+},
+{
+"authors": [
+{
+"firstName": "Henry Wadsworth",
+"id": 1359,
+"lastName": "Longfellow"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1389,
+"illustrators": null,
+"isbn": "9780545759168",
+"key": "a387c3aa70d8a50ff1b0bf5c0500ccc0",
+"level": "Q",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Henry Wadsworth Longfellowâs famous poem compares the singing of a song with shooting an arrow into the air. But the arrow and the song have vastly different targets.",
+"tipCard": true,
+"title": "The Arrow and the Song",
+"vbid": "9780545759168R"
+},
+{
+"authors": [
+{
+"firstName": "Allan",
+"id": 559,
+"lastName": "Zullo"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 596,
+"illustrators": null,
+"isbn": "9780545742818",
+"key": "471b055bc46cd6e285bf0f0eacc832f7",
+"level": "S",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "The misbehavior of these animals ranges from breaking and entering to shoplifting to vandalism. Some of the stories may seem unbelievable, but they're all true.",
+"tipCard": true,
+"title": "Bad Pets",
+"vbid": "9780545742818R"
+}
+],
+"description": null,
+"grade": null,
+"iconCode": "&#x44;",
+"iconColor": "962da9",
+"id": "1323",
+"levelHigh": "S",
+"levelLow": "J",
+"name": "AUTO_TEST_QA_CC3",
+"recommend": null,
+"shared": false,
+"shareType": null,
+"shareWith": null,
+"type": "custom"
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Antarctica (Rookie Read-About™ Geography)", and Actual is-"title": "Antarctica (Rookie Read-Aboutâ¢ Geography)",
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "synopsis": "Henry Wadsworth Longfellow’s famous poem compares the singing of a song with shooting an arrow into the air. But the arrow and the song have vastly different targets.", and Actual is-"synopsis": "Henry Wadsworth Longfellowâs famous poem compares the singing of a song with shooting an arrow into the air. But the arrow and the song have vastly different targets.",
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC08_VerifyCollectionWhenClickonCC3notsharedwithanyonebuthavingbooks
+INFO: Test Execution End- TC08_VerifyCollectionWhenClickonCC3notsharedwithanyonebuthavingbooks
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC09_VerifyCollectionWhenClickonCC4notsharedwithanyonehavingzerobooks
+INFO: Test Execution Started- TC09_VerifyCollectionWhenClickonCC4notsharedwithanyonehavingzerobooks
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"bookCount": 0,
+"bookIds": null,
+"books": null,
+"description": null,
+"grade": null,
+"iconCode": "&#x43;",
+"iconColor": "ffb203",
+"id": "1324",
+"levelHigh": null,
+"levelLow": null,
+"name": "AUTO_TEST_QA_CC4",
+"recommend": null,
+"shared": false,
+"shareType": null,
+"shareWith": null,
+"type": "custom"
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC09_VerifyCollectionWhenClickonCC4notsharedwithanyonehavingzerobooks
+INFO: Test Execution End- TC09_VerifyCollectionWhenClickonCC4notsharedwithanyonehavingzerobooks
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC10_VerifyCollectionWhenClickonClickonCC5sharedwithgroup
+INFO: Test Execution Started- TC10_VerifyCollectionWhenClickonClickonCC5sharedwithgroup
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:09:18 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"bookCount": 7,
+"bookIds": "750,1570,4681,4347,4041,2167,1204",
+"books": [
+{
+"authors": [
+{
+"firstName": "Ann E.",
+"id": 1530,
+"lastName": "Burg"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1570,
+"illustrators": null,
+"isbn": "9780545774864",
+"key": "68a9b419c3e2db9cd201216741973ccc",
+"level": "Y",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This is the story of Matt Pin, a Vietnamese boy who was airlifted from Saigon when he was ten years old, at the end of the Vietnam War. He gets adopted by a nice American family and tries to adjust to his new home, but has to grapple with prejudice and most of all, the memories he cannot face about his last days in Vietnam.",
+"tipCard": true,
+"title": "All the Broken Pieces",
+"vbid": "9780545774864R"
+},
+{
+"authors": [
+{
+"firstName": "Meg",
+"id": 277,
+"lastName": "Cabot"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+}
+],
+"id": 750,
+"illustrators": null,
+"isbn": "9780545774642",
+"key": "491e012b3df309f704efaeb7554d37e9",
+"level": "Q",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Allie Finkle is a nine-year-old with a problem: her family is moving out of their nice home and moving into an old Victorian house that is probably haunted. In addition, sheâll have to transfer to a new school and make all new friends. In order to run her life better, Allie decides she needs to create a list of rules.",
+"tipCard": true,
+"title": "Allie Finkle's Rules for Girls Book 1: Moving Day",
+"vbid": "9780545774642R"
+},
+{
+"authors": [
+{
+"firstName": "Lucia",
+"id": 24,
+"lastName": "Raatma"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 4681,
+"illustrators": null,
+"isbn": "9780545742221",
+"key": "2eb1600cbce3c6c72ef356166c0e8857",
+"level": "W",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This book explains the history of the amendments to the Constitution and gives examples of how the Bill of Rights is still relevant today. The author includes links to primary sources such as the papers of James Madison and the Magna Carta.",
+"tipCard": true,
+"title": "The Bill of Rights (Cornerstones of Freedom. Third Series)",
+"vbid": "9780545742221R"
+},
+{
+"authors": [
+{
+"firstName": "Christine A.",
+"id": 58,
+"lastName": "Caputo"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 4347,
+"illustrators": null,
+"isbn": "9780545737692",
+"key": "3f249b3d03f046ff276dcaa143f83720",
+"level": "Q",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Students find out how their muscles and bones work together to help them move. Using photographs and diagrams, this book teaches \"smart words\" as it describes the skeletal and muscular systems.",
+"tipCard": false,
+"title": "Bones & Muscles (Smart Words Reader)",
+"vbid": "9780545737692R"
+},
+{
+"authors": [
+{
+"firstName": "Michael",
+"id": 955,
+"lastName": "Burgan"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+}
+],
+"id": 4041,
+"illustrators": null,
+"isbn": "9780545733236",
+"key": "bab6ce070d664b603a9dd9b696877ed7",
+"level": "W",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "How does our system of government work and why are checks and balances important? Explore how the legislative, executive, and judicial branches work together to make our nation the strong country that it is.",
+"tipCard": true,
+"title": "The Branches of U.S. Government (Cornerstones of Freedom. Third Series)",
+"vbid": "9780545733236R"
+},
+{
+"authors": [
+{
+"firstName": "Gina",
+"id": 455,
+"lastName": "Shaw"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 2167,
+"illustrators": [
+{
+"firstName": "Steve",
+"id": 94,
+"lastName": "Mack"
+}
+],
+"isbn": "9780545740104",
+"key": "f7ee080c2f0c664bc2d3b13dff368492",
+"level": "C",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Bee, Ant, Grasshopper, Ladybug, and Fly go by every day. They check the store for what is on sale. This sight story explores past tense verbs, including buzzed, hopped, walked, and crawled.",
+"tipCard": false,
+"title": "Busy Bugs (Sight Words Stories)",
+"vbid": "9780545740104R"
+},
+{
+"authors": [
+{
+"firstName": "Brian",
+"id": 917,
+"lastName": "Sargent"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1204,
+"illustrators": null,
+"isbn": "9780545705875",
+"key": "c5a13350d008099b2aaac7c8fb9d744c",
+"level": "H",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Itâs 7:00 a.m. and the birthday party starts at 12:00 noon. Before the party, a girl will need to get dressed, attend soccer practice, bake a cake, bike to a swim lesson, and wrap the present. The duration of each activity is highlighted as readers learn the concept of time as they follow her through her morning. Actions taking seconds, minutes and hours are featured.",
+"tipCard": false,
+"title": "A Busy Day (Rookie Read-Aboutâ¢ Math)",
+"vbid": "9780545705875R"
+}
+],
+"description": null,
+"grade": null,
+"iconCode": "&#x49;",
+"iconColor": "00a284",
+"id": "1325",
+"levelHigh": "Y",
+"levelLow": "C",
+"name": "AUTO_TEST_QA_CC5",
+"recommend": null,
+"shared": true,
+"shareType": "groups",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 67,
+"name": "Dev"
+}
+],
+"type": "custom"
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "synopsis": "It’s 7:00 a.m. and the birthday party starts at 12:00 noon. Before the party, a girl will need to get dressed, attend soccer practice, bake a cake, bike to a swim lesson, and wrap the present. The duration of each activity is highlighted as readers learn the concept of time as they follow her through her morning. Actions taking seconds, minutes and hours are featured.", and Actual is-"synopsis": "Itâs 7:00 a.m. and the birthday party starts at 12:00 noon. Before the party, a girl will need to get dressed, attend soccer practice, bake a cake, bike to a swim lesson, and wrap the present. The duration of each activity is highlighted as readers learn the concept of time as they follow her through her morning. Actions taking seconds, minutes and hours are featured.",
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "A Busy Day (Rookie Read-About™ Math)", and Actual is-"title": "A Busy Day (Rookie Read-Aboutâ¢ Math)",
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC10_VerifyCollectionWhenClickonClickonCC5sharedwithgroup
+INFO: Test Execution End- TC10_VerifyCollectionWhenClickonClickonCC5sharedwithgroup
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC11_VerifyCollectionWhenClickonpreexistingcollectionnotsharedwithanyone
+INFO: Test Execution Started- TC11_VerifyCollectionWhenClickonpreexistingcollectionnotsharedwithanyone
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"bookCount": 13,
+"bookIds": "909,910,879,884,885,886,887,888,889,890,891,920,921",
+"books": [
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 910,
+"illustrators": null,
+"isbn": "9780545707435",
+"key": "dc0624b6d7b529c968a33b0b54ce1189",
+"level": "G",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Names fun preschool activities using rhyme: stacking blocks, making music, marching, eating lunch, listening to a story, and finger painting. Includes teacher-led activities at the end.",
+"tipCard": true,
+"title": "3-2-1 School Is Fun! (Rookie Preschool)",
+"vbid": "9780545707435R"
+},
+{
+"authors": [
+{
+"firstName": "Iza",
+"id": 858,
+"lastName": "Trapani"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 884,
+"illustrators": [
+{
+"firstName": "Iza",
+"id": 249,
+"lastName": "Trapani"
+}
+],
+"isbn": "9780545737074",
+"key": "0c238bde7e981ac1671bc057efc87b78",
+"level": "L",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "The black sheep of the familiar nursery rhyme has wool for the master, dame, and little boy down the lane. But her farm animal friends think she is selfish when she doesn't fulfill all their requests. In the end they realize she is truly generous.",
+"tipCard": true,
+"title": "Baa Baa Black Sheep",
+"vbid": "9780545737074R"
+},
+{
+"authors": [
+{
+"firstName": "Iza",
+"id": 858,
+"lastName": "Trapani"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 885,
+"illustrators": [
+{
+"firstName": "Iza",
+"id": 249,
+"lastName": "Trapani"
+}
+],
+"isbn": "9780545737081",
+"key": "32f886b1a317eb8323c649cfb06ddbff",
+"level": "J",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "In this retelling of a folksong, Froggie, a lovesick frog, searches for a bride. One after the other, Mousie, Turtle, Birdie, and Chipmunk reject his marriage proposals. After a solitary night at home reading the books \"The Lonely Frog\" and \"How to Find True Love,\" Froggie goes out the next day and sits on a bench by the creek. When he looks up from reading \"The Frog Journal,\" Froggie sees \"a vision by the creek\" and his heart goes \"thump, thump\"! His true love asks him to marry her, which Froggie does, of course. Froggie's former love interests stand up as bridesmaids, and Froggie and his bride have a fine wedding. The last page of the book includes the music and the lyrics for this version of the folksong. The illustrations are clever and humorous.",
+"tipCard": true,
+"title": "Froggie Went A-Courtin'",
+"vbid": "9780545737081R"
+},
+{
+"authors": [
+{
+"firstName": "Iza",
+"id": 858,
+"lastName": "Trapani"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 886,
+"illustrators": [
+{
+"firstName": "Iza",
+"id": 249,
+"lastName": "Trapani"
+}
+],
+"isbn": "9780545737098",
+"key": "b55de4467d3d234d14e1acb57e057512",
+"level": "J",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "A short and stout teapot shows us all the things it would like to do by sharing dreams of visiting China, outer space, being a pirate, and more.  This is an illustrated story of the classic song.",
+"tipCard": true,
+"title": "I'm a Little Teapot",
+"vbid": "9780545737098R"
+},
+{
+"authors": [
+{
+"firstName": "Iza",
+"id": 858,
+"lastName": "Trapani"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 887,
+"illustrators": null,
+"isbn": "9780545737104",
+"key": "d9ec272c80adf9d28f8bc48bbcabb395",
+"level": "I",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "The itsy bitsy spider tries to climb to the top of a wall, water spout, pail, rocking chair, and tree but keeps getting knocked down.  However, she won't give up and in the end makes it to the top of the tree, spins her web, and rests in the sun.",
+"tipCard": true,
+"title": "The Itsy Bitsy Spider",
+"vbid": "9780545737104R"
+},
+{
+"authors": [
+{
+"firstName": "Iza",
+"id": 858,
+"lastName": "Trapani"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 888,
+"illustrators": [
+{
+"firstName": "Iza",
+"id": 249,
+"lastName": "Trapani"
+}
+],
+"isbn": "9780545737128",
+"key": "82f397de496a157273055c356fd07110",
+"level": "L",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "In a twist on the familiar poem and song, Mary's lamb wanders through the barnyard, causing a commotion.It lets out the horse, bumps into a goose, startles a cat, tangles with a goat, and falls into a pigpen. Mary cleansup the little lamb.",
+"tipCard": true,
+"title": "Mary Had A Little Lamb",
+"vbid": "9780545737128R"
+},
+{
+"authors": [
+{
+"firstName": "Judith Jensen",
+"id": 853,
+"lastName": "Hyde"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 879,
+"illustrators": [
+{
+"firstName": "Jason",
+"id": 244,
+"lastName": "Abbott"
+}
+],
+"isbn": "9780545707947",
+"key": "3499340a27045aea5049891837f53b2c",
+"level": "J",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "A boy is bored on a rainy day. His father shows him how to fill drinking glasses with water to make a musical instrument. They have fun playing the glass harp, and the boy no longer minds the rain.",
+"tipCard": true,
+"title": "Rainy-Day Music (A Rookie Readerâ¢)",
+"vbid": "9780545707947R"
+},
+{
+"authors": [
+{
+"firstName": "Iza",
+"id": 858,
+"lastName": "Trapani"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 889,
+"illustrators": null,
+"isbn": "9780545737135",
+"key": "ea86d74ea0148c352ad17ccec43afa3f",
+"level": "L",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "The familiar song of \"Row, Row, Row Your Boat\" is expanded by several verses to describe the journey of a bear family to a picnic spot.",
+"tipCard": true,
+"title": "Row, Row, Row Your Boat",
+"vbid": "9780545737135R"
+},
+{
+"authors": null,
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 920,
+"illustrators": null,
+"isbn": "9780545739061",
+"key": "c9995c006dcf920414f8b1446242c73b",
+"level": "E",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "The fun photos of cuddly teddy bears in this book will encourage children to follow directions and become physically active. Children will love turning around, touching the ground, jumping up high, touching the sky, bending down low, and touching their toes!",
+"tipCard": true,
+"title": "Teddy Bear, Teddy Bear, Turn Around (Rookie Toddlerâ¢)",
+"vbid": "9780545739061R"
+},
+{
+"authors": [
+{
+"firstName": "Lucille",
+"id": 423,
+"lastName": "Colandro"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 891,
+"illustrators": [
+{
+"firstName": "Jared D.",
+"id": 24,
+"lastName": "Lee"
+}
+],
+"isbn": "9780545738057",
+"key": "90ba2b17cba2cc107a96acd58ce2d6c2",
+"level": "K",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Getting ready for the new school year, the old lady swallows some books, a pen, a pencil case, a ruler, a folder, some chalk, and a bag. When a big yellow school bus turns the corner, she starts to cheer--and out pops her brand-new backpack!",
+"tipCard": true,
+"title": "There Was an Old Lady Who Swallowed Some Books!",
+"vbid": "9780545738057R"
+},
+{
+"authors": [
+{
+"firstName": "Iza",
+"id": 858,
+"lastName": "Trapani"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 890,
+"illustrators": null,
+"isbn": "9780545737142",
+"key": "456295b815a51eb8d59099927f07b530",
+"level": "L",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "A star grants a little girl's wish to fly and takes her on a magic journey through the night sky. Set to the children's song by the same name, the book contains additional verses spoken by both the girl and the mischievous star. The watercolor artwork sets a quiet tone.",
+"tipCard": true,
+"title": "Twinkle, Twinkle, Little Star",
+"vbid": "9780545737142R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 909,
+"illustrators": null,
+"isbn": "9780545694346",
+"key": "3fda1ae9647d7621497cd07483bde744",
+"level": "B",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This book engages children by introducing five rhyming pairs of words and then offering them a chance to review by pointing out the rhyming pairs. Children will finish by thinking of words that rhyme with objects around the house or classroom.",
+"tipCard": true,
+"title": "What Rhymes? (Rookie Toddlerâ¢)",
+"vbid": "9780545694346R"
+},
+{
+"authors": null,
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 921,
+"illustrators": null,
+"isbn": "9780545739078",
+"key": "85a6316add6603ba52ff1138b6d1556a",
+"level": "F",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This book illustrates a variation on the popular childrenâs song âThe Wheels on the Busâ with photographs to help stimulate the imaginations of the children singing along. It includes tips on creating new verses for this song.",
+"tipCard": true,
+"title": "The Wheels on the Truck Go 'Round and 'Round (Rookie Toddlerâ¢)",
+"vbid": "9780545739078R"
+}
+],
+"description": "Classic nursery rhymes, beloved childrenâs songs, and cumulative stories teach basic vocabulary-building concepts like rhyme and rhythm",
+"grade": "Pre K",
+"iconCode": "&#x4a;",
+"iconColor": "1abc9c",
+"id": "25",
+"levelHigh": "L",
+"levelLow": "B",
+"name": "Rhymes & Songs",
+"recommend": "Instructional Reading",
+"shared": false,
+"shareType": null,
+"shareWith": null,
+"type": "collection"
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Rainy-Day Music (A Rookie Reader™)", and Actual is-"title": "Rainy-Day Music (A Rookie Readerâ¢)",
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Teddy Bear, Teddy Bear, Turn Around (Rookie Toddler™)", and Actual is-"title": "Teddy Bear, Teddy Bear, Turn Around (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "What Rhymes? (Rookie Toddler™)", and Actual is-"title": "What Rhymes? (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "synopsis": "This book illustrates a variation on the popular children’s song “The Wheels on the Bus” with photographs to help stimulate the imaginations of the children singing along. It includes tips on creating new verses for this song.", and Actual is-"synopsis": "This book illustrates a variation on the popular childrenâs song âThe Wheels on the Busâ with photographs to help stimulate the imaginations of the children singing along. It includes tips on creating new verses for this song.",
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "The Wheels on the Truck Go 'Round and 'Round (Rookie Toddler™)", and Actual is-"title": "The Wheels on the Truck Go 'Round and 'Round (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "description": "Classic nursery rhymes, beloved children’s songs, and cumulative stories teach basic vocabulary-building concepts like rhyme and rhythm", and Actual is-"description": "Classic nursery rhymes, beloved childrenâs songs, and cumulative stories teach basic vocabulary-building concepts like rhyme and rhythm",
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC11_VerifyCollectionWhenClickonpreexistingcollectionnotsharedwithanyone
+INFO: Test Execution End- TC11_VerifyCollectionWhenClickonpreexistingcollectionnotsharedwithanyone
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Mar 24, 2015 1:09:19 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC12_VerifyCollectionWhenClickonpreexistingcollectionsharedwithgroup
+INFO: Test Execution Started- TC12_VerifyCollectionWhenClickonpreexistingcollectionsharedwithgroup
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"bookCount": 22,
+"bookIds": "311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332",
+"books": [
+{
+"authors": [
+{
+"firstName": "Samantha",
+"id": 298,
+"lastName": "Berger"
+},
+{
+"firstName": "Pamela",
+"id": 299,
+"lastName": "Chanko"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 330,
+"illustrators": null,
+"isbn": "9780545747271",
+"key": "63d34c871c16e2c39557500933df11f6",
+"level": "C",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "There are all kinds of sizes in the world, just look around. Photos and text provide examples of size comparisons from a dollhouse and a real house to a child's hand and an adult's hand.  The back of the book includes a short paragraph about each subject that is compared.",
+"tipCard": true,
+"title": "Big and Little",
+"vbid": "9780545747271R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 313,
+"illustrators": null,
+"isbn": "9780545694278",
+"key": "3b7d1161dff61657877ef0931c58a8ef",
+"level": "A",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "With clear photos, the concepts of big and little are reinforced using modes of transportation. The book ends with a fun activity to do in the classroom.",
+"tipCard": true,
+"title": "Big and Little: Things That Go (Rookie Toddlerâ¢)",
+"vbid": "9780545694278R"
+},
+{
+"authors": null,
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 328,
+"illustrators": [
+{
+"firstName": "Kunal",
+"id": 35,
+"lastName": "Kundu"
+}
+],
+"isbn": "9780545744539",
+"key": "59b3f8b2d3a3c09187e83813b363e21c",
+"level": "F",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "In this whimsical book, an elephant and a mouse demonstrate opposites. The animals' body language and facial expressions help readers understand the meanings of the words.",
+"tipCard": true,
+"title": "Big and Small",
+"vbid": "9780545744539R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 312,
+"illustrators": null,
+"isbn": "9780545691208",
+"key": "794ec6fe90954d3fe2ed3cf6b439fc27",
+"level": "F",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "With clear photos and rhyming text, students are asked to identify objects by color and then follow up with a physical response. Labeled photos can also be used to identify objects.",
+"tipCard": false,
+"title": "Can You Find Colors? (Rookie Toddlerâ¢)",
+"vbid": "9780545691208R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 300,
+"lastName": "5Gr CoastEpiscopalDaySch"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 331,
+"illustrators": null,
+"isbn": "9780545760805",
+"key": "dba2625112b7f22fb7ffc19ff854a893",
+"level": "R",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Colors are all around us. Find out why there might be bugs in your strawberry milkshake, why pennies turn green over time, and why Japanese women used to paint their faces white. Fifth graders wrote and illustrated the facts about color in this book.",
+"tipCard": false,
+"title": "Color For Thought",
+"vbid": "9780545760805R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 311,
+"illustrators": null,
+"isbn": "9780545691192",
+"key": "c5721a9a76536475c19a2311b5eb4189",
+"level": "E",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This interactive book shows readers how shapes can be found in everyday objects and asks them to clap for the circles, squares, and triangles they see. Use the activity at the end of the book to reinforce shape recognition.",
+"tipCard": true,
+"title": "Do You See Shapes? (Rookie Toddlerâ¢)",
+"vbid": "9780545691192R"
+},
+{
+"authors": [
+{
+"firstName": "Steve",
+"id": 296,
+"lastName": "Metzger"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 327,
+"illustrators": [
+{
+"firstName": "Laura J.",
+"id": 34,
+"lastName": "Bryant"
+}
+],
+"isbn": "9780545743211",
+"key": "d95694af5dbee1b66197b938393e7c6f",
+"level": "F",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "With this rhyming story, children can count down from five to one as, one-by-one, five fun-loving little penguins have mishaps, prompting the mother penguin to call the doctor. The doctor tells the mother to stop the penguins from doing each activity. When there are no little penguins having any fun, the mother calls the doctor again. The doctor then says, \"Let those penguins have some fun!\" The five little penguins along with their mother are free to go outside and have some fun.",
+"tipCard": true,
+"title": "Five Little Penguins Slipping On The Ice",
+"vbid": "9780545743211R"
+},
+{
+"authors": [
+{
+"firstName": "Dawn",
+"id": 292,
+"lastName": "Anderson"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 320,
+"illustrators": [
+{
+"firstName": "Kelley",
+"id": 31,
+"lastName": "Cunningham"
+}
+],
+"isbn": "9780545708005",
+"key": "2de2b92126ad17c10b5ff69189c4b4c0",
+"level": "G",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "A boy wonders why his sister likes to paint so much. Finally he gives it a try and paints a sky, sun, and tree in traditional colors.When he paints a purple lion, his sister objects, but he realizes that, as the artist, he can paint it however he likes.",
+"tipCard": true,
+"title": "I Am the Artist! (A Rookie Readerâ¢)",
+"vbid": "9780545708005R"
+},
+{
+"authors": [
+{
+"firstName": "Adria",
+"id": 301,
+"lastName": "Klein"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 332,
+"illustrators": [
+{
+"firstName": ":firstName",
+"id": 3259,
+"lastName": "PHOTOS"
+}
+],
+"isbn": "9780545765657",
+"key": "1e98b06eeaa29c328cb654002c374ed0",
+"level": "A",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "With beautiful photos of wild animals in nature, students practice finding the colors red, brown, yellow, gray, green, and black.",
+"tipCard": true,
+"title": "I Can See",
+"vbid": "9780545765657R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 318,
+"illustrators": null,
+"isbn": "9780545707527",
+"key": "8599193e688fec0acfd13b849a3b9c60",
+"level": "H",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "The geometric shapes circle, square, and triangle are presented in rhyming text, with colorful illustrations in a preschool setting.",
+"tipCard": true,
+"title": "It's Circle Time! Shapes (Rookie Preschool)",
+"vbid": "9780545707527R"
+},
+{
+"authors": null,
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 324,
+"illustrators": null,
+"isbn": "9780545739627",
+"key": "fabe009b15632b8633f837b0c52e31bb",
+"level": "G",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Opposites, such as big/little, soft/hard, black/white, hot/cold, and outside/inside, are presented. Readers see examples of each opposite and then find new examples in colorful photographs of everyday activities.",
+"tipCard": true,
+"title": "Opposites! (National Geographic Kids)",
+"vbid": "9780545739627R"
+},
+{
+"authors": [
+{
+"firstName": "Catherine",
+"id": 294,
+"lastName": "Matthias"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 322,
+"illustrators": [
+{
+"firstName": "Eileen Mueller",
+"id": 32,
+"lastName": "Neill"
+}
+],
+"isbn": "9780545738873",
+"key": "bc31b522814805eeda5ead83d789e299",
+"level": "E",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This book offers opportunities to talk with children about the important social/emotional skill of natural curiosity. Children will also learn about opposites, counting, and patterns. This book uses detailed images and the repetition of simple phrases to help children learn implicitly.",
+"tipCard": true,
+"title": "Out the Door (Rookie Ready to Learn)",
+"vbid": "9780545738873R"
+},
+{
+"authors": null,
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 325,
+"illustrators": null,
+"isbn": "9780545739641",
+"key": "5dbfc2636513746fe64169566c1f937f",
+"level": "F",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Patterns in the real world, such as stripes, polka dots, plaid, and spots, are presented. Readers find patterns on animals and insects and then identify what comes next in series of animals and objects.",
+"tipCard": true,
+"title": "Patterns! (National Geographic Kids)",
+"vbid": "9780545739641R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 314,
+"illustrators": null,
+"isbn": "9780545694308",
+"key": "2b5562bb68c82bcfa7d087c5c6d9e131",
+"level": "B",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Reinforce young childrenâs color recognition by pointing out the color squares and the fruit or fruits that share that color. Then test their color recognition by having them match the color squares and fruits at the back of the book.",
+"tipCard": true,
+"title": "Red Apple, Green Pear: A Book of Colors (Rookie Toddlerâ¢)",
+"vbid": "9780545694308R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 316,
+"illustrators": null,
+"isbn": "9780545694377",
+"key": "b1c23fc074fd65df1cdcf16e2d5d3d5e",
+"level": "C",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Purple eggplant, yellow corn, green broccoli, orange carrots, brown potatoes, and white cauliflower teach children their colors through association with vegetables. Big pictures and vivid colors make veggies appear exciting and inviting and offer an opportunity to introduce the importance they play in a balanced diet.",
+"tipCard": true,
+"title": "Red Pepper, Yellow Squash: A Book of Colors (Rookie Toddlerâ¢)",
+"vbid": "9780545694377R"
+},
+{
+"authors": null,
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 323,
+"illustrators": null,
+"isbn": "9780545739054",
+"key": "0bc715ee61ce8f1165c02d3ffe19adbd",
+"level": "C",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Color recognition is practiced using the colors red, yellow, green, white, orange, blue, and purple and different vehicles.",
+"tipCard": true,
+"title": "Red Truck, Yellow Bus: A Book of Colors (Rookie Toddlerâ¢)",
+"vbid": "9780545739054R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 319,
+"illustrators": null,
+"isbn": "9780545707640",
+"key": "8f2ecd5c44d15cba3a233929a08556e9",
+"level": "G",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Balloon animals for each color of the rainbow play in the rain. When the rain stops, a rainbow appears. Text includes discussion questions.",
+"tipCard": true,
+"title": "Red, Blue, and Yellow Too! (Rookie Preschool)",
+"vbid": "9780545707640R"
+},
+{
+"authors": [
+{
+"firstName": "Chloe",
+"id": 55,
+"lastName": "Ryder"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 329,
+"illustrators": null,
+"isbn": "9780545744706",
+"key": "2e2e9924f661ec659559d26fec0ac59d",
+"level": "H",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Pictures with simple labels encourage children to categorize objects such as crayons, fish, and socks by attributes such as shape and color.",
+"tipCard": true,
+"title": "Same and Different (National Geographic Kids)",
+"vbid": "9780545744706R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 315,
+"illustrators": null,
+"isbn": "9780545694315",
+"key": "f235f9361d74bb9c0b6776b9c65b791f",
+"level": "A",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This book engages children by showing five common shapes and then common everyday objects that have that shape. You can follow up reading the book by having children look in their home or classroom for more examples of that shape.",
+"tipCard": true,
+"title": "Shapes (Rookie Toddlerâ¢)",
+"vbid": "9780545694315R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 317,
+"illustrators": null,
+"isbn": "9780545694384",
+"key": "2b38536d5659597303a74c9eba68404f",
+"level": "B",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Children learn to identify shapes through association with familiar objects. The reader is first shown a shape and then shown the shape as found on a truck, bike, backhoe, stop sign, and garbage truck.  A circle, square, triangle, rectangle, and octagon are highlighted.",
+"tipCard": true,
+"title": "Shapes That Go (Rookie Toddlerâ¢)",
+"vbid": "9780545694384R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 293,
+"lastName": "National Geographic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 321,
+"illustrators": null,
+"isbn": "9780545735827",
+"key": "d4b3f394d6e0ceaa3ba99442769a0f20",
+"level": "F",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Readers learn the shapes of square, circle, star, triangle, and rectangle; identify everyday objects  of those shapes; and identify those shapes in photographs of the real world.",
+"tipCard": true,
+"title": "Shapes! (National Geographic Kids)",
+"vbid": "9780545735827R"
+},
+{
+"authors": [
+{
+"firstName": "Barbara Barbieri",
+"id": 295,
+"lastName": "McGrath"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 326,
+"illustrators": [
+{
+"firstName": "Tim",
+"id": 33,
+"lastName": "Nihoff"
+}
+],
+"isbn": "9780545742771",
+"key": "0f9e40bb9982fc07587814af6a2b177c",
+"level": "J",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This book ingeniously uses colored teddy bears and rhyming text to help children learn about patterns. While progressing from 2-color to 6-color patterns, students also review colors and are introduced to simple addition, subtraction, multiplication, counting by twos, and odd and even numbers. Finally, students are encouraged to create their own patterns.",
+"tipCard": true,
+"title": "Teddy Bear Patterns",
+"vbid": "9780545742771R"
+}
+],
+"description": "Reinforce key early learning concepts with this set that includes something for every young learner.",
+"grade": "Pre K",
+"iconCode": "&#xe607;",
+"iconColor": "ec1c43",
+"id": "29",
+"levelHigh": "R",
+"levelLow": "A",
+"name": "Colors, Shapes, & Patterns",
+"recommend": "Instructional Reading",
+"shared": true,
+"shareType": "groups",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 66,
+"name": "QA"
+}
+],
+"type": "collection"
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Can You Find Colors? (Rookie Toddler™)", and Actual is-"title": "Can You Find Colors? (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Do You See Shapes? (Rookie Toddler™)", and Actual is-"title": "Do You See Shapes? (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "I Am the Artist! (A Rookie Reader™)", and Actual is-"title": "I Am the Artist! (A Rookie Readerâ¢)",
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "synopsis": "Reinforce young children’s color recognition by pointing out the color squares and the fruit or fruits that share that color. Then test their color recognition by having them match the color squares and fruits at the back of the book.", and Actual is-"synopsis": "Reinforce young childrenâs color recognition by pointing out the color squares and the fruit or fruits that share that color. Then test their color recognition by having them match the color squares and fruits at the back of the book.",
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Shapes (Rookie Toddler™)", and Actual is-"title": "Shapes (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Shapes That Go (Rookie Toddler™)", and Actual is-"title": "Shapes That Go (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC12_VerifyCollectionWhenClickonpreexistingcollectionsharedwithgroup
+INFO: Test Execution End- TC12_VerifyCollectionWhenClickonpreexistingcollectionsharedwithgroup
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Mar 24, 2015 1:09:20 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC13_VerifyCollectionWhenClickonpreexistingcollectionsharedwithindividual
+INFO: Test Execution Started- TC13_VerifyCollectionWhenClickonpreexistingcollectionsharedwithindividual
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"bookCount": 16,
+"bookIds": "1201,1202,1203,1204,1205,1206,1207,1168,1209,1210,1211,1212,327,1214,93,1216",
+"books": [
+{
+"authors": [
+{
+"firstName": "Joan",
+"id": 1180,
+"lastName": "Holub"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1207,
+"illustrators": [
+{
+"firstName": "Jan",
+"id": 347,
+"lastName": "Smith"
+}
+],
+"isbn": "9780545733472",
+"key": "148a4a1677ebaea8f17beaa23bdb84be",
+"level": "L",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Using a field trip to an apple orchard as the setting, the author counts backward from 20 to 1. In addition to counting, the text includes simple addition, seasons of the year, and both number words and numerals.",
+"tipCard": true,
+"title": "Apple Countdown",
+"vbid": "9780545733472R"
+},
+{
+"authors": [
+{
+"firstName": "Brian",
+"id": 917,
+"lastName": "Sargent"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1204,
+"illustrators": null,
+"isbn": "9780545705875",
+"key": "c5a13350d008099b2aaac7c8fb9d744c",
+"level": "H",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Itâs 7:00 a.m. and the birthday party starts at 12:00 noon. Before the party, a girl will need to get dressed, attend soccer practice, bake a cake, bike to a swim lesson, and wrap the present. The duration of each activity is highlighted as readers learn the concept of time as they follow her through her morning. Actions taking seconds, minutes and hours are featured.",
+"tipCard": false,
+"title": "A Busy Day (Rookie Read-Aboutâ¢ Math)",
+"vbid": "9780545705875R"
+},
+{
+"authors": null,
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1212,
+"illustrators": null,
+"isbn": "9780545739610",
+"key": "66d9fc62e0b18c08b7bfe61d8221a156",
+"level": "H",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This text helps readers count from one to five cougars, dolphins, zebras, macaws, and frogs while also learning unusual facts about these animals. At the end of the book, readers are encouraged to count to ten and then to twenty.",
+"tipCard": false,
+"title": "Count! (National Geographic Kids)",
+"vbid": "9780545739610R"
+},
+{
+"authors": null,
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1211,
+"illustrators": null,
+"isbn": "9780545739030",
+"key": "33cfd18e05776027aece838c170dc19a",
+"level": "E",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "As children learn numerals and number words, they can practice counting colorful, familiar objects on each page. This book even challenges readers to count backwards from ten to one.",
+"tipCard": false,
+"title": "Counting 1 to 10 (Rookie Toddlerâ¢)",
+"vbid": "9780545739030R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1202,
+"illustrators": null,
+"isbn": "9780545694360",
+"key": "439dc68bef6beb8363035199dec9d3a1",
+"level": "E",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Readers will meet frogs and kittens and even hedgehogs in this introduction to counting. Beginning with one ape then two sheep, three dogs, four horses and so forth, readers are presented with a new animal for every number as they learn to count to twenty.",
+"tipCard": false,
+"title": "Counting 1 to 20 (Rookie Toddlerâ¢)",
+"vbid": "9780545694360R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1201,
+"illustrators": null,
+"isbn": "9780545694285",
+"key": "a8a19ed61c6ceecdc7a9f1564f7e5083",
+"level": "D",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Students count from one to ten using tools such as tape measures and levels. Clear photos accompany each numeral, number word, and tool name.",
+"tipCard": false,
+"title": "Counting Tools 1 to 10 (Rookie Toddlerâ¢)",
+"vbid": "9780545694285R"
+},
+{
+"authors": [
+{
+"firstName": "Jerry",
+"id": 44,
+"lastName": "Pallotta"
+},
+{
+"firstName": "Pam Munoz",
+"id": 786,
+"lastName": "Ryan"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1209,
+"illustrators": [
+{
+"firstName": "Frank",
+"id": 288,
+"lastName": "Mazzola Jr."
+}
+],
+"isbn": "9780545737050",
+"key": "e606bc615502b7f96a4d224ca07594c9",
+"level": "L",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This book, written in rhyme, first teaches counting by twos using even numbers and then odd numbers. Readers will also learn color names and number words that correspond with the numerals.",
+"tipCard": false,
+"title": "The Crayon Counting Book",
+"vbid": "9780545737050R"
+},
+{
+"authors": [
+{
+"firstName": "Steve",
+"id": 296,
+"lastName": "Metzger"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1214,
+"illustrators": [
+{
+"firstName": "Laura J.",
+"id": 34,
+"lastName": "Bryant"
+}
+],
+"isbn": "9780545744133",
+"key": "b7594c0775f2daae0cc8cd5c78a98e89",
+"level": "J",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "With this rhyming story, children can count down from five to one as, one-by-one, five high-spirited little bats have near mishaps and disappear. When the last little bat disappears, the doctor tells the mother to let the little bats fly, and all five little bats reappear and fly in the night sky!",
+"tipCard": false,
+"title": "Five Little Bats Flying In The Night",
+"vbid": "9780545744133R"
+},
+{
+"authors": [
+{
+"firstName": "Steve",
+"id": 296,
+"lastName": "Metzger"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 327,
+"illustrators": [
+{
+"firstName": "Laura J.",
+"id": 34,
+"lastName": "Bryant"
+}
+],
+"isbn": "9780545743211",
+"key": "d95694af5dbee1b66197b938393e7c6f",
+"level": "F",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "With this rhyming story, children can count down from five to one as, one-by-one, five fun-loving little penguins have mishaps, prompting the mother penguin to call the doctor. The doctor tells the mother to stop the penguins from doing each activity. When there are no little penguins having any fun, the mother calls the doctor again. The doctor then says, \"Let those penguins have some fun!\" The five little penguins along with their mother are free to go outside and have some fun.",
+"tipCard": true,
+"title": "Five Little Penguins Slipping On The Ice",
+"vbid": "9780545743211R"
+},
+{
+"authors": [
+{
+"firstName": "Jerry",
+"id": 44,
+"lastName": "Pallotta"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 93,
+"illustrators": null,
+"isbn": "9780545744621",
+"key": "c8c76a581b35d7387bc91831f3417bb9",
+"level": "M",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Children practice their counting, addition, and subtraction by identifying bugs and their individual parts.  Colorful insect illustrations of beetles, ladybugs, dragonflies, and more, help readers learn to add by ones, twos, and tens.",
+"tipCard": true,
+"title": "Icky Bug Numbers",
+"vbid": "9780545744621R"
+},
+{
+"authors": [
+{
+"firstName": "Jane",
+"id": 1188,
+"lastName": "Campbell"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1216,
+"illustrators": [
+{
+"firstName": "Clare",
+"id": 352,
+"lastName": "Watson"
+}
+],
+"isbn": "9780545765725",
+"key": "01646c5e139f901a5d1567410f85f372",
+"level": "C",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Alex is ready to go on vacation, but it is only 3:00. She returns to wake her parents again at 4:00 and at 5:00. When it is time to go, Alex is fast asleep.",
+"tipCard": false,
+"title": "Is It Time?",
+"vbid": "9780545765725R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1203,
+"illustrators": null,
+"isbn": "9780545694407",
+"key": "597989fc3bc3455b25a302e92f9712fa",
+"level": "F",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Mornings are for breakfast and school, afternoons are for lunch and play, evenings are for dinner and brushing your teeth and night is for sleeping. Children learn to differentiate the parts of their day through association of these common activities. Analogue and digital clocks accompany each activity and help reinforce the timeline.",
+"tipCard": false,
+"title": "It Is Time For... (Rookie Toddlerâ¢)",
+"vbid": "9780545694407R"
+},
+{
+"authors": [
+{
+"firstName": "Julie",
+"id": 1178,
+"lastName": "Dalton"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1205,
+"illustrators": null,
+"isbn": "9780545706384",
+"key": "a86825dbe733bca5ff46100d8848b7ca",
+"level": "H",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "The world is filled with things to count. Children challenge their skill with numbers by counting fingers, animals, marbles, and hats, with the ultimate challenge being 136 pairs of eyeglasses.",
+"tipCard": false,
+"title": "Look and Count (Rookie Read-Aboutâ¢ Math)",
+"vbid": "9780545706384R"
+},
+{
+"authors": [
+{
+"firstName": "Larry Dane",
+"id": 1179,
+"lastName": "Brimner"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1206,
+"illustrators": null,
+"isbn": "9780545707831",
+"key": "fd76b37240baf828a824f1ef9288e71d",
+"level": "G",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Monkeys have invaded a house. They are looking around the sofa, under a lampshade and all around the kitchen, but the little boy has no idea what they lost until he finds their parents asleep in his room. Playful illustrations and a cute story make counting to twelve engaging and fun.",
+"tipCard": true,
+"title": "Monkey Math (A Rookie Readerâ¢)",
+"vbid": "9780545707831R"
+},
+{
+"authors": [
+{
+"firstName": "Chloe",
+"id": 55,
+"lastName": "Ryder"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1168,
+"illustrators": null,
+"isbn": "9780545735858",
+"key": "e0fe4ef95f93ae29e8d2a49617c33da0",
+"level": "P",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Readers practice counting from one to ten (and down from ten to one) while exploring coral reefs, warm and sunny seas, sparkling ice packs, and other special spots where marine animals live and play. The sea creatures featured are the green sea turtle, harp seal, star-eye parrot fish, reef squid, pink sea star, Adelie penguin, glass eye fish, sea otter, hammerhead shark, and Bermuda sea chub. Each page includes a colorful photograph and facts of the featured ocean life and habitat. At the end of the book is a world map from which readers count the oceans, facts cards, a glossary, and a list of resources for more information.",
+"tipCard": true,
+"title": "Ocean Counting (National Geographic Kids)",
+"vbid": "9780545735858R"
+},
+{
+"authors": [
+{
+"firstName": "Barbara Barbieri",
+"id": 295,
+"lastName": "McGrath"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1210,
+"illustrators": [
+{
+"firstName": "Tim",
+"id": 33,
+"lastName": "Nihoff"
+}
+],
+"isbn": "9780545737265",
+"key": "8e3eb52c006034ce561f07078c74c5fc",
+"level": "J",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This book ingeniously uses colored teddy bears and rhyming text to help children learn about several math concepts, including patterns, addition, subtraction, fractions, and counting. Children are asked, for example, to compare sets of blue, red, and yellow teddy bears and determine which set has the most.",
+"tipCard": false,
+"title": "Teddy Bear, Teddy Bear, School Day Math",
+"vbid": "9780545737265R"
+}
+],
+"description": "A robust skill-building set with basic counting books plus entertaining stories that contain simple math practice.",
+"grade": "Pre K",
+"iconCode": "&#xe62a;",
+"iconColor": "8031a7",
+"id": "28",
+"levelHigh": "P",
+"levelLow": "C",
+"name": "We Can Count",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "students",
+"shareWith": [
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 946,
+"name": "Ashish"
+},
+{
+"iconCode": null,
+"iconColor": null,
+"iconName": null,
+"id": 947,
+"name": "Sagar"
+}
+],
+"type": "collection"
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "synopsis": "It’s 7:00 a.m. and the birthday party starts at 12:00 noon. Before the party, a girl will need to get dressed, attend soccer practice, bake a cake, bike to a swim lesson, and wrap the present. The duration of each activity is highlighted as readers learn the concept of time as they follow her through her morning. Actions taking seconds, minutes and hours are featured.", and Actual is-"synopsis": "Itâs 7:00 a.m. and the birthday party starts at 12:00 noon. Before the party, a girl will need to get dressed, attend soccer practice, bake a cake, bike to a swim lesson, and wrap the present. The duration of each activity is highlighted as readers learn the concept of time as they follow her through her morning. Actions taking seconds, minutes and hours are featured.",
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "A Busy Day (Rookie Read-About™ Math)", and Actual is-"title": "A Busy Day (Rookie Read-Aboutâ¢ Math)",
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Counting 1 to 10 (Rookie Toddler™)", and Actual is-"title": "Counting 1 to 10 (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Counting 1 to 20 (Rookie Toddler™)", and Actual is-"title": "Counting 1 to 20 (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Counting Tools 1 to 10 (Rookie Toddler™)", and Actual is-"title": "Counting Tools 1 to 10 (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "It Is Time For... (Rookie Toddler™)", and Actual is-"title": "It Is Time For... (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Look and Count (Rookie Read-About™ Math)", and Actual is-"title": "Look and Count (Rookie Read-Aboutâ¢ Math)",
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Monkey Math (A Rookie Reader™)", and Actual is-"title": "Monkey Math (A Rookie Readerâ¢)",
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC13_VerifyCollectionWhenClickonpreexistingcollectionsharedwithindividual
+INFO: Test Execution End- TC13_VerifyCollectionWhenClickonpreexistingcollectionsharedwithindividual
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC14_VerifyCollectionWhenClickonpreexistingcollectionsharedwithentireclass
+INFO: Test Execution Started- TC14_VerifyCollectionWhenClickonpreexistingcollectionsharedwithentireclass
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:09:21 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"bookCount": 15,
+"bookIds": "1652,1725,519,1814,1815,1816,1860,1318,2063,1320,2152,2158,460,1324,2490",
+"books": [
+{
+"authors": [
+{
+"firstName": "Shannon",
+"id": 408,
+"lastName": "Penney"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 2158,
+"illustrators": [
+{
+"firstName": "Luanne",
+"id": 277,
+"lastName": "Marten"
+}
+],
+"isbn": "9780545740012",
+"key": "05bd92b3247843df0faa00471eec6641",
+"level": "D",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Two friends catch snowflakes on their tongues while playing in the yard. Early readers encounter the words one and over, and themes related to winter in a temperate climate.",
+"tipCard": false,
+"title": "Catching Snowflakes (A Season of Sight Words: Winter)",
+"vbid": "9780545740012R"
+},
+{
+"authors": [
+{
+"firstName": "Shannon",
+"id": 408,
+"lastName": "Penney"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 2152,
+"illustrators": [
+{
+"firstName": "Luanne",
+"id": 277,
+"lastName": "Marten"
+}
+],
+"isbn": "9780545739955",
+"key": "ae292fc45870ec649100b30b4d8198eb",
+"level": "D",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "A girl teaches her friend how to fly a kite. Early readers encounter the words know and fly, and themes related to warm-weather outdoor activities.",
+"tipCard": false,
+"title": "Flying Kites (A Season of Sight Words: Spring)",
+"vbid": "9780545739955R"
+},
+{
+"authors": [
+{
+"firstName": "Christopher",
+"id": 481,
+"lastName": "Hernandez"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 519,
+"illustrators": null,
+"isbn": "9780545733632",
+"key": "6b7f9607f74db9b6818df18ce66c48cf",
+"level": "G",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "When it rains, we get wet, have to walk carefully, and must wear appropriate clothing, but we also get to splash in puddles. The rain also makes flowers and plants grow and brings out colorful rainbows.  Following the rhyme are a few more simple facts about rain.",
+"tipCard": true,
+"title": "Learn About Weather: Rain",
+"vbid": "9780545733632R"
+},
+{
+"authors": [
+{
+"firstName": "Christopher",
+"id": 481,
+"lastName": "Hernandez"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1814,
+"illustrators": null,
+"isbn": "9780545733649",
+"key": "5941206bb90ea52c5c7931df2b465ece",
+"level": "G",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "When it snows, we can do fun things like build a snowman, make snow angels, or ride in a sleigh. Following the rhyme are a few simple facts about snow.",
+"tipCard": false,
+"title": "Learn About Weather: Snow",
+"vbid": "9780545733649R"
+},
+{
+"authors": [
+{
+"firstName": "Christopher",
+"id": 481,
+"lastName": "Hernandez"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1815,
+"illustrators": null,
+"isbn": "9780545733656",
+"key": "6eb2fc7710056ec65ced8901f2af0645",
+"level": "H",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "We know it is a new day when the sun wakes us up in the morning.  It isn't around all day, so we need to appreciate it while it is out, for it allows us to wear sunglasses, see our shadows, and see the blue sky.  Following the rhyme are a few simple facts about the sun.",
+"tipCard": false,
+"title": "Learn About Weather: Sun",
+"vbid": "9780545733656R"
+},
+{
+"authors": [
+{
+"firstName": "Christopher",
+"id": 481,
+"lastName": "Hernandez"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1816,
+"illustrators": null,
+"isbn": "9780545733663",
+"key": "9a8f18d7a117346a2ce79f8003e3ca26",
+"level": "H",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "The wind keeps our kites, balloons, and bubbles in the air.  It can also blow the leaves around and the hats off our heads. Simple facts about wind follow the rhyme.",
+"tipCard": true,
+"title": "Learn About Weather: Wind",
+"vbid": "9780545733663R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1725,
+"illustrators": null,
+"isbn": "9780545707565",
+"key": "a61b5caca8d8d5af3ce06a034eb02a0e",
+"level": "H",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This book is perfect when studying the fall season. It's repeating text will welcome children to participate. The text can be sung to the children's song \"And the Green Grass Grew All Around.\"",
+"tipCard": false,
+"title": "The Leaves Fall All Around (Rookie Preschool)",
+"vbid": "9780545707565R"
+},
+{
+"authors": [
+{
+"firstName": "Steve",
+"id": 296,
+"lastName": "Metzger"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1318,
+"illustrators": null,
+"isbn": "9780545737593",
+"key": "c53190c3fa406812f62591da34467724",
+"level": "M",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "A snowflake falling from the sky wants to be part of a snowman. At first, children overlook him as they build their snowman, but finally they see him and give him a special part. He is the twinkle in the snowman's eye.",
+"tipCard": true,
+"title": "The Little Snowflake",
+"vbid": "9780545737593R"
+},
+{
+"authors": [
+{
+"firstName": "Shannon",
+"id": 408,
+"lastName": "Penney"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1320,
+"illustrators": [
+{
+"firstName": "Luanne",
+"id": 277,
+"lastName": "Marten"
+}
+],
+"isbn": "9780545739894",
+"key": "0efb46d19f03167e24e070ec010d8bd8",
+"level": "D",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Children help their father with yard work and learn how fun it is to jump in a leaf pile. Early readers encounter the words all and the, and themes related to autumn in a temperate climate.",
+"tipCard": false,
+"title": "Lots of Leaves (A Season of Sight Words: Fall)",
+"vbid": "9780545739894R"
+},
+{
+"authors": [
+{
+"firstName": "Carol",
+"id": 1298,
+"lastName": "Greene"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1860,
+"illustrators": null,
+"isbn": "9780545734806",
+"key": "aefa4b65eac08f3121fa6585ce3c4411",
+"level": "E",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This book helps early learners develop the important social/emotional skills of becoming resilient and being patient. It does this while also teaching early reading skills, pattern recognition, measuring, and the left/right distinction.",
+"tipCard": false,
+"title": "Please, Wind? (Rookie Ready to Learn)",
+"vbid": "9780545734806R"
+},
+{
+"authors": [
+{
+"firstName": "Jackie",
+"id": 2418,
+"lastName": "Posner"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 2490,
+"illustrators": [
+{
+"firstName": "Laura",
+"id": 828,
+"lastName": "Ferrara"
+}
+],
+"isbn": "9780545765176",
+"key": "61614f6d90d29a11d2a980e476727495",
+"level": "E",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "This book suggests things from A to Z to do on a rainy day. A boy and a girl do everything from eating apples to zipping zippers. Charming illustrations complement the text.",
+"tipCard": false,
+"title": "Rainy Day Alphabet Book",
+"vbid": "9780545765176R"
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1652,
+"illustrators": null,
+"isbn": "9780545694391",
+"key": "38bc59256d6c3df94a11f71d37abc6f0",
+"level": "E",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Building sandcastles in the summer and snowmen in the winter, celebrating the 4th of July and Halloweenâno matter the season, there is always something fun to do outside.  Children learn about the seasons through simple text and a series of pictures depicting outdoor activities throughout the year.",
+"tipCard": false,
+"title": "The Seasons (Rookie Toddlerâ¢)",
+"vbid": "9780545694391R"
+},
+{
+"authors": [
+{
+"firstName": "Carol",
+"id": 1298,
+"lastName": "Greene"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1324,
+"illustrators": [
+{
+"firstName": "Gene",
+"id": 384,
+"lastName": "Sharp"
+}
+],
+"isbn": "9780545764674",
+"key": "772f56b5e5e4c955fe6e3271e6d78dc9",
+"level": "F",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Simple words and sentence structures accompanied by colorful illustrations depict a young girl talking to the sun while she enjoys common, everyday activities that are better with sunshine.",
+"tipCard": false,
+"title": "Shine, Sun! (A Rookie Readerâ¢)",
+"vbid": "9780545764674R"
+},
+{
+"authors": [
+{
+"firstName": "Carol",
+"id": 1298,
+"lastName": "Greene"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 2063,
+"illustrators": [
+{
+"firstName": "Paul",
+"id": 620,
+"lastName": "Sharp"
+}
+],
+"isbn": "9780545738897",
+"key": "046161190a56a124630e6978f38b3575",
+"level": "D",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "Joe wakes up to a blanket of snow and plays in it. This story for beginning readers only uses fifteen words, and most of them rhyme with \"snow.\"",
+"tipCard": false,
+"title": "Snow Joe (Rookie Ready to Learn)",
+"vbid": "9780545738897R"
+},
+{
+"authors": [
+{
+"firstName": "Lucille",
+"id": 423,
+"lastName": "Colandro"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 460,
+"illustrators": [
+{
+"firstName": "Jared D.",
+"id": 24,
+"lastName": "Lee"
+},
+{
+"firstName": "Jared",
+"id": 78,
+"lastName": "Lee"
+}
+],
+"isbn": "9780545743020",
+"key": "1fda6559ee7f7d89b97fb86315018180",
+"level": "K",
+"levelType": "Guided Reading Level",
+"shared": false,
+"shareType": null,
+"synopsis": "In this book from the \"There Was An Old Lady Who Swallowed Some\" series, the old lady swallows some snow, some coal, a pipe, a hat, a stick, and a scarf. The old lady hiccups and all of the items come out to form a snowman.",
+"tipCard": true,
+"title": "There Was a Cold Lady Who Swallowed Some Snow!",
+"vbid": "9780545743020R"
+}
+],
+"description": "Fiction and nonfiction read-alouds help kids get comfortable with a range of weather-related vocabulary and concepts. Covers all the seasons.",
+"grade": "Pre K",
+"iconCode": "&#x47;",
+"iconColor": "df1995",
+"id": "23",
+"levelHigh": "M",
+"levelLow": "D",
+"name": "All Kinds of Weather",
+"recommend": "Independent Reading",
+"shared": true,
+"shareType": "section",
+"shareWith": null,
+"type": "collection"
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: Start fncompaireSting function
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common fncompaireSting
+INFO: End fncompaireSting function
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "synopsis": "Building sandcastles in the summer and snowmen in the winter, celebrating the 4th of July and Halloween—no matter the season, there is always something fun to do outside.  Children learn about the seasons through simple text and a series of pictures depicting outdoor activities throughout the year.", and Actual is-"synopsis": "Building sandcastles in the summer and snowmen in the winter, celebrating the 4th of July and Halloweenâno matter the season, there is always something fun to do outside.  Children learn about the seasons through simple text and a series of pictures depicting outdoor activities throughout the year.",
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "The Seasons (Rookie Toddler™)", and Actual is-"title": "The Seasons (Rookie Toddlerâ¢)",
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "title": "Shine, Sun! (A Rookie Reader™)", and Actual is-"title": "Shine, Sun! (A Rookie Readerâ¢)",
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC14_VerifyCollectionWhenClickonpreexistingcollectionsharedwithentireclass
+INFO: Test Execution End- TC14_VerifyCollectionWhenClickonpreexistingcollectionsharedwithentireclass
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC15_TeacherLogout
+INFO: Test Execution Started- TC15_TeacherLogout
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": null,
+"errors": [],
+"message": "Logout successful",
+"metaData": null
+}
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC15_TeacherLogout
+INFO: Test Execution End- TC15_TeacherLogout
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnDisplayReasult
+INFO: start fnDisplayReasult()
+Mar 24, 2015 1:09:22 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnDisplayReasult
+INFO: end fnDisplayReasult()

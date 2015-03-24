@@ -1,0 +1,23 @@
+{
+"code": 200,
+"data": {
+"sessionId": "s63f25369-1fe8-44ef-a50c-97791869754f",
+"user": {
+"districtId": 1,
+"iconCode": "%",
+"iconColor": "DF1995",
+"id": 1113,
+"login": null,
+"name": "S_1",
+"role": "student",
+"sourceType": null,
+"tempPassword": false,
+"userName": "s_1-kr4"
+}
+},
+"errors": [],
+"message": "Login successful",
+"metaData": {
+"sessionLimitLogout": "false"
+}
+}

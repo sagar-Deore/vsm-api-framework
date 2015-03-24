@@ -1,0 +1,1066 @@
+{
+"code": 200,
+"data": [
+{
+"authors": [
+{
+"firstName": "Ann E.",
+"id": 1530,
+"lastName": "Burg"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1570,
+"illustrators": null,
+"isbn": "9780545774864",
+"level": "HL680L",
+"shared": false,
+"tipCard": true,
+"title": "All the Broken Pieces",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Emma",
+"id": 72,
+"lastName": "Ryan"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "video",
+"id": 2,
+"name": "Video"
+}
+],
+"id": 69,
+"illustrators": null,
+"isbn": "9780545782876",
+"level": "NC920L",
+"shared": false,
+"tipCard": true,
+"title": "Animal Disguises",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Clare",
+"id": 70,
+"lastName": "Hibbert"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+},
+{
+"code": "video",
+"id": 2,
+"name": "Video"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1512,
+"illustrators": null,
+"isbn": "9780545733311",
+"level": "IG850L",
+"shared": false,
+"tipCard": false,
+"title": "Beetles (World's Weirdest Animals)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Clare",
+"id": 70,
+"lastName": "Hibbert"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "video",
+"id": 2,
+"name": "Video"
+}
+],
+"id": 67,
+"illustrators": null,
+"isbn": "9780545742528",
+"level": "860L",
+"shared": false,
+"tipCard": false,
+"title": "Birds (World's Weirdest Animals)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Joanne",
+"id": 1100,
+"lastName": "Mattern"
+},
+{
+"firstName": "Anna",
+"id": 4678,
+"lastName": "Sewell"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 4794,
+"illustrators": null,
+"isbn": "9780545743365",
+"level": "650L",
+"shared": false,
+"tipCard": false,
+"title": "Black Beauty Jr. Classic",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Carolyn",
+"id": 581,
+"lastName": "Cinami DeCristofano"
+},
+{
+"firstName": "Carolyn Cinami",
+"id": 582,
+"lastName": "DeCristofano"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 617,
+"illustrators": null,
+"isbn": "9780545736602",
+"level": "900L",
+"shared": false,
+"tipCard": true,
+"title": "A Black Hole Is Not a Hole",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Ree",
+"id": 2528,
+"lastName": "Drummond"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 2593,
+"illustrators": null,
+"isbn": "9780545803649",
+"level": "AD440L",
+"shared": false,
+"tipCard": false,
+"title": "Charlie the Ranch Dog",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Dale-Marie",
+"id": 1663,
+"lastName": "Bryan"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 3876,
+"illustrators": null,
+"isbn": "9780545705899",
+"level": "460L",
+"shared": false,
+"tipCard": false,
+"title": "The Colorado River (Rookie Read-Aboutâ¢ Geography)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Chloe",
+"id": 55,
+"lastName": "Ryder"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 828,
+"illustrators": null,
+"isbn": "9780545739559",
+"level": "570L",
+"shared": false,
+"tipCard": false,
+"title": "Deadly Predators (National Geographic Kids)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Allan",
+"id": 56,
+"lastName": "Fowler"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 89,
+"illustrators": null,
+"isbn": "9780545617840",
+"level": "AD610L",
+"shared": false,
+"tipCard": false,
+"title": "Flies Are Fascinating (Rookie Read-Aboutâ¢ Science)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Mary",
+"id": 944,
+"lastName": "Shelley"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 972,
+"illustrators": null,
+"isbn": "9780545781794",
+"level": "510L",
+"shared": false,
+"tipCard": true,
+"title": "Frankenstein (abridged)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "David",
+"id": 1555,
+"lastName": "Neufeld"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1595,
+"illustrators": null,
+"isbn": "9780545764452",
+"level": "770L",
+"shared": false,
+"tipCard": false,
+"title": "Great Explorations",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Anna",
+"id": 16,
+"lastName": "Claybourne"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+}
+],
+"id": 16,
+"illustrators": null,
+"isbn": "9780545740838",
+"level": "840L",
+"shared": false,
+"tipCard": true,
+"title": "Greek Myths (Myths from Many Lands)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Jon",
+"id": 5432,
+"lastName": "Scieszka"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 5583,
+"illustrators": null,
+"isbn": "9780545803632",
+"level": "840L",
+"shared": false,
+"tipCard": false,
+"title": "Guys Read: Funny Business",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Allan",
+"id": 559,
+"lastName": "Zullo"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 4373,
+"illustrators": null,
+"isbn": "9780545737999",
+"level": "980L",
+"shared": false,
+"tipCard": false,
+"title": "Heroes of 9/11 (Ten True Tales)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Anne",
+"id": 825,
+"lastName": "Rooney"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 850,
+"illustrators": null,
+"isbn": "9780545736015",
+"level": "1090L",
+"shared": false,
+"tipCard": true,
+"title": "How Can We Save Our World? Sustainable Water Resources",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Rachel",
+"id": 121,
+"lastName": "Mann"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1383,
+"illustrators": null,
+"isbn": "9780545758789",
+"level": "800L",
+"shared": false,
+"tipCard": true,
+"title": "How the Days of the Week Got Their Names",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Alex",
+"id": 357,
+"lastName": "Woolf"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 822,
+"illustrators": null,
+"isbn": "9780545736053",
+"level": "1010L",
+"shared": false,
+"tipCard": false,
+"title": "Killer Bears (Animal Attack)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Alex",
+"id": 357,
+"lastName": "Woolf"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 824,
+"illustrators": null,
+"isbn": "9780545736091",
+"level": "1060L",
+"shared": false,
+"tipCard": false,
+"title": "Killer Sharks (Animal Attack)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Janice",
+"id": 404,
+"lastName": "Behrens"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 928,
+"illustrators": null,
+"isbn": "9780545724791",
+"level": "400L",
+"shared": false,
+"tipCard": false,
+"title": "Let's Talk Riding (Scholastic News Nonfiction Readersâ¢)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 38,
+"illustrators": null,
+"isbn": "9780545670722",
+"level": "510L",
+"shared": false,
+"tipCard": true,
+"title": "Life Science: Animal Behavior",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 3612,
+"illustrators": null,
+"isbn": "9780545670715",
+"level": "740L",
+"shared": false,
+"tipCard": false,
+"title": "Life Science: Insects",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 3620,
+"illustrators": null,
+"isbn": "9780545670838",
+"level": "790L",
+"shared": false,
+"tipCard": true,
+"title": "Life Science: Plant Behavior",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Richard",
+"id": 947,
+"lastName": "Dargie"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 979,
+"illustrators": null,
+"isbn": "9780545740678",
+"level": "1080L",
+"shared": false,
+"tipCard": true,
+"title": "Look Around a Greek Temple (Virtual History Tours)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Iza",
+"id": 858,
+"lastName": "Trapani"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 888,
+"illustrators": null,
+"isbn": "9780545737128",
+"level": "AD1040L",
+"shared": false,
+"tipCard": true,
+"title": "Mary Had A Little Lamb",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Allan",
+"id": 559,
+"lastName": "Zullo"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 4744,
+"illustrators": null,
+"isbn": "9780545742856",
+"level": "1050L",
+"shared": false,
+"tipCard": false,
+"title": "Miracle Pets",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Penelope",
+"id": 71,
+"lastName": "Arlon"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 2438,
+"illustrators": null,
+"isbn": "9780545762786",
+"level": "640L",
+"shared": false,
+"tipCard": false,
+"title": "MÃ­rame Crecer (Scholastic Explora Tu Mundoâ¢)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Elizabeth",
+"id": 7,
+"lastName": "Carney"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1372,
+"illustrators": null,
+"isbn": "9780545733908",
+"level": "650L",
+"shared": false,
+"tipCard": true,
+"title": "Mummies (National Geographic Kids)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 3705,
+"illustrators": null,
+"isbn": "9780545673761",
+"level": "840L",
+"shared": false,
+"tipCard": true,
+"title": "Mystery Biography: A Native American Warrior",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 3714,
+"illustrators": null,
+"isbn": "9780545673914",
+"level": "840L",
+"shared": false,
+"tipCard": false,
+"title": "Mystery Biography: An Abolitionist Author",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Peter",
+"id": 23,
+"lastName": "Benoit"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 399,
+"illustrators": null,
+"isbn": "9780545742726",
+"level": "1000L",
+"shared": false,
+"tipCard": true,
+"title": "The Nuclear Age (Cornerstones of Freedom. Third Series)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Melanie",
+"id": 346,
+"lastName": "Chrismer"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1866,
+"illustrators": null,
+"isbn": "9780545734875",
+"level": "470L",
+"shared": false,
+"tipCard": false,
+"title": "Odd and Even Socks (Rookie Read-Aboutâ¢ Math)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "R.L.",
+"id": 385,
+"lastName": "Stine"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 955,
+"illustrators": null,
+"isbn": "9780545760348",
+"level": "490L",
+"shared": false,
+"tipCard": false,
+"title": "One Day at Horrorland (Classic Goosebumps #5)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Sneed B.",
+"id": 546,
+"lastName": "Collard III"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 584,
+"illustrators": null,
+"isbn": "9780545737005",
+"level": "990L",
+"shared": false,
+"tipCard": true,
+"title": "Our Wet World",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Liz",
+"id": 318,
+"lastName": "Sonneborn"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 361,
+"illustrators": null,
+"isbn": "9780545742740",
+"level": "1060L",
+"shared": false,
+"tipCard": false,
+"title": "Pakistan (Enchantment of the World. Second Series)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Sara",
+"id": 466,
+"lastName": "Shapiro"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 2486,
+"illustrators": null,
+"isbn": "9780545765114",
+"level": "440L",
+"shared": false,
+"tipCard": false,
+"title": "Part of the Pack",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Terri",
+"id": 5434,
+"lastName": "Farley"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 5585,
+"illustrators": null,
+"isbn": "9780545804028",
+"level": "690L",
+"shared": false,
+"tipCard": false,
+"title": "Phantom Stallion #1: The Wild One",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Christine",
+"id": 77,
+"lastName": "Taylor-Butler"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 383,
+"illustrators": null,
+"isbn": "9780545725149",
+"level": "600L",
+"shared": false,
+"tipCard": true,
+"title": "Pluto: Dwarf Planet (Scholastic News Nonfiction Readersâ¢)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Cornelia",
+"id": 276,
+"lastName": "Funke"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 2537,
+"illustrators": null,
+"isbn": "9780545775557",
+"level": "890L",
+"shared": false,
+"tipCard": true,
+"title": "The Princess Knight",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Andrea Davis",
+"id": 606,
+"lastName": "Pinkney"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 639,
+"illustrators": null,
+"isbn": "9780545762519",
+"level": "1060L",
+"shared": false,
+"tipCard": true,
+"title": "Profiles #6: Peace Warriors",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Justine",
+"id": 74,
+"lastName": "Fontes"
+},
+{
+"firstName": "Ron",
+"id": 1657,
+"lastName": "Fontes"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1696,
+"illustrators": null,
+"isbn": "9780545707022",
+"level": "610L",
+"shared": false,
+"tipCard": false,
+"title": "Proteins (Rookie Read-Aboutâ¢ Health)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Katy",
+"id": 382,
+"lastName": "Kit"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+}
+],
+"id": 418,
+"illustrators": null,
+"isbn": "9780545733441",
+"level": "620L",
+"shared": false,
+"tipCard": false,
+"title": "Rosa and the Water Pony",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Ann",
+"id": 760,
+"lastName": "Weil"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 787,
+"illustrators": null,
+"isbn": "9780545781190",
+"level": "HL580L",
+"shared": false,
+"tipCard": false,
+"title": "Sea Disasters (Disasters)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Andrew",
+"id": 823,
+"lastName": "Solway"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 4647,
+"illustrators": null,
+"isbn": "9780545740852",
+"level": "890L",
+"shared": false,
+"tipCard": false,
+"title": "Secrets of Animal Life Cycles (Science Secrets)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Penelope",
+"id": 71,
+"lastName": "Arlon"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 1303,
+"illustrators": null,
+"isbn": "9780545762762",
+"level": "AD640L",
+"shared": false,
+"tipCard": false,
+"title": "See Me Grow (Scholastic Discover Moreâ¢)",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Jerry",
+"id": 44,
+"lastName": "Pallotta"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 2216,
+"illustrators": null,
+"isbn": "9780545742986",
+"level": "IG690L",
+"shared": false,
+"tipCard": false,
+"title": "Show Me...How Fast It Is",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "",
+"id": 3,
+"lastName": "Scholastic"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": null,
+"id": 165,
+"illustrators": null,
+"isbn": "9780545759847",
+"level": "730L",
+"shared": false,
+"tipCard": true,
+"title": "The Sioux",
+"vbid": null
+},
+{
+"authors": [
+{
+"firstName": "Clare",
+"id": 70,
+"lastName": "Hibbert"
+}
+],
+"closeRead": false,
+"commoncores": null,
+"features": [
+{
+"code": "activities",
+"id": 1,
+"name": "Activities"
+},
+{
+"code": "video",
+"id": 2,
+"name": "Video"
+},
+{
+"code": "read-to-me",
+"id": 3,
+"name": "Read-to-Me"
+}
+],
+"id": 1185,
+"illustrators": null,
+"isbn": "9780545733366",
+"level": "IG850L",
+"shared": false,
+"tipCard": true,
+"title": "Snakes and Lizards (World's Weirdest Animals)",
+"vbid": null
+}
+],
+"errors": [],
+"message": "OK",
+"metaData": {
+"totalSize": 67,
+"offset": 0,
+"size": 48
+}
+}
